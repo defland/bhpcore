@@ -73,6 +73,6 @@ f.write('static const char UNUSED *aither_strings[] = {\n')
 messages.sort(key=operator.itemgetter(0))
 for (msgid, msgstr) in messages:
     if msgid != EMPTY:
-        f.write('QT_TRANSLATE_NOOP("aither-core", %s),\n' % ('\n'.join(msgid)))
+        f.write('QT_TRANSLATE_NOOP("bluehost-core", %s),\n' % ('\n'.join(msgid)))
 f.write('};\n')
 f.close()

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.aither.bluehostd</string>
+	<string>org.bluehost.bluehostd</string>
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/local/bin/bluehostd</string>

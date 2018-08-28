@@ -79,9 +79,9 @@ static int AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("Bluehost Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  aither-cli [options] <command> [params]  " + _("Send command to Bluehost Core") + "\n" +
-                        "  aither-cli [options] help                " + _("List commands") + "\n" +
-                        "  aither-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                        "  bluehost-cli [options] <command> [params]  " + _("Send command to Bluehost Core") + "\n" +
+                        "  bluehost-cli [options] help                " + _("List commands") + "\n" +
+                        "  bluehost-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

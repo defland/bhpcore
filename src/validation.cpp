@@ -1827,7 +1827,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("aither-scriptch");
+    RenameThread("bluehost-scriptch");
     scriptcheckqueue.Thread();
 }
 

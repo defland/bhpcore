@@ -1,4 +1,4 @@
-Source: aither
+Source: bluehost
 Section: utils
 Priority: optional
 Maintainer: Holger Schinzel <holger@dash.org>
@@ -25,8 +25,8 @@ Build-Depends: debhelper,
  python
 Standards-Version: 3.9.2
 Homepage: https://www.aithercoin.com/
-Vcs-Git: git://github.com/aithercore/aither.git
-Vcs-Browser: https://github.com/aithercore/aither
+Vcs-Git: git://github.com/aithercore/bluehost.git
+Vcs-Browser: https://github.com/aithercore/bluehost
 
 Package: bluehostd
 Architecture: any
@@ -39,9 +39,9 @@ Description: peer-to-peer network based digital currency - daemon
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, bluehostd, and the CLI tool
- aither-cli to interact with the daemon.
+ bluehost-cli to interact with the daemon.
 
-Package: aither-qt
+Package: bluehost-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
@@ -53,7 +53,7 @@ Description: peer-to-peer network based digital currency - Qt GUI
  .
  This package provides Bluehost-Qt, a GUI for Bluehost based on Qt.
 
-Package: aither-tx
+Package: bluehost-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
@@ -63,6 +63,6 @@ Description: peer-to-peer digital currency - standalone transaction tool
  and issuing money are carried out collectively by the network. Bluehost Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides aither-tx, a command-line transaction creation
- tool which can be used without a aither daemon.  Some means of
+ This package provides bluehost-tx, a command-line transaction creation
+ tool which can be used without a bluehost daemon.  Some means of
  exchanging minimal transaction data with peers is still required.

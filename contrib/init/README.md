@@ -5,7 +5,7 @@ Upstart: bluehostd.conf
 OpenRC:  bluehostd.openrc
          bluehostd.openrcconf
 CentOS:  bluehostd.init
-OS X:    org.aither.bluehostd.plist
+OS X:    org.bluehost.bluehostd.plist
 
 have been made available to assist packagers in creating node packages here.
 

@@ -24,7 +24,7 @@ make
 make install # optional
 ```
 
-This will build aither-qt as well if the dependencies are met.
+This will build bluehost-qt as well if the dependencies are met.
 
 Dependencies
 ---------------------
@@ -116,7 +116,7 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a aither-qt executable will be
+Once these are installed, they will be found by configure and a bluehost-qt executable will be
 built by default.
 
 Notes
@@ -144,7 +144,7 @@ It is recommended to use Berkeley DB 4.8. If you have to build it yourself:
 ```bash
 AIT_ROOT=$(pwd)
 
-# Pick some path to install BDB to, here we create a directory within the aither directory
+# Pick some path to install BDB to, here we create a directory within the bluehost directory
 BDB_PREFIX="${AIT_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 

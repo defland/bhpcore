@@ -19,4 +19,4 @@ FORMS += \
     ../src/qt/forms/transactiondescdialog.ui
 
 RESOURCES += \
-    ../src/qt/aither.qrc
+    ../src/qt/bluehost.qrc

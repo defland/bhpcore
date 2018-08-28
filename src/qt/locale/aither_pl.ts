@@ -263,8 +263,8 @@
         <translation>Odbie&amp;rz</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aither: URIs)</source>
-        <translation>Poproś o płatności (generuje kod QR oraz aither: link)</translation>
+        <source>Request payments (generates QR codes and bluehost: URIs)</source>
+        <translation>Poproś o płatności (generuje kod QR oraz bluehost: link)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -443,8 +443,8 @@
         <translation>Otwórz URI...</translation>
     </message>
     <message>
-        <source>Open a aither: URI or payment request</source>
-        <translation>Otwórz aither: Link lub żądanie zapłaty</translation>
+        <source>Open a bluehost: URI or payment request</source>
+        <translation>Otwórz bluehost: Link lub żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1263,9 +1263,9 @@ Adres: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</source>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
         <translation>Bluehost Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1568,8 +1568,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Błąd żądania płatności</translation>
     </message>
     <message>
-        <source>Cannot start aither: click-to-pay handler</source>
-        <translation>Nie można włączyć aither: kliknij-aby-zapłacić ubsługującemu.</translation>
+        <source>Cannot start bluehost: click-to-pay handler</source>
+        <translation>Nie można włączyć bluehost: kliknij-aby-zapłacić ubsługującemu.</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2292,7 +2292,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Jeśli ręcznie ustalona opłata wynosi 1000 Duffów a sama transakcja ma tylko 250 bitów, to opłata jako "za kilobajt" wynosi tylko 250 duffów.&lt;br/&gt; Dzieje się tak dla każdej transakcji poniżej 1000 duffów. W przypadku transakcji większych niż jedn kilobajt opłata jest naliczana od kilobajta.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for aither transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for bluehost transactions than the network can process.</source>
         <translation>Uiszczanie minimalnej opłaty za transakcję jest ok dopóki ilość transakcji nie przekracza dostępnego miejsca w bloku. &lt;br /&gt;Jednakże, jeśli zaistnieje taka sytuacja w której wysłanych zostaje więcej transakcji niż sieć może przetworzyć, to jest możliwe, że twoja transakcja nigdy nie zostanie potwierdzona.</translation>
     </message>
     <message>
@@ -2559,8 +2559,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Wiadomość:</translation>
     </message>
     <message>
-        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
-        <translation>Wiadomość, która została dołączona do aither: Link, który zostanie zapisany wraz z transakcją do wglądu w przyszłości. Zauważ. że sama wiadomość nie zostanie wysłana przez sieć Darkcoina.</translation>
+        <source>A message that was attached to the bluehost: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
+        <translation>Wiadomość, która została dołączona do bluehost: Link, który zostanie zapisany wraz z transakcją do wglądu w przyszłości. Zauważ. że sama wiadomość nie zostanie wysłana przez sieć Darkcoina.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3320,7 +3320,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
 </context>
 <context>
-    <name>aither-core</name>
+    <name>bluehost-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Związany z danym adresem oraz zawsze prowadzący na nim nasłuch.  Użyj [host]:oznaczenie dla IPv6</translation>
@@ -3710,7 +3710,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Produkt ten zawiera oprogramowanie stworzone przez OpenSSL Project do użytku w OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, oprogramowanie krptograficzne napisane przez Eric Young oraz oprogramowanie UPnP napisane przez Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use bluehostd, or the -server option to aither-qt, you must set an rpcpassword in the configuration file:
+        <source>To use bluehostd, or the -server option to bluehost-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=aitherrpc
@@ -3721,7 +3721,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Bluehost Alert" admin@foo.com
 </source>
-        <translation>Aby używać bluehostd, lub opcje -server w kliencie aither-qt, musisz ustawić hasło rpc w pliku konfiguracji:
+        <translation>Aby używać bluehostd, lub opcje -server w kliencie bluehost-qt, musisz ustawić hasło rpc w pliku konfiguracji:
 %s
 Zalecane jest abyś użył te o to losowo stworzone hasło
 rpcuser=aitherrpc
@@ -4216,7 +4216,7 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
     </message>
     <message>
         <source>Keep N BHP anonymized (default: %u)</source>
-        <translation>Utrzymuj N zanonimizowanych aither (domyślnie: %u)</translation>
+        <translation>Utrzymuj N zanonimizowanych bluehost (domyślnie: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

@@ -16,7 +16,7 @@ Unpack the files into a directory and run:
 
 ### Windows
 
-Unpack the files into a directory, and then run aither-qt.exe.
+Unpack the files into a directory, and then run bluehost-qt.exe.
 
 ### OS X
 

@@ -7,7 +7,7 @@ The Bluehost Core project has been designed to support multiple localisations. T
 
 Multiple language support is critical in assisting Bluehost’s global adoption, and growth. One of Bluehost’s greatest strengths is cross-boarder money transfers, any help making that easier is greatly appreciated.
 
-Please help us translate by edit the language files from here: https://github.com/aithercore/aither/tree/master/src/qt/locale
+Please help us translate by edit the language files from here: https://github.com/aithercore/bluehost/tree/master/src/qt/locale
 Click to a .ts file, edit file and translate all phrases, enter desscription and click "Propose file change".
 In your project list, go to Bluehost project and click "Pull & request", we will aprrove your request for translation.
 We would like to thank all of our translation contributions for helping Bluehost reach out more relevant users.
@@ -24,7 +24,7 @@ cd src/
 make translate
 ```
 
-`contrib/aither-qt.pro` takes care of generating `.qm` (binary compiled) files from `.ts` (source files) files. It’s mostly automated, and you shouldn’t need to worry about it.
+`contrib/bluehost-qt.pro` takes care of generating `.qm` (binary compiled) files from `.ts` (source files) files. It’s mostly automated, and you shouldn’t need to worry about it.
 
 **Example Qt translation**
 ```cpp

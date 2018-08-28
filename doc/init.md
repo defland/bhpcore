@@ -44,7 +44,7 @@ This allows for running bluehostd without having to do any manual configuration.
 relative to the data directory. `wallet` *only* supports relative paths.
 
 For an example configuration file that describes the configuration settings,
-see `contrib/debian/examples/aither.conf`.
+see `contrib/debian/examples/bluehost.conf`.
 
 3. Paths
 ---------------------------------
@@ -54,7 +54,7 @@ see `contrib/debian/examples/aither.conf`.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              `/usr/bin/bluehostd`  
-Configuration file:  `/etc/aithercore/aither.conf`  
+Configuration file:  `/etc/aithercore/bluehost.conf`  
 Data directory:      `/var/lib/bluehostd`  
 PID file:            `/var/run/bluehostd/bluehostd.pid` (OpenRC and Upstart) or `/var/lib/bluehostd/bluehostd.pid` (systemd)  
 Lock file:           `/var/lock/subsys/bluehostd` (CentOS)  
@@ -62,13 +62,13 @@ Lock file:           `/var/lock/subsys/bluehostd` (CentOS)
 The configuration file, PID directory (if applicable) and data directory
 should all be owned by the aithercore user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-aithercore user and group.  Access to aither-cli and other bluehostd rpc clients
+aithercore user and group.  Access to bluehost-cli and other bluehostd rpc clients
 can then be controlled by group membership.
 
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/bluehostd`  
-Configuration file:  `~/Library/Application Support/AitherCore/aither.conf`  
+Configuration file:  `~/Library/Application Support/AitherCore/bluehost.conf`  
 Data directory:      `~/Library/Application Support/AitherCore`
 Lock file:           `~/Library/Application Support/AitherCore/.lock`
 
@@ -109,13 +109,13 @@ setting the AITD and FLAGS environment variables in the file
 
 4e) Mac OS X
 
-Copy org.aither.bluehostd.plist into ~/Library/LaunchAgents. Load the launch agent by
-running `launchctl load ~/Library/LaunchAgents/org.aither.bluehostd.plist`.
+Copy org.bluehost.bluehostd.plist into ~/Library/LaunchAgents. Load the launch agent by
+running `launchctl load ~/Library/LaunchAgents/org.bluehost.bluehostd.plist`.
 
 This Launch Agent will cause bluehostd to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run bluehostd as the current user.
-You will need to modify org.aither.bluehostd.plist if you intend to use it as a
+You will need to modify org.bluehost.bluehostd.plist if you intend to use it as a
 Launch Daemon with a dedicated aithercore user.
 
 5. Auto-respawn

@@ -135,8 +135,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no aither: URI
-    if(!uri.isValid() || uri.scheme() != QString("aither"))
+    // return if URI is not valid or is no bluehost: URI
+    if(!uri.isValid() || uri.scheme() != QString("bluehost"))
         return false;
 
     SendCoinsRecipient rv;
@@ -205,13 +205,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert aither:// to aither:
+    // Convert bluehost:// to bluehost:
     //
-    //    Cannot handle this later, because aither:// will cause Qt to see the part after // as host,
+    //    Cannot handle this later, because bluehost:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("aither://", Qt::CaseInsensitive))
+    if(uri.startsWith("bluehost://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 7, "aither:");
+        uri.replace(0, 7, "bluehost:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -219,7 +219,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("aither:%1").arg(info.address);
+    QString ret = QString("bluehost:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -425,7 +425,7 @@ void openConfigfile()
 {
     boost::filesystem::path pathConfig = GetConfigFile();
 
-    /* Open aither.conf with the associated application */
+    /* Open bluehost.conf with the associated application */
     if (boost::filesystem::exists(pathConfig))
         QDesktopServices::openUrl(QUrl::fromLocalFile(boostPathToQString(pathConfig)));
 }

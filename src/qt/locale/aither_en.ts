@@ -349,8 +349,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Request payments (generates QR codes and aither: URIs)</source>
-        <translation>Request payments (generates QR codes and aither: URIs)</translation>
+        <source>Request payments (generates QR codes and bluehost: URIs)</source>
+        <translation>Request payments (generates QR codes and bluehost: URIs)</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -574,8 +574,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Open a aither: URI or payment request</source>
-        <translation>Open a aither: URI or payment request</translation>
+        <source>Open a bluehost: URI or payment request</source>
+        <translation>Open a bluehost: URI or payment request</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1918,9 +1918,9 @@
     <message>
         <location line="+34"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</source>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -2382,8 +2382,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <location line="-402"/>
-        <source>Cannot start aither: click-to-pay handler</source>
-        <translation>Cannot start aither: click-to-pay handler</translation>
+        <source>Cannot start bluehost: click-to-pay handler</source>
+        <translation>Cannot start bluehost: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+103"/>
@@ -3419,8 +3419,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for aither transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for aither transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for bluehost transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for bluehost transactions than the network can process.</translation>
     </message>
     <message>
         <location line="-59"/>
@@ -3767,8 +3767,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
-        <translation>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</translation>
+        <source>A message that was attached to the bluehost: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
+        <translation>A message that was attached to the bluehost: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</translation>
     </message>
     <message>
         <location line="+433"/>
@@ -4723,7 +4723,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
 </context>
 <context>
-    <name>aither-core</name>
+    <name>bluehost-core</name>
     <message>
         <location filename="../aitherstrings.cpp" line="+34"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

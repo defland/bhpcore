@@ -141,9 +141,9 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x000001c52d16f26c9dc9610946ef7a5fdb71613ae062162b8e68828ef6416e1f"));
         assert(genesis.hashMerkleRoot == uint256S("0x9467d204952ce6175916c863d378a05895f9376b6c00848b3c43f888f26a4a96"));
 
-        // vSeeds.push_back(CDNSSeedData("aither.blue", "seed-1.aither.blue"));
-        // vSeeds.push_back(CDNSSeedData("aither.blue", "seed-2.aither.blue"));
-        // vSeeds.push_back(CDNSSeedData("aither.blue", "seed-3.aither.blue"));
+        // vSeeds.push_back(CDNSSeedData("bluehost.blue", "seed-1.bluehost.blue"));
+        // vSeeds.push_back(CDNSSeedData("bluehost.blue", "seed-2.bluehost.blue"));
+        // vSeeds.push_back(CDNSSeedData("bluehost.blue", "seed-3.bluehost.blue"));
 
         // Bluehost addresses start with 'A'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,23);
@@ -264,8 +264,8 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        // vSeeds.push_back(CDNSSeedData("aither.blue", "seedtest-1.aither.blue"));
-        // vSeeds.push_back(CDNSSeedData("aither.blue", "seedtest-2.aither.blue"));
+        // vSeeds.push_back(CDNSSeedData("bluehost.blue", "seedtest-1.bluehost.blue"));
+        // vSeeds.push_back(CDNSSeedData("bluehost.blue", "seedtest-2.bluehost.blue"));
 
         // Testnet Bluehost addresses start with 'B'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25);

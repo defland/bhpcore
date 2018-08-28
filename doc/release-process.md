@@ -1,7 +1,7 @@
 Release Process
 ====================
 
-* Update translations, see [translation_process.md](https://github.com/aithercore/aither/blob/master/doc/translation_process.md#syncing-with-transifex)
+* Update translations, see [translation_process.md](https://github.com/aithercore/bluehost/blob/master/doc/translation_process.md#syncing-with-transifex)
 * Update hardcoded [seeds](/contrib/seeds)
 
 * * *
@@ -11,13 +11,13 @@ Check out the source code in the following directory hierarchy.
 
 	cd /path/to/your/toplevel/build
 	git clone https://github.com/aithercore/gitian.sigs.git
-	git clone https://github.com/aithercore/aither-detached-sigs.git
+	git clone https://github.com/aithercore/bluehost-detached-sigs.git
 	git clone https://github.com/devrandom/gitian-builder.git
-	git clone https://github.com/aithercore/aither.git
+	git clone https://github.com/aithercore/bluehost.git
 
 ###Bluehost Core maintainers/release engineers, update (commit) version in sources
 
-	pushd ./aither
+	pushd ./bluehost
 	contrib/verifysfbinaries/verify.sh
 	configure.ac
 	doc/README*
@@ -40,7 +40,7 @@ Check out the source code in the following directory hierarchy.
 
  Setup Gitian descriptors:
 
-	pushd ./aither
+	pushd ./bluehost
 	export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
 	export VERSION=(new version, e.g. 0.8.0)
 	git fetch
@@ -76,52 +76,52 @@ Check out the source code in the following directory hierarchy.
 
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
-	make -C ../aither/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../bluehost/depends download SOURCES_PATH=`pwd`/cache/common
 
 Only missing files will be fetched, so this is safe to re-run for each build.
 
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 ```
-./bin/gbuild --url aither=/path/to/aither,signature=/path/to/sigs {rest of arguments}
+./bin/gbuild --url bluehost=/path/to/bluehost,signature=/path/to/sigs {rest of arguments}
 ```
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
 ###Build and sign Bluehost Core for Linux, Windows, and OS X:
 
-	./bin/gbuild --commit aither=v${VERSION} ../aither/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../aither/contrib/gitian-descriptors/gitian-linux.yml
-	mv build/out/aither-*.tar.gz build/out/src/aither-*.tar.gz ../
+	./bin/gbuild --commit bluehost=v${VERSION} ../bluehost/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../bluehost/contrib/gitian-descriptors/gitian-linux.yml
+	mv build/out/bluehost-*.tar.gz build/out/src/bluehost-*.tar.gz ../
 
-	./bin/gbuild --commit aither=v${VERSION} ../aither/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../aither/contrib/gitian-descriptors/gitian-win.yml
-	mv build/out/aither-*-win-unsigned.tar.gz inputs/aither-win-unsigned.tar.gz
-	mv build/out/aither-*.zip build/out/aither-*.exe ../
+	./bin/gbuild --commit bluehost=v${VERSION} ../bluehost/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../bluehost/contrib/gitian-descriptors/gitian-win.yml
+	mv build/out/bluehost-*-win-unsigned.tar.gz inputs/bluehost-win-unsigned.tar.gz
+	mv build/out/bluehost-*.zip build/out/bluehost-*.exe ../
 
-	./bin/gbuild --commit aither=v${VERSION} ../aither/contrib/gitian-descriptors/gitian-osx.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../aither/contrib/gitian-descriptors/gitian-osx.yml
-	mv build/out/aither-*-osx-unsigned.tar.gz inputs/aither-osx-unsigned.tar.gz
-	mv build/out/aither-*.tar.gz build/out/aither-*.dmg ../
+	./bin/gbuild --commit bluehost=v${VERSION} ../bluehost/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../bluehost/contrib/gitian-descriptors/gitian-osx.yml
+	mv build/out/bluehost-*-osx-unsigned.tar.gz inputs/bluehost-osx-unsigned.tar.gz
+	mv build/out/bluehost-*.tar.gz build/out/bluehost-*.dmg ../
 	popd
 
   Build output expected:
 
-  1. source tarball (aither-${VERSION}.tar.gz)
-  2. linux 32-bit and 64-bit dist tarballs (aither-${VERSION}-linux[32|64].tar.gz)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (aither-${VERSION}-win[32|64]-setup-unsigned.exe, aither-${VERSION}-win[32|64].zip)
-  4. OS X unsigned installer and dist tarball (aither-${VERSION}-osx-unsigned.dmg, aither-${VERSION}-osx64.tar.gz)
+  1. source tarball (bluehost-${VERSION}.tar.gz)
+  2. linux 32-bit and 64-bit dist tarballs (bluehost-${VERSION}-linux[32|64].tar.gz)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (bluehost-${VERSION}-win[32|64]-setup-unsigned.exe, bluehost-${VERSION}-win[32|64].zip)
+  4. OS X unsigned installer and dist tarball (bluehost-${VERSION}-osx-unsigned.dmg, bluehost-${VERSION}-osx64.tar.gz)
   5. Gitian signatures (in gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/
 
 ###Verify other gitian builders signatures to your own. (Optional)
 
   Add other gitian builders keys to your gpg keyring
 
-	gpg --import ../aither/contrib/gitian-downloader/*.pgp
+	gpg --import ../bluehost/contrib/gitian-downloader/*.pgp
 
   Verify the signatures
 
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../aither/contrib/gitian-descriptors/gitian-linux.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../aither/contrib/gitian-descriptors/gitian-win.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../aither/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../bluehost/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../bluehost/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../bluehost/contrib/gitian-descriptors/gitian-osx.yml
 
 	popd
 
@@ -139,25 +139,25 @@ Commit your signature to gitian.sigs:
 
   Wait for Windows/OS X detached signatures:
 	Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-	Detached signatures will then be committed to the [aither-detached-sigs](https://github.com/aithercore/aither-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+	Detached signatures will then be committed to the [bluehost-detached-sigs](https://github.com/aithercore/bluehost-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
   Create (and optionally verify) the signed OS X binary:
 
 	pushd ./gitian-builder
-	./bin/gbuild -i --commit signature=v${VERSION} ../aither/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../aither/contrib/gitian-descriptors/gitian-osx-signer.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../aither/contrib/gitian-descriptors/gitian-osx-signer.yml
-	mv build/out/aither-osx-signed.dmg ../aither-${VERSION}-osx.dmg
+	./bin/gbuild -i --commit signature=v${VERSION} ../bluehost/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../bluehost/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../bluehost/contrib/gitian-descriptors/gitian-osx-signer.yml
+	mv build/out/bluehost-osx-signed.dmg ../bluehost-${VERSION}-osx.dmg
 	popd
 
   Create (and optionally verify) the signed Windows binaries:
 
 	pushd ./gitian-builder
-	./bin/gbuild -i --commit signature=v${VERSION} ../aither/contrib/gitian-descriptors/gitian-win-signer.yml
-	./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../aither/contrib/gitian-descriptors/gitian-win-signer.yml
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../aither/contrib/gitian-descriptors/gitian-win-signer.yml
-	mv build/out/aither-*win64-setup.exe ../aither-${VERSION}-win64-setup.exe
-	mv build/out/aither-*win32-setup.exe ../aither-${VERSION}-win32-setup.exe
+	./bin/gbuild -i --commit signature=v${VERSION} ../bluehost/contrib/gitian-descriptors/gitian-win-signer.yml
+	./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../bluehost/contrib/gitian-descriptors/gitian-win-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../bluehost/contrib/gitian-descriptors/gitian-win-signer.yml
+	mv build/out/bluehost-*win64-setup.exe ../bluehost-${VERSION}-win64-setup.exe
+	mv build/out/bluehost-*win32-setup.exe ../bluehost-${VERSION}-win32-setup.exe
 	popd
 
 Commit your signature for the signed OS X/Windows binaries:

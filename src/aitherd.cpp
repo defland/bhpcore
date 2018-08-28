@@ -70,7 +70,7 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/aither.conf are parsed in qt/aither.cpp's main()
+    // If Qt is used, parameters/bluehost.conf are parsed in qt/bluehost.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
@@ -132,12 +132,12 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "aither:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "bluehost:"))
                 fCommandLine = true;
 
         if (fCommandLine)
         {
-            fprintf(stderr, "Error: There is no RPC client functionality in bluehostd anymore. Use the aither-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in bluehostd anymore. Use the bluehost-cli utility instead.\n");
             exit(EXIT_FAILURE);
         }
 #ifndef WIN32

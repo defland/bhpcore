@@ -1,5 +1,5 @@
 ---
-name: "aither-osx-0.12"
+name: "bluehost-osx-0.12"
 enable_cache: true
 suites:
 - "trusty"
@@ -23,8 +23,8 @@ packages:
 - "python"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/aithercore/aither.git"
-  "dir": "aither"
+- "url": "https://github.com/aithercore/bluehost.git"
+  "dir": "bluehost"
 files:
 - "MacOSX10.9.sdk.tar.gz"
 script: |
@@ -71,7 +71,7 @@ script: |
   done
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd aither
+  cd bluehost
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs

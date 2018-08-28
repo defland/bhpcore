@@ -274,7 +274,7 @@
         <translation>&amp;Vastaanota</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aither: URIs)</source>
+        <source>Request payments (generates QR codes and bluehost: URIs)</source>
         <translation>Pyydä maksuja (Luo QR koodit ja Bluehost: URIt)</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>Avaa &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a aither: URI or payment request</source>
+        <source>Open a bluehost: URI or payment request</source>
         <translation>Avaa Bluehost: URI tai maksupyyntö</translation>
     </message>
     <message>
@@ -1520,9 +1520,9 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</source>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
         <translation>Puuttuuko sopiva kieli tai käännös on kesken? Auta käännöstyössä täällä:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1869,7 +1869,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Maksupyyntövirhe</translation>
     </message>
     <message>
-        <source>Cannot start aither: click-to-pay handler</source>
+        <source>Cannot start bluehost: click-to-pay handler</source>
         <translation>Ei voi käynnistää Aitheria: click-to-pay handler</translation>
     </message>
     <message>
@@ -2665,7 +2665,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Jos mukautettu siirtomaksu on asetettu 1000 duff ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 duffs siirtomaksun, kun taas "yhteensä vähintään" maksaa 1000 duffs.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for aither transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for bluehost transactions than the network can process.</source>
         <translation>Minimi siirtomaksun maksaminen on ok niin kauan kun siirtotapahtumien määrä on pienempi kuin tila lohkoissa.&lt;br /&gt;Mutta ota huomioon että tämä voi johtaa siirtotapahtumaan jota ei vahvisteta koskaan, jos siirtotapahtumia on enemmän kuin verkko voi käsitellä.</translation>
     </message>
     <message>
@@ -2936,7 +2936,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Viesti:</translation>
     </message>
     <message>
-        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
+        <source>A message that was attached to the bluehost: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
         <translation>Viesti joka liitettiin Bluehost: URI joka talletetaan siirtotapahtuman kanssa viitteeksi sinulle. Huomio: Tätä viestiä ei lähetetä Bluehost verkkoon.</translation>
     </message>
     <message>
@@ -3685,7 +3685,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
 </context>
 <context>
-    <name>aither-core</name>
+    <name>bluehost-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Kytkeydy annettuun osoitteeseen ja pidä linja aina auki. Käytä [host]:port merkintätapaa IPv6:lle.</translation>

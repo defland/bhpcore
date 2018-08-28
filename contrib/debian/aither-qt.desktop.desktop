@@ -2,10 +2,10 @@
 Encoding=UTF-8
 Name=Bluehost
 Comment=Bluehost P2P Cryptocurrency
-Exec=aither-qt %u
+Exec=bluehost-qt %u
 Terminal=false
 Type=Application
 Icon=aither128
-MimeType=x-scheme-handler/aither;
+MimeType=x-scheme-handler/bluehost;
 Categories=Office;Finance;
-Name[en_US]=aither-qt.desktop
+Name[en_US]=bluehost-qt.desktop

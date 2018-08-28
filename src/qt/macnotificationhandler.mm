@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.aither.Bluehost-Qt";
+        return @"org.bluehost.Bluehost-Qt";
     } else {
         return [self __bundleIdentifier];
     }

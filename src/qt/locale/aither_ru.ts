@@ -274,8 +274,8 @@
         <translation>&amp;Получить</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aither: URIs)</source>
-        <translation>Запросить платежи (создать QR-коды и aither: URI)</translation>
+        <source>Request payments (generates QR codes and bluehost: URIs)</source>
+        <translation>Запросить платежи (создать QR-коды и bluehost: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -454,8 +454,8 @@
         <translation>Открыть &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a aither: URI or payment request</source>
-        <translation>Открыть aither: URI или запрос платежа</translation>
+        <source>Open a bluehost: URI or payment request</source>
+        <translation>Открыть bluehost: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1519,9 +1519,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</source>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
         <translation>Нет Вашего языка или перевод неполон? Помогите нам сделать перевод лучше:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1868,8 +1868,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start aither: click-to-pay handler</source>
-        <translation>Не удаётся запустить обработчик aither: click-to-pay</translation>
+        <source>Cannot start bluehost: click-to-pay handler</source>
+        <translation>Не удаётся запустить обработчик bluehost: click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2660,7 +2660,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Если ручная комиссия  установлена в 1000 duff, а транзакция по размеру только 250 байт, то плата "за килобайт" составит лишь 250 duff,&lt;br&gt;в то время как "итого минимум" будет равна 1000 duff. Для тразакций больше килобайта в любом случае идет расчет "за килобайт".</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for aither transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for bluehost transactions than the network can process.</source>
         <translation>Оплаты только минимальной комиссии должно быть достаточно во всех случаях, пока в блоках достаточно места.&lt;br&gt;Однако, будьте готовы к тому, что транзакция может вовсе не получить подтверждения,&lt;br&gt;если количество транзакций будет стабильно больше, чем сеть способна обработать.</translation>
     </message>
     <message>
@@ -2931,8 +2931,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Сообщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
-        <translation>К aither: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть Bluehost.</translation>
+        <source>A message that was attached to the bluehost: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
+        <translation>К bluehost: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть Bluehost.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -3680,7 +3680,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
 </context>
 <context>
-    <name>aither-core</name>
+    <name>bluehost-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Привязаться к указанному адресу и всегда прослушивать только его. Используйте [хост]:порт для IPv6</translation>

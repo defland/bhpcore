@@ -352,7 +352,7 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../aither.qrc"/>
+  <include location="../bluehost.qrc"/>
  </resources>
  <connections/>
 </ui>

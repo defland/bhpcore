@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Elija la dirección a la cual enviar los aither</translation>
+        <translation>Elija la dirección a la cual enviar los bluehost</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Elija la dirección donde recibirá los aither</translation>
+        <translation>Elija la dirección donde recibirá los bluehost</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -263,7 +263,7 @@
         <translation>&amp;Recibir</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aither: URIs)</source>
+        <source>Request payments (generates QR codes and bluehost: URIs)</source>
         <translation>Solicitar pagos (genera códigos QR y URIs de Bluehost)</translation>
     </message>
     <message>
@@ -443,8 +443,8 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a aither: URI or payment request</source>
-        <translation>Abrir un aither: URI o petición de pago</translation>
+        <source>Open a bluehost: URI or payment request</source>
+        <translation>Abrir un bluehost: URI o petición de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1263,9 +1263,9 @@ Dirección: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</source>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
         <translation>¿Idioma no disponible o traducción incompleta? Contribuye a la traducción aquí:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1568,8 +1568,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Error en solicitud de pago</translation>
     </message>
     <message>
-        <source>Cannot start aither: click-to-pay handler</source>
-        <translation>No se pudo iniciar aither: manejador de pago-al-clic</translation>
+        <source>Cannot start bluehost: click-to-pay handler</source>
+        <translation>No se pudo iniciar bluehost: manejador de pago-al-clic</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2292,8 +2292,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Si la comisión personalizada se establece en 1000 duffs y la transacción sólo ocupa 250 bytes, entonces "por kilobyte" sólo se pagan 250 duffs de comisión,&lt;br /&gt;mientras que "total como mínimo" paga 1000 duffs. Para transacciones mayores de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for aither transactions than the network can process.</source>
-        <translation>Pagar sólo la comisión mínima está bien mientras el volumen de transacciones sea menor al espacio en los bloques.&lt;br /&gt;No obstante, tenga en cuenta que esto puede acabar en una transacción que nunca se confirme una vez haya más demanda de transacciones aither a la procesable por la red.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for bluehost transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras el volumen de transacciones sea menor al espacio en los bloques.&lt;br /&gt;No obstante, tenga en cuenta que esto puede acabar en una transacción que nunca se confirme una vez haya más demanda de transacciones bluehost a la procesable por la red.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2485,7 +2485,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>¡La transacción fue rechazada! Esto puede suceder si alguno de los aithers de su monedero ya se habían gastado, por ejemplo si usó una copia de wallet.dat y los aither se gastaron en dicha copia pero no se aparecen como gastados aqui.</translation>
+        <translation>¡La transacción fue rechazada! Esto puede suceder si alguno de los aithers de su monedero ya se habían gastado, por ejemplo si usó una copia de wallet.dat y los bluehost se gastaron en dicha copia pero no se aparecen como gastados aqui.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
@@ -2559,8 +2559,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
-        <translation>Un mensaje que se adjuntó al aither: URI que será almacenada con la transacción para su referencia. Nota: Este mensaje no se enviará a través de la red Bluehost.</translation>
+        <source>A message that was attached to the bluehost: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
+        <translation>Un mensaje que se adjuntó al bluehost: URI que será almacenada con la transacción para su referencia. Nota: Este mensaje no se enviará a través de la red Bluehost.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3320,7 +3320,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
 </context>
 <context>
-    <name>aither-core</name>
+    <name>bluehost-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Vincular a la dirección dada y escuchar siempre en ella. Utilice la notación [host]:port para IPv6</translation>
@@ -3688,7 +3688,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Ofrecer liquidez a Darksend mezclando aither con poca frecuencia y de forma continua (0-100, predeterminado: %u, 1=muy frecuente, comisiones altas, 100=muy pocas veces, comisiones bajas)</translation>
+        <translation>Ofrecer liquidez a Darksend mezclando bluehost con poca frecuencia y de forma continua (0-100, predeterminado: %u, 1=muy frecuente, comisiones altas, 100=muy pocas veces, comisiones bajas)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
@@ -3700,7 +3700,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Establecer el número de hilos para la generación de aither cuando ésta se encuentra activada (-1 = todos los núcleos, predeterminado: %d)</translation>
+        <translation>Establecer el número de hilos para la generación de bluehost cuando ésta se encuentra activada (-1 = todos los núcleos, predeterminado: %d)</translation>
     </message>
     <message>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
@@ -3711,7 +3711,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para su uso en el Toolkit OpenSSL &lt;https://www.openssl.org/&gt; y software criptográfico escrito por Eric Young y software UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use bluehostd, or the -server option to aither-qt, you must set an rpcpassword in the configuration file:
+        <source>To use bluehostd, or the -server option to bluehost-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=aitherrpc
@@ -3722,7 +3722,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "Bluehost Alert" admin@foo.com
 </source>
-        <translation>Para usar bluehostd, o la opción -server de aither-qt, debe establecer rpcpassword en el archivo de configuración:
+        <translation>Para usar bluehostd, o la opción -server de bluehost-qt, debe establecer rpcpassword en el archivo de configuración:
 %s
 Es recomendable que use la contraseña aleatoria siguiente:
 rpcuser=aitherrpc
@@ -3870,7 +3870,7 @@ por ejemplo: alertnotify=echo %%s | mail -s "Alerta de Bluehost" admin@foo.com
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Generar aither (predeterminado: %u)</translation>
+        <translation>Generar bluehost (predeterminado: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>

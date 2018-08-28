@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Bluehost"
-            VALUE "FileDescription",    "aither-cli (JSON-RPC client for Bluehost Core)"
+            VALUE "FileDescription",    "bluehost-cli (JSON-RPC client for Bluehost Core)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "aither-cli"
+            VALUE "InternalName",       "bluehost-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "aither-cli.exe"
-            VALUE "ProductName",        "aither-cli"
+            VALUE "OriginalFilename",   "bluehost-cli.exe"
+            VALUE "ProductName",        "bluehost-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

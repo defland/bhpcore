@@ -263,8 +263,8 @@
         <translation>&amp;Receber</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aither: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e aither: URIs)</translation>
+        <source>Request payments (generates QR codes and bluehost: URIs)</source>
+        <translation>Solicitar pagamentos (gera códigos QR e bluehost: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -443,8 +443,8 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a aither: URI or payment request</source>
-        <translation>Abre um aither: URI ou solicitação de pagamento</translation>
+        <source>Open a bluehost: URI or payment request</source>
+        <translation>Abre um bluehost: URI ou solicitação de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1259,9 +1259,9 @@ Endereço: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</source>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude a traduzir aqui:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1564,8 +1564,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Erro na solicitação de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start aither: click-to-pay handler</source>
-        <translation>Não é possível iniciar o aither: click-to-pay handler</translation>
+        <source>Cannot start bluehost: click-to-pay handler</source>
+        <translation>Não é possível iniciar o bluehost: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2543,8 +2543,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Mensagem:</translation>
     </message>
     <message>
-        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
-        <translation>Mensagem que foi anexada ao aither: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede Bluehost.</translation>
+        <source>A message that was attached to the bluehost: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
+        <translation>Mensagem que foi anexada ao bluehost: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede Bluehost.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3304,7 +3304,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
 </context>
 <context>
-    <name>aither-core</name>
+    <name>bluehost-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Vincular a um determinado endereço e ouvir sempre aí. Use a notação [endereço]:porta para IPv6</translation>

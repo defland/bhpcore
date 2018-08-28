@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/aither-config.h"
+#include "config/bluehost-config.h"
 #endif
 
 #include "net.h"

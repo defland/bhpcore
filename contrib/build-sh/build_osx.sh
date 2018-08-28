@@ -8,8 +8,8 @@ brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-
 make
 mkdir -p release
 cp src/bluehostd $AIT_ROOT/release
-cp src/aither-tx $AIT_ROOT/release
-cp src/aither-cli $AIT_ROOT/release
-cp src/qt/aither-qt $AIT_ROOT/release
+cp src/bluehost-tx $AIT_ROOT/release
+cp src/bluehost-cli $AIT_ROOT/release
+cp src/qt/bluehost-qt $AIT_ROOT/release
 make deploy
 echo "Done. your 'Bluehost-qt.dmg' is ready"

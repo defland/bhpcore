@@ -1,7 +1,7 @@
 Bluehost Core staging tree 0.12.2.3
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/aithercore/aither.svg?branch=master)](https://travis-ci.org/aithercoin/aither) `develop:` [![Build Status](https://travis-ci.org/aithercore/aither.svg?branch=develop)](https://travis-ci.org/aithercoin/aither/branches)
+`master:` [![Build Status](https://travis-ci.org/aithercore/bluehost.svg?branch=master)](https://travis-ci.org/aithercoin/bluehost) `develop:` [![Build Status](https://travis-ci.org/aithercore/bluehost.svg?branch=develop)](https://travis-ci.org/aithercoin/bluehost/branches)
 
 https://www.aithercoin.com
 
@@ -21,7 +21,7 @@ Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/aithercore/aither/tags) are created to indicate new official,
+[Tags](https://github.com/aithercore/bluehost/tags) are created to indicate new official,
 stable release versions of Bluehost Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).

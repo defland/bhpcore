@@ -599,7 +599,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../aither.qrc">
+            <iconset resource="../bluehost.qrc">
              <normaloff>:/icons/prompticon</normaloff>
              <disabledoff>:/icons/prompticon</disabledoff>:/icons/prompticon</iconset>
            </property>
@@ -1732,7 +1732,7 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../aither.qrc"/>
+  <include location="../bluehost.qrc"/>
  </resources>
  <connections/>
 </ui>

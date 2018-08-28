@@ -6,7 +6,7 @@
 #define BITCOIN_QT_BITCOINGUI_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/aither-config.h"
+#include "config/bluehost-config.h"
 #endif
 
 #include "amount.h"
@@ -246,7 +246,7 @@ private Q_SLOTS:
     void showPeers();
     void showRepair();
 
-    /** Open external (default) editor with aither.conf */
+    /** Open external (default) editor with bluehost.conf */
     void showConfEditor();
     /** Open external (default) editor with masternode.conf */
     void showMNConfEditor();

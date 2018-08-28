@@ -454,7 +454,7 @@ void ThreadCheckPrivateSend(CConnman& connman)
     fOneThread = true;
 
     // Make this thread recognisable as the PrivateSend thread
-    RenameThread("aither-ps");
+    RenameThread("bluehost-ps");
 
     unsigned int nTick = 0;
 

@@ -274,7 +274,7 @@
         <translation>&amp;Получаване</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aither: URIs)</source>
+        <source>Request payments (generates QR codes and bluehost: URIs)</source>
         <translation>Заявка за плащане (генерира QR кодове и Bluehost: URI)</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>Отвори &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a aither: URI or payment request</source>
+        <source>Open a bluehost: URI or payment request</source>
         <translation>Отвори Bluehost: URI или заявка за плащане</translation>
     </message>
     <message>
@@ -1519,9 +1519,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</source>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
         <translation>Липсва език или превода е непълен? Можете да помогнете с превода тук:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1868,8 +1868,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Грешка в заявката за плащане</translation>
     </message>
     <message>
-        <source>Cannot start aither: click-to-pay handler</source>
-        <translation>Не може да стартира aither: кликни за плащане на притежателя</translation>
+        <source>Cannot start bluehost: click-to-pay handler</source>
+        <translation>Не може да стартира bluehost: кликни за плащане на притежателя</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2660,8 +2660,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Ако променената такса е 1000 duffs и транзакцията е само 250 байта, тогава "за килобайт" само плаща такса 250 duffs,&lt;br /&gt; тогава"за последно" заплаща 1000 duffs. За транзакции по-големи от килобайт едновременно се заплащат от килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for aither transactions than the network can process.</source>
-        <translation>Разплащането само минималната такса ще продължи толкова дълго,докато транзакцията заема по-малък обем в блоковото пространство.&lt;br /&gt; Но имайте предвид, че транзакцията може да се окаже без първоначално потвърждение ако се появи голямо търсене на aither транзакции отколкото мрежата може да обработи.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for bluehost transactions than the network can process.</source>
+        <translation>Разплащането само минималната такса ще продължи толкова дълго,докато транзакцията заема по-малък обем в блоковото пространство.&lt;br /&gt; Но имайте предвид, че транзакцията може да се окаже без първоначално потвърждение ако се появи голямо търсене на bluehost транзакции отколкото мрежата може да обработи.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2931,8 +2931,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
-        <translation>Съобщението което беше прикрепено към aither: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през Bluehost мрежата.</translation>
+        <source>A message that was attached to the bluehost: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
+        <translation>Съобщението което беше прикрепено към bluehost: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през Bluehost мрежата.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -3680,7 +3680,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
 </context>
 <context>
-    <name>aither-core</name>
+    <name>bluehost-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Свързва се с посочения адрес и винаги слуша за него. Използвайте [хост]:порт за изписване при IPv6</translation>

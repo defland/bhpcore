@@ -33,7 +33,7 @@ Possible options:
   -h, --help            show this help message and exit
   --nocleanup           Leave aitherds and test.* datadir on exit or error
   --noshutdown          Don't stop aitherds after the test execution
-  --srcdir=SRCDIR       Source directory containing bluehostd/aither-cli
+  --srcdir=SRCDIR       Source directory containing bluehostd/bluehost-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs
   --tracerpc            Print out all RPC calls as they are made

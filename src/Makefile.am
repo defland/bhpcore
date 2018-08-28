@@ -64,11 +64,11 @@ if BUILD_BITCOIND
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += aither-cli aither-tx
+  bin_PROGRAMS += bluehost-cli bluehost-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# aither core #
+# bluehost core #
 BITCOIN_CORE_H = \
   addrdb.h \
   activemasternode.h \
@@ -207,7 +207,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between bluehostd and aither-qt
+# server: shared between bluehostd and bluehost-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -280,7 +280,7 @@ libbitcoin_zmq_a_SOURCES = \
 endif
 
 
-# wallet: shared between bluehostd and aither-qt, but only linked
+# wallet: shared between bluehostd and bluehost-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -345,7 +345,7 @@ crypto_libbitcoin_crypto_a_SOURCES += \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between bluehostd, and aither-qt and non-server tools
+# common: shared between bluehostd, and bluehost-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -405,7 +405,7 @@ if GLIBC_BACK_COMPAT
 libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 endif
 
-# cli: shared between aither-cli and aither-qt
+# cli: shared between bluehost-cli and bluehost-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -445,14 +445,14 @@ endif
 
 aitherd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 
-# aither-cli binary #
-aither_cli_SOURCES = aither-cli.cpp
+# bluehost-cli binary #
+aither_cli_SOURCES = bluehost-cli.cpp
 aither_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 aither_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 aither_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-aither_cli_SOURCES += aither-cli-res.rc
+aither_cli_SOURCES += bluehost-cli-res.rc
 endif
 
 aither_cli_LDADD = \
@@ -462,14 +462,14 @@ aither_cli_LDADD = \
 aither_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# aither-tx binary #
-aither_tx_SOURCES = aither-tx.cpp
+# bluehost-tx binary #
+aither_tx_SOURCES = bluehost-tx.cpp
 aither_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 aither_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 aither_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-aither_tx_SOURCES += aither-tx-res.rc
+aither_tx_SOURCES += bluehost-tx-res.rc
 endif
 
 aither_tx_LDADD = \

@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package bluehostd/aither-qt
-for Debian-based Linux systems. If you compile bluehostd/aither-qt yourself, there are some useful files here.
+This directory contains files used to package bluehostd/bluehost-qt
+for Debian-based Linux systems. If you compile bluehostd/bluehost-qt yourself, there are some useful files here.
 
-## aither: URI support ##
+## bluehost: URI support ##
 
 
-aither-qt.desktop  (Gnome / Open Desktop)
+bluehost-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install aither-qt.desktop
+	sudo desktop-file-install bluehost-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your aither-qt binary to `/usr/bin`
+the .desktop file or copy or symlink your bluehost-qt binary to `/usr/bin`
 and the `../../share/pixmaps/aither128.png` to `/usr/share/pixmaps`
 
-aither-qt.protocol (KDE)
+bluehost-qt.protocol (KDE)
 

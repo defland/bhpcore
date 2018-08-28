@@ -1,6 +1,6 @@
 [Protocol]
-exec=aither-qt '%u'
-protocol=aither
+exec=bluehost-qt '%u'
+protocol=bluehost
 input=none
 output=none
 helper=true

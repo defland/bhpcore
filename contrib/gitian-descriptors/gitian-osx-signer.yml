@@ -1,5 +1,5 @@
 ---
-name: "aither-dmg-signer"
+name: "bluehost-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -8,10 +8,10 @@ packages:
 - "faketime"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/aithercore/aither-detached-sigs.git"
+- "url": "https://github.com/aithercore/bluehost-detached-sigs.git"
   "dir": "signature"
 files:
-- "aither-osx-unsigned.tar.gz"
+- "bluehost-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -28,8 +28,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=aither-osx-unsigned.tar.gz
-  SIGNED=aither-osx-signed.dmg
+  UNSIGNED=bluehost-osx-unsigned.tar.gz
+  SIGNED=bluehost-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   ./detached-sig-apply.sh ${UNSIGNED} signature/osx

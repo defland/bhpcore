@@ -345,19 +345,19 @@ static const CRPCCommand vRPCCommands[] =
 #endif
 
     /* Bluehost features */
-    { "aither",               "masternode",             &masternode,             true  },
-    { "aither",               "masternodelist",         &masternodelist,         true  },
-    { "aither",               "masternodebroadcast",    &masternodebroadcast,    true  },
-    { "aither",               "gobject",                &gobject,                true  },
-    { "aither",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
-    { "aither",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
-    { "aither",               "voteraw",                &voteraw,                true  },
-    { "aither",               "mnsync",                 &mnsync,                 true  },
-    { "aither",               "spork",                  &spork,                  true  },
-    { "aither",               "getpoolinfo",            &getpoolinfo,            true  },
-    { "aither",               "sentinelping",           &sentinelping,           true  },
+    { "bluehost",               "masternode",             &masternode,             true  },
+    { "bluehost",               "masternodelist",         &masternodelist,         true  },
+    { "bluehost",               "masternodebroadcast",    &masternodebroadcast,    true  },
+    { "bluehost",               "gobject",                &gobject,                true  },
+    { "bluehost",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
+    { "bluehost",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
+    { "bluehost",               "voteraw",                &voteraw,                true  },
+    { "bluehost",               "mnsync",                 &mnsync,                 true  },
+    { "bluehost",               "spork",                  &spork,                  true  },
+    { "bluehost",               "getpoolinfo",            &getpoolinfo,            true  },
+    { "bluehost",               "sentinelping",           &sentinelping,           true  },
 #ifdef ENABLE_WALLET
-    { "aither",               "privatesend",            &privatesend,            false },
+    { "bluehost",               "privatesend",            &privatesend,            false },
 
     /* Wallet */
     { "wallet",             "keepass",                &keepass,                true },
@@ -581,7 +581,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> aither-cli " + methodname + " " + args + "\n";
+    return "> bluehost-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)

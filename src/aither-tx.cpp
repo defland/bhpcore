@@ -52,10 +52,10 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Bluehost Core aither-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Bluehost Core bluehost-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  aither-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded aither transaction") + "\n" +
-                               "  aither-tx [options] -create [commands]   " + _("Create hex-encoded aither transaction") + "\n" +
+                               "  bluehost-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded bluehost transaction") + "\n" +
+                               "  bluehost-tx [options] -create [commands]   " + _("Create hex-encoded bluehost transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -611,7 +611,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded aither transaction
+            // param: hex-encoded bluehost transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-")                 // "-" implies standard input
                 strHexTx = readStdin();

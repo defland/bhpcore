@@ -205,7 +205,7 @@ void Intro::pickDataDirectory()
         settings.setValue("strDataDirDefault", dataDirDefaultCurrent);
     }
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the aither.conf file in the default data directory
+     * override -datadir in the bluehost.conf file in the default data directory
      * (to be consistent with bluehostd behavior)
      */
     if(dataDir != dataDirDefaultCurrent)

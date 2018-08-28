@@ -274,8 +274,8 @@
         <translation>&amp;Empfangen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aither: URIs)</source>
-        <translation>Zahlungen anfordern (erzeugt QR-Codes und "aither:"-URIs)</translation>
+        <source>Request payments (generates QR codes and bluehost: URIs)</source>
+        <translation>Zahlungen anfordern (erzeugt QR-Codes und "bluehost:"-URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -454,8 +454,8 @@
         <translation>&amp;URI öffnen...</translation>
     </message>
     <message>
-        <source>Open a aither: URI or payment request</source>
-        <translation>Eine "aither:"-URI oder Zahlungsanforderung öffnen</translation>
+        <source>Open a bluehost: URI or payment request</source>
+        <translation>Eine "bluehost:"-URI oder Zahlungsanforderung öffnen</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1520,9 +1520,9 @@ Der Mixing-Prozeß läuft nach dem Start vollständig im Hintergrund, d.h. es is
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</source>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
         <translation>Fehlt eine Sprache oder ist unvollständig übersetzt? Hier können Sie helfen:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1870,7 +1870,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Fehlerhafte Zahlungsanforderung</translation>
     </message>
     <message>
-        <source>Cannot start aither: click-to-pay handler</source>
+        <source>Cannot start bluehost: click-to-pay handler</source>
         <translation>Bluehost kann nicht gestartet werden: click-to-pay handler</translation>
     </message>
     <message>
@@ -2662,7 +2662,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Wenn die benutzerdefinierten Gebühren auf 1000 duffs gesetzt sind und eine Transaktion hat nur 250 Bytes, dann kostet "pro Kilobyte" nur 250 duffs Gebühren, während "mindestens" 1000 duffs kostet. Transaktionen größer als 1 Kilobyte werden immer pro Kilobyte bezahlt.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for aither transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for bluehost transactions than the network can process.</source>
         <translation>Nur die minimalen Gebühren zu zahlen ist völlig ausreichend so lange in einem neuen Block der Blockkette noch genug Platz für neue Transaktionen ist.&lt;br /&gt; Bitte beachten Sie dass wenn dies in der Zukunft nicht mehr der Fall sein sollte Ihre Transaktion eventuell niemals in einen neuen Block aufgenommen werden wird, also niemals bestätigt wird.</translation>
     </message>
     <message>
@@ -2934,8 +2934,8 @@ Dies kann passieren, wenn einige Bluehost aus ihrer Wallet bereits ausgegeben wu
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
-        <translation>Eine an die "aither:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Bluehost-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the bluehost: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
+        <translation>Eine an die "bluehost:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Bluehost-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -3683,7 +3683,7 @@ Dies kann passieren, wenn einige Bluehost aus ihrer Wallet bereits ausgegeben wu
     </message>
 </context>
 <context>
-    <name>aither-core</name>
+    <name>bluehost-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>An die angegebene Adresse binden und immer abhören. Für IPv6 "[Host]:Port"-Schreibweise verwenden</translation>

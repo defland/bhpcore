@@ -252,7 +252,7 @@
         <translation>&amp;Motta</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aither: URIs)</source>
+        <source>Request payments (generates QR codes and bluehost: URIs)</source>
         <translation>Begär betalningar (genererar QR-koder och Bluehost:-URI:s)</translation>
     </message>
     <message>
@@ -404,7 +404,7 @@
         <translation>Öppna &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a aither: URI or payment request</source>
+        <source>Open a bluehost: URI or payment request</source>
         <translation>Öppna en Bluehost-URI eller betalningsbegäran</translation>
     </message>
     <message>
@@ -1106,9 +1106,9 @@ Adress: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</source>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
         <translation>Fattas språk eller är det en ofullständig översättning? Hjälp till att bidra med översättningar här:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1335,8 +1335,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start aither: click-to-pay handler</source>
-        <translation>Kan inte starta aither: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start bluehost: click-to-pay handler</source>
+        <translation>Kan inte starta bluehost: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1958,7 +1958,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
+        <source>A message that was attached to the bluehost: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
         <translation>Ett meddelande som bifogades till Bluehost: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över Bluehost-nätverket.</translation>
     </message>
     <message>
@@ -2656,7 +2656,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
 </context>
 <context>
-    <name>aither-core</name>
+    <name>bluehost-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>

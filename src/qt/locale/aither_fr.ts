@@ -274,7 +274,7 @@
         <translation>&amp;Recevoir</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and aither: URIs)</source>
+        <source>Request payments (generates QR codes and bluehost: URIs)</source>
         <translation>Demande de paiements (génère des QR-codes et des URIs Bluehost)</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>Ouvrir une &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a aither: URI or payment request</source>
+        <source>Open a bluehost: URI or payment request</source>
         <translation>Ouvrir une URI ou demande de paiement Bluehost</translation>
     </message>
     <message>
@@ -1519,9 +1519,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/aither/tree/master/src/qt/locale</source>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
         <translation>Langage manquant ou traduction incomplète ? Participez aux traductions ici :
-https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
+https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1868,7 +1868,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Erreur de demande de paiement</translation>
     </message>
     <message>
-        <source>Cannot start aither: click-to-pay handler</source>
+        <source>Cannot start bluehost: click-to-pay handler</source>
         <translation>Impossible de démarrer le gestionnaire Bluehost click-to-pay</translation>
     </message>
     <message>
@@ -2660,7 +2660,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Si les frais personnalisés sont à 1000 duffs et que la transaction fait seulement 250 octets, alors "par kilooctet" payera seulement 250 duffs de frais,&lt;br /&gt;alors que "total au moins" payera 1000 duffs. Pour les transactions de plus d'un kilooctet les deux payeront par kilooctet.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for aither transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for bluehost transactions than the network can process.</source>
         <translation>Payer les frais minimums fonctionne tant qu'il y a moins de volume de transactions que de place dans les blocs.&lt;br/&gt;Mais soyez conscients que ceci peut amener a des transactions qui ne seront jamais confirmées lorsqu'il y aura plus de demande que la capacité du réseau.</translation>
     </message>
     <message>
@@ -2931,7 +2931,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Message :</translation>
     </message>
     <message>
-        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
+        <source>A message that was attached to the bluehost: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
         <translation>Un message qui était joint au Bluehost : URI qui sera sauvegardée avec la transaction pour référence. Note : Ce message ne sera pas envoyé à travers le réseau Bluehost.</translation>
     </message>
     <message>
@@ -3680,7 +3680,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
 </context>
 <context>
-    <name>aither-core</name>
+    <name>bluehost-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Se lier à l'adresse donnée et toujours l'écouter. Utilisez la notation [host]:port pour l'IPv6</translation>
@@ -4339,7 +4339,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>Keep N BHP anonymized (default: %u)</source>
-        <translation>Maintenir N aither anonymisé en permanence (défaut: %u)</translation>
+        <translation>Maintenir N bluehost anonymisé en permanence (défaut: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

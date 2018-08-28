@@ -555,7 +555,7 @@ UniValue dumpprivkey(const UniValue& params, bool fHelp)
             "\nReveals the private key corresponding to 'aitheraddress'.\n"
             "Then the importprivkey can be used with this output\n"
             "\nArguments:\n"
-            "1. \"aitheraddress\"   (string, required) The aither address for the private key\n"
+            "1. \"aitheraddress\"   (string, required) The bluehost address for the private key\n"
             "\nResult:\n"
             "\"key\"                (string) The private key\n"
             "\nExamples:\n"

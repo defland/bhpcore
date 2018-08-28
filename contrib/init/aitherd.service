@@ -9,7 +9,7 @@ Group=aithercore
 Type=forking
 PIDFile=/var/lib/bluehostd/bluehostd.pid
 ExecStart=/usr/bin/bluehostd -daemon -pid=/var/lib/bluehostd/bluehostd.pid \
--conf=/etc/aithercore/aither.conf -datadir=/var/lib/bluehostd -disablewallet
+-conf=/etc/aithercore/bluehost.conf -datadir=/var/lib/bluehostd -disablewallet
 
 Restart=always
 PrivateTmp=true
