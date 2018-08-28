@@ -188,7 +188,7 @@
         <translation>钱包已加密</translation>
     </message>
     <message>
-        <source>Bluehost will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
+        <source>Bluehost will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bluehosts from being stolen by malware infecting your computer.</source>
         <translation>达世币软体现在要关闭，以完成加密过程。请注意，加密钱包不能完全防止恶意软件入侵你的电脑盗取你的达世币。</translation>
     </message>
     <message>
@@ -1264,9 +1264,9 @@ Address: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</source>
         <translation>缺少相关语言或翻译不完整? 请到这里协助翻译:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>

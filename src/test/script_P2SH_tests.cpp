@@ -9,7 +9,7 @@
 #include "script/script.h"
 #include "script/script_error.h"
 #include "script/sign.h"
-#include "test/test_aither.h"
+#include "test/test_bluehost.h"
 
 #ifdef ENABLE_WALLET
 #include "wallet/wallet_ismine.h"

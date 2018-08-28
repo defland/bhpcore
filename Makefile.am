@@ -6,7 +6,7 @@ GZIP_ENV="-9n"
 
 if BUILD_BITCOIN_LIBS
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = libaitherconsensus.pc
+pkgconfig_DATA = libbluehostconsensus.pc
 endif
 
 BITCOIND_BIN=$(top_builddir)/src/bluehostd$(EXEEXT)
@@ -41,9 +41,9 @@ OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_FANCY_PLIST) $(OSX_INSTALLER_ICONS) $
   $(top_srcdir)/contrib/macdeploy/detached-sig-create.sh
 
 COVERAGE_INFO = baseline_filtered_combined.info baseline.info block_test.info \
-  leveldb_baseline.info test_aither_filtered.info total_coverage.info \
+  leveldb_baseline.info test_bluehost_filtered.info total_coverage.info \
   baseline_filtered.info block_test_filtered.info rpc_test.info rpc_test_filtered.info \
-  leveldb_baseline_filtered.info test_aither_coverage.info test_aither.info
+  leveldb_baseline_filtered.info test_bluehost_coverage.info test_bluehost.info
 
 dist-hook:
 	-$(MAKE) -C $(top_distdir)/src/leveldb clean
@@ -162,16 +162,16 @@ leveldb_baseline_filtered.info: leveldb_baseline.info
 baseline_filtered_combined.info: leveldb_baseline_filtered.info baseline_filtered.info
 	$(LCOV) -a leveldb_baseline_filtered.info -a baseline_filtered.info -o $@
 
-test_aither.info: baseline_filtered_combined.info
+test_bluehost.info: baseline_filtered_combined.info
 	$(MAKE) -C src/ check
-	$(LCOV) -c -d $(abs_builddir)/src -t test_aither -o $@
+	$(LCOV) -c -d $(abs_builddir)/src -t test_bluehost -o $@
 	$(LCOV) -z -d $(abs_builddir)/src
 	$(LCOV) -z -d $(abs_builddir)/src/leveldb
 
-test_aither_filtered.info: test_aither.info
+test_bluehost_filtered.info: test_bluehost.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-block_test.info: test_aither_filtered.info
+block_test.info: test_bluehost_filtered.info
 	$(MKDIR_P) qa/tmp
 	-@TIMEOUT=15 qa/pull-tester/run-bitcoind-for-test.sh $(JAVA) -jar $(JAVA_COMPARISON_TOOL) qa/tmp/compTool $(COMPARISON_TOOL_REORG_TESTS)
 	$(LCOV) -c -d $(abs_builddir)/src --t BitcoinJBlockTest -o $@
@@ -181,7 +181,7 @@ block_test.info: test_aither_filtered.info
 block_test_filtered.info: block_test.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-rpc_test.info: test_aither_filtered.info
+rpc_test.info: test_bluehost_filtered.info
 	-@TIMEOUT=15 python qa/pull-tester/rpc-tests.py $(EXTENDED_RPC_TESTS)
 	$(LCOV) -c -d $(abs_builddir)/src --t rpc-tests -o $@
 	$(LCOV) -z -d $(abs_builddir)/src
@@ -190,13 +190,13 @@ rpc_test.info: test_aither_filtered.info
 rpc_test_filtered.info: rpc_test.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-test_aither_coverage.info: baseline_filtered_combined.info test_aither_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_aither_filtered.info -o $@
+test_bluehost_coverage.info: baseline_filtered_combined.info test_bluehost_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_bluehost_filtered.info -o $@
 
-total_coverage.info: baseline_filtered_combined.info test_aither_filtered.info block_test_filtered.info rpc_test_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_aither_filtered.info -a block_test_filtered.info -a rpc_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
+total_coverage.info: baseline_filtered_combined.info test_bluehost_filtered.info block_test_filtered.info rpc_test_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_bluehost_filtered.info -a block_test_filtered.info -a rpc_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
 
-test_aither.coverage/.dirstamp:  test_aither_coverage.info
+test_bluehost.coverage/.dirstamp:  test_bluehost_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 
@@ -204,7 +204,7 @@ total.coverage/.dirstamp: total_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 
-cov: test_aither.coverage/.dirstamp total.coverage/.dirstamp
+cov: test_bluehost.coverage/.dirstamp total.coverage/.dirstamp
 
 endif
 
@@ -225,4 +225,4 @@ CLEANFILES = $(OSX_DMG) $(BITCOIN_WIN_INSTALLER)
 .INTERMEDIATE: $(COVERAGE_INFO)
 
 clean-local:
-	rm -rf coverage_percent.txt test_aither.coverage/ total.coverage/ qa/tmp/ cache/ $(OSX_APP)
+	rm -rf coverage_percent.txt test_bluehost.coverage/ total.coverage/ qa/tmp/ cache/ $(OSX_APP)

@@ -1,17 +1,17 @@
-bin_PROGRAMS += bench/bench_aither
+bin_PROGRAMS += bench/bench_bluehost
 BENCH_SRCDIR = bench
-BENCH_BINARY = bench/bench_aither$(EXEEXT)
+BENCH_BINARY = bench/bench_bluehost$(EXEEXT)
 
 
-bench_bench_aither_SOURCES = \
-  bench/bench_aither.cpp \
+bench_bench_bluehost_SOURCES = \
+  bench/bench_bluehost.cpp \
   bench/bench.cpp \
   bench/bench.h \
   bench/Examples.cpp
 
-bench_bench_aither_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CLFAGS) $(EVENT_PTHREADS_CFLAGS) -I$(builddir)/bench/
-bench_bench_aither_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-bench_bench_aither_LDADD = \
+bench_bench_bluehost_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CLFAGS) $(EVENT_PTHREADS_CFLAGS) -I$(builddir)/bench/
+bench_bench_bluehost_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bench_bench_bluehost_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -22,15 +22,15 @@ bench_bench_aither_LDADD = \
   $(LIBUNIVALUE)
 
 if ENABLE_ZMQ
-bench_bench_aither_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+bench_bench_bluehost_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-bench_bench_aither_LDADD += $(LIBBITCOIN_WALLET)
+bench_bench_bluehost_LDADD += $(LIBBITCOIN_WALLET)
 endif
 
-bench_bench_aither_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-bench_bench_aither_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+bench_bench_bluehost_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+bench_bench_bluehost_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 CLEAN_BITCOIN_BENCH = bench/*.gcda bench/*.gcno
 
@@ -42,4 +42,4 @@ bench: $(BENCH_BINARY) FORCE
 	$(BENCH_BINARY)
 
 bitcoin_bench_clean : FORCE
-	rm -f $(CLEAN_BITCOIN_BENCH) $(bench_bench_aither_OBJECTS) $(BENCH_BINARY)
+	rm -f $(CLEAN_BITCOIN_BENCH) $(bench_bench_bluehost_OBJECTS) $(BENCH_BINARY)

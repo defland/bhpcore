@@ -1,12 +1,12 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
-#DEB_MAKE_CHECK_TARGET = test_aither
+#DEB_MAKE_CHECK_TARGET = test_bluehost
 #build/bluehostd::
-#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_aither)
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_bluehost)
 
-DEB_INSTALL_EXAMPLES_aitherd += debian/examples/*
-DEB_INSTALL_MANPAGES_aitherd += debian/manpages/*
+DEB_INSTALL_EXAMPLES_bluehostd += debian/examples/*
+DEB_INSTALL_MANPAGES_bluehostd += debian/manpages/*
 
 %:
 	dh --with bash-completion $@

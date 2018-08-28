@@ -10,7 +10,7 @@
 #include "script/interpreter.h"
 #include "script/sign.h"
 #include "uint256.h"
-#include "test/test_aither.h"
+#include "test/test_bluehost.h"
 
 #ifdef ENABLE_WALLET
 #include "wallet/wallet_ismine.h"

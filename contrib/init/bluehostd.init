@@ -26,11 +26,11 @@ lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/bluehostd}
 bluehostd=${BITCOIND_BIN-/usr/bin/bluehostd}
 
 # bluehostd opts default to -disablewallet, override with BITCOIND_OPTS
-aitherd_opts=${BITCOIND_OPTS--disablewallet}
+bluehostd_opts=${BITCOIND_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $bluehostd $aitherd_opts
+    daemon $DAEMONOPTS $bluehostd $bluehostd_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile

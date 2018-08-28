@@ -188,7 +188,7 @@
         <translation>輸入舊密碼和新密碼到錢包。</translation>
     </message>
     <message>
-        <source>Bluehost Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
+        <source>Bluehost Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bluehosts from being stolen by malware infecting your computer.</source>
         <translation>達世幣核心現在要關閉，以便完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取達世幣。</translation>
     </message>
     <message>
@@ -1443,9 +1443,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</source>
         <translation>缺少相關語言或翻譯不完整？請到這裡協助翻譯
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>

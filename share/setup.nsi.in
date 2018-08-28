@@ -7,7 +7,7 @@ SetCompressor /SOLID lzma
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION @CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@
 !define COMPANY "Bluehost Core project"
-!define URL https://www.aithercoin.com/
+!define URL https://www.bluehostcoin.com/
 
 # MUI Symbol Definitions
 !define MUI_ICON "@abs_top_srcdir@/share/pixmaps/bitcoin.ico"
@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile @abs_top_srcdir@/aithercore-${VERSION}-win@WINDOWS_BITS@-setup.exe
+OutFile @abs_top_srcdir@/bluehostcore-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
 InstallDir $PROGRAMFILES64\AitherCore
 !else
@@ -106,10 +106,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "aithercore" "URL Protocol" ""
-    WriteRegStr HKCR "aithercore" "" "URL:Bluehost"
-    WriteRegStr HKCR "aithercore\DefaultIcon" "" $INSTDIR\bluehost-qt.exe
-    WriteRegStr HKCR "aithercore\shell\open\command" "" '"$INSTDIR\bluehost-qt.exe" "%1"'
+    WriteRegStr HKCR "bluehostcore" "URL Protocol" ""
+    WriteRegStr HKCR "bluehostcore" "" "URL:Bluehost"
+    WriteRegStr HKCR "bluehostcore\DefaultIcon" "" $INSTDIR\bluehost-qt.exe
+    WriteRegStr HKCR "bluehostcore\shell\open\command" "" '"$INSTDIR\bluehost-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -147,7 +147,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "aithercore"
+    DeleteRegKey HKCR "bluehostcore"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

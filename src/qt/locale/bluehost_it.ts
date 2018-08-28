@@ -188,7 +188,7 @@
         <translation>Portafoglio cifrato</translation>
     </message>
     <message>
-        <source>Bluehost will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
+        <source>Bluehost will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bluehosts from being stolen by malware infecting your computer.</source>
         <translation>Bluehost adesso si chiuderá per finire il processo di crittografia. Ricorda che crittografare il tuo portafoglio non ti da una protezione totale se il tuo computer é infettato da malware</translation>
     </message>
     <message>
@@ -1220,9 +1220,9 @@ Indirizzo: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</source>
         <translation>La tua lingua manca o la traduzione è incompleta? Contribuisci alla traduzione qui: 
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>

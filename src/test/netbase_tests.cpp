@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "netbase.h"
-#include "test/test_aither.h"
+#include "test/test_bluehost.h"
 
 #include <string>
 

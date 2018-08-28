@@ -176,7 +176,7 @@
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>Bluehost will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
+        <source>Bluehost will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bluehosts from being stolen by malware infecting your computer.</source>
         <translation>Bluehost kommer nu att färdigställa krypteringsprocessen. Kom ihåg att krypteringen av din plånbok inte kan skydda dig helt och hållet från att dina Bluehost stjäls av skadeprogram som har infekterat din dator.</translation>
     </message>
     <message>
@@ -1106,9 +1106,9 @@ Adress: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</source>
         <translation>Fattas språk eller är det en ofullständig översättning? Hjälp till att bidra med översättningar här:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>

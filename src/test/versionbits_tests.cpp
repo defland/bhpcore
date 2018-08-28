@@ -5,7 +5,7 @@
 #include "chain.h"
 #include "random.h"
 #include "versionbits.h"
-#include "test/test_aither.h"
+#include "test/test_bluehost.h"
 #include "chainparams.h"
 #include "validation.h"
 #include "consensus/params.h"

@@ -32,7 +32,7 @@ from threading import Thread
 import logging
 import copy
 
-import aither_hash
+import bluehost_hash
 
 BIP0031_VERSION = 60000
 MY_VERSION = 70208  # current MIN_PEER_PROTO_VERSION
@@ -64,8 +64,8 @@ def sha256(s):
 def hash256(s):
     return sha256(sha256(s))
 
-def aitherhash(s):
-    return aither_hash.getPoWHash(s)
+def bluehosthash(s):
+    return bluehost_hash.getPoWHash(s)
 
 def deser_string(f):
     nit = struct.unpack("<B", f.read(1))[0]
@@ -496,8 +496,8 @@ class CBlockHeader(object):
             r += struct.pack("<I", self.nTime)
             r += struct.pack("<I", self.nBits)
             r += struct.pack("<I", self.nNonce)
-            self.sha256 = uint256_from_str(aitherhash(r))
-            self.hash = encode(aitherhash(r)[::-1], 'hex_codec').decode('ascii')
+            self.sha256 = uint256_from_str(bluehosthash(r))
+            self.hash = encode(bluehosthash(r)[::-1], 'hex_codec').decode('ascii')
 
     def rehash(self):
         self.sha256 = None

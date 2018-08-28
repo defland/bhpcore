@@ -1,7 +1,7 @@
 Bluehost Core 0.12.1
 =====================
 
-This is the official reference wallet for Bluehost digital currency and comprises the backbone of the Bluehost peer-to-peer network. You can [download Bluehost Core](https://www.aithercoin.com/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Bluehost digital currency and comprises the backbone of the Bluehost peer-to-peer network. You can [download Bluehost Core](https://www.bluehostcoin.com/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
@@ -24,10 +24,10 @@ Drag Bluehost-Qt to your applications folder, and then run Bluehost-Qt.
 
 ### Need Help?
 
-* See the [Bluehost documentation](https://aithercore.atlassian.net/wiki/display/DOC)
+* See the [Bluehost documentation](https://bluehostcore.atlassian.net/wiki/display/DOC)
 for help and more information.
-* Ask for help on [#aithercoin](http://webchat.freenode.net?channels=aithercore) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=aithercoin).
-* Ask for help on the [AitherTalk](https://aithertalk.org/) forums.
+* Ask for help on [#bluehostcoin](http://webchat.freenode.net?channels=bluehostcore) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=bluehostcoin).
+* Ask for help on the [AitherTalk](https://bluehosttalk.org/) forums.
 
 Building
 ---------------------
@@ -57,8 +57,8 @@ The Bluehost Core repo's [root README](/README.md) contains relevant information
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [AitherTalk](https://aithertalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#aithercoin](http://webchat.freenode.net/?channels=aithercore) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=aithercoin).
+* Discuss on the [AitherTalk](https://bluehosttalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on [#bluehostcoin](http://webchat.freenode.net/?channels=bluehostcore) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bluehostcoin).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

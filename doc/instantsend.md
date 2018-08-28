@@ -12,8 +12,8 @@ When a "Transaction Lock" occurs the hash of the related transaction is broadcas
 * `zmqpubhashtxlock`: publishes the transaction hash when locked via InstantSend
 
 This mechanism has been integrated into Bitcore-Node-Bluehost which allows for notification to be broadcast through Insight API in one of two ways:
-* WebSocket: [https://github.com/aithercore/insight-api-bluehost#web-socket-api](https://github.com/aithercore/insight-api-bluehost#web-socket-api)
-* API: [https://github.com/aithercore/insight-api-bluehost#instantsend-transactions](https://github.com/aithercore/insight-api-bluehost#instantsend-transactions)
+* WebSocket: [https://github.com/bluehostcore/insight-api-bluehost#web-socket-api](https://github.com/bluehostcore/insight-api-bluehost#web-socket-api)
+* API: [https://github.com/bluehostcore/insight-api-bluehost#instantsend-transactions](https://github.com/bluehostcore/insight-api-bluehost#instantsend-transactions)
 
 ####Command line option
 

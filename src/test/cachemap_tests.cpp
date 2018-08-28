@@ -2,7 +2,7 @@
 
 #include "cachemap.h"
 
-#include "test/test_aither.h"
+#include "test/test_bluehost.h"
 
 #include <boost/test/unit_test.hpp>
 

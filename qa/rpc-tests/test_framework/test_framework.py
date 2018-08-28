@@ -99,9 +99,9 @@ class BitcoinTestFramework(object):
 
         parser = optparse.OptionParser(usage="%prog [options]")
         parser.add_option("--nocleanup", dest="nocleanup", default=False, action="store_true",
-                          help="Leave aitherds and test.* datadir on exit or error")
+                          help="Leave bluehostds and test.* datadir on exit or error")
         parser.add_option("--noshutdown", dest="noshutdown", default=False, action="store_true",
-                          help="Don't stop aitherds after the test execution")
+                          help="Don't stop bluehostds after the test execution")
         parser.add_option("--srcdir", dest="srcdir", default="../../src",
                           help="Source directory containing bluehostd/bluehost-cli (default: %default)")
         parser.add_option("--tmpdir", dest="tmpdir", default=tempfile.mkdtemp(prefix="test"),
@@ -151,7 +151,7 @@ class BitcoinTestFramework(object):
             stop_nodes(self.nodes)
             wait_bitcoinds()
         else:
-            print("Note: aitherds were not stopped and may still be running")
+            print("Note: bluehostds were not stopped and may still be running")
 
         if not self.options.nocleanup and not self.options.noshutdown:
             print("Cleaning up")

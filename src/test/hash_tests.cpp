@@ -4,7 +4,7 @@
 
 #include "hash.h"
 #include "utilstrencodings.h"
-#include "test/test_aither.h"
+#include "test/test_bluehost.h"
 
 #include <vector>
 

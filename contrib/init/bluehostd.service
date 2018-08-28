@@ -3,13 +3,13 @@ Description=Bluehost's distributed currency daemon
 After=network.target
 
 [Service]
-User=aithercore
-Group=aithercore
+User=bluehostcore
+Group=bluehostcore
 
 Type=forking
 PIDFile=/var/lib/bluehostd/bluehostd.pid
 ExecStart=/usr/bin/bluehostd -daemon -pid=/var/lib/bluehostd/bluehostd.pid \
--conf=/etc/aithercore/bluehost.conf -datadir=/var/lib/bluehostd -disablewallet
+-conf=/etc/bluehostcore/bluehost.conf -datadir=/var/lib/bluehostd -disablewallet
 
 Restart=always
 PrivateTmp=true

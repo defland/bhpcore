@@ -235,8 +235,8 @@
     </message>
     <message>
         <location line="+57"/>
-        <source>Bluehost Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
-        <translation>Bluehost Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</translation>
+        <source>Bluehost Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bluehosts from being stolen by malware infecting your computer.</source>
+        <translation>Bluehost Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bluehosts from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1918,9 +1918,9 @@
     <message>
         <location line="+34"/>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -4725,7 +4725,7 @@ https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
 <context>
     <name>bluehost-core</name>
     <message>
-        <location filename="../aitherstrings.cpp" line="+34"/>
+        <location filename="../bluehoststrings.cpp" line="+34"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>

@@ -4,7 +4,7 @@
 
 #include "streams.h"
 #include "support/allocators/zeroafterfree.h"
-#include "test/test_aither.h"
+#include "test/test_bluehost.h"
 
 #include <boost/assign/std/vector.hpp> // for 'operator+=()'
 #include <boost/assert.hpp>

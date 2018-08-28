@@ -7,18 +7,18 @@ The Bluehost Core project has been designed to support multiple localisations. T
 
 Multiple language support is critical in assisting Bluehost’s global adoption, and growth. One of Bluehost’s greatest strengths is cross-boarder money transfers, any help making that easier is greatly appreciated.
 
-Please help us translate by edit the language files from here: https://github.com/aithercore/bluehost/tree/master/src/qt/locale
+Please help us translate by edit the language files from here: https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale
 Click to a .ts file, edit file and translate all phrases, enter desscription and click "Propose file change".
 In your project list, go to Bluehost project and click "Pull & request", we will aprrove your request for translation.
 We would like to thank all of our translation contributions for helping Bluehost reach out more relevant users.
 
 ### Writing code with translations
 We use automated scripts to help extract translations in both Qt, and non-Qt source files. It is rarely necessary to manually edit the files in `src/qt/locale/`. The translation source files must adhere to the following format:
-`aither_xx_YY.ts or aither_xx.ts`
+`bluehost_xx_YY.ts or bluehost_xx.ts`
 
-`src/qt/locale/aither_en.ts` is treated in a special way. It is used as the source for all other translations. Whenever a string in the source code is changed, this file must be updated to reflect those changes. A custom script is used to extract strings from the non-Qt parts. This script makes use of `gettext`, so make sure that utility is installed (ie, `apt-get install gettext` on Ubuntu/Debian). Once this has been updated, `lupdate` (included in the Qt SDK) is used to update `aither_en.ts`.
+`src/qt/locale/bluehost_en.ts` is treated in a special way. It is used as the source for all other translations. Whenever a string in the source code is changed, this file must be updated to reflect those changes. A custom script is used to extract strings from the non-Qt parts. This script makes use of `gettext`, so make sure that utility is installed (ie, `apt-get install gettext` on Ubuntu/Debian). Once this has been updated, `lupdate` (included in the Qt SDK) is used to update `bluehost_en.ts`.
 
-To automatically regenerate the `aither_en.ts` file, run the following commands:
+To automatically regenerate the `bluehost_en.ts` file, run the following commands:
 ```sh
 cd src/
 make translate
@@ -38,7 +38,7 @@ When an updated source file is merged into the Github repo, Transifex will autom
 
 To create the pull-request, use the following commands:
 ```
-git add src/qt/aitherstrings.cpp src/qt/locale/aither_en.ts
+git add src/qt/bluehoststrings.cpp src/qt/locale/bluehost_en.ts
 git commit
 ```
 
@@ -46,10 +46,10 @@ git commit
 To assist in updating translations, we have created a script to help.
 
 1. `python contrib/devtools/update-translations.py`
-2. Update `src/qt/aither_locale.qrc` manually or via
-   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(aither_\(.*\)\).ts/<file alias="\2">locale\/\1.qm<\/file>/'`
+2. Update `src/qt/bluehost_locale.qrc` manually or via
+   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(bluehost_\(.*\)\).ts/<file alias="\2">locale\/\1.qm<\/file>/'`
 3. Update `src/Makefile.qt.include` manually or via
-   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(aither_\(.*\)\).ts/  qt\/locale\/\1.ts \\/'`
+   `ls src/qt/locale/*ts|xargs -n1 basename|sed 's/\(bluehost_\(.*\)\).ts/  qt\/locale\/\1.ts \\/'`
 4. `git add` new translations from `src/qt/locale/`
 
 **Do not directly download translations** one by one from the Transifex website, as we do a few post-processing steps before committing the translations.
@@ -57,7 +57,7 @@ To assist in updating translations, we have created a script to help.
 ### Handling Plurals (in source files)
 When new plurals are added to the source file, it's important to do the following steps:
 
-1. Open `aither_en.ts` in Qt Linguist (included in the Qt SDK)
+1. Open `bluehost_en.ts` in Qt Linguist (included in the Qt SDK)
 2. Search for `%n`, which will take you to the parts in the translation that use plurals
 3. Look for empty `English Translation (Singular)` and `English Translation (Plural)` fields
 4. Add the appropriate strings for the singular and plural form of the base string
@@ -70,7 +70,7 @@ To create a new language template, you will need to edit the languages manifest 
 
 ```xml
 <qresource prefix="/translations">
-    <file alias="en">locale/aither_en.qm</file>
+    <file alias="en">locale/bluehost_en.qm</file>
     ...
 </qresource>
 ```

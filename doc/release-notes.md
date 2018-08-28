@@ -1,6 +1,6 @@
 Bluehost Core version 0.12.1 is now available from:
 
-  <https://www.aithercoin.com/downloads/>
+  <https://www.bluehostcoin.com/downloads/>
 
 
 

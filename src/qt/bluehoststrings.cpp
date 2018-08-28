@@ -8,7 +8,7 @@
 #else
 #define UNUSED
 #endif
-static const char UNUSED *aither_strings[] = {
+static const char UNUSED *bluehost_strings[] = {
 QT_TRANSLATE_NOOP("bluehost-core", ""
 "(1 = keep tx meta data e.g. account owner and payment request information, 2 "
 "= drop tx meta data)"),

@@ -71,7 +71,7 @@
         <string>application/x-bluehost-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>aitherpaymentrequest</string>
+          <string>bluehostpaymentrequest</string>
         </array>
       </dict>
     </dict>

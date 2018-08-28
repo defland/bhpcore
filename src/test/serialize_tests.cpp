@@ -5,7 +5,7 @@
 #include "serialize.h"
 #include "streams.h"
 #include "hash.h"
-#include "test/test_aither.h"
+#include "test/test_bluehost.h"
 
 #include <stdint.h>
 

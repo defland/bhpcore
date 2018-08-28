@@ -1,7 +1,7 @@
 Release Process
 ====================
 
-* Update translations, see [translation_process.md](https://github.com/aithercore/bluehost/blob/master/doc/translation_process.md#syncing-with-transifex)
+* Update translations, see [translation_process.md](https://github.com/bluehostcore/bluehost/blob/master/doc/translation_process.md#syncing-with-transifex)
 * Update hardcoded [seeds](/contrib/seeds)
 
 * * *
@@ -10,10 +10,10 @@ Release Process
 Check out the source code in the following directory hierarchy.
 
 	cd /path/to/your/toplevel/build
-	git clone https://github.com/aithercore/gitian.sigs.git
-	git clone https://github.com/aithercore/bluehost-detached-sigs.git
+	git clone https://github.com/bluehostcore/gitian.sigs.git
+	git clone https://github.com/bluehostcore/bluehost-detached-sigs.git
 	git clone https://github.com/devrandom/gitian-builder.git
-	git clone https://github.com/aithercore/bluehost.git
+	git clone https://github.com/bluehostcore/bluehost.git
 
 ###Bluehost Core maintainers/release engineers, update (commit) version in sources
 
@@ -139,7 +139,7 @@ Commit your signature to gitian.sigs:
 
   Wait for Windows/OS X detached signatures:
 	Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-	Detached signatures will then be committed to the [bluehost-detached-sigs](https://github.com/aithercore/bluehost-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+	Detached signatures will then be committed to the [bluehost-detached-sigs](https://github.com/bluehostcore/bluehost-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
   Create (and optionally verify) the signed OS X binary:
 
@@ -182,17 +182,17 @@ rm SHA256SUMS
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
-- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the aithercoin.com server
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the bluehostcoin.com server
 
-- Update aithercoin.com
+- Update bluehostcoin.com
 
 - Announce the release:
 
-  - Release on Bluehost website: https://www.aithercoin.com/forum/topic/official-announcements.54/
+  - Release on Bluehost website: https://www.bluehostcoin.com/forum/topic/official-announcements.54/
 
   - Bluehost-development mailing list
 
-  - Update title of #aithercoin on Freenode IRC
+  - Update title of #bluehostcoin on Freenode IRC
 
 - Add release notes for the new version to the directory `doc/release-notes` in git master
 

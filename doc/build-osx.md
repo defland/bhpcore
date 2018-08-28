@@ -40,7 +40,7 @@ NOTE: Building with Qt4 is still supported, however, doing so could result in a 
 
 1. Clone the GitHub tree to get the source code and go into the directory.
 
-        git clone https://github.com/aithercore/bluehost.git
+        git clone https://github.com/bluehostcore/bluehost.git
         cd bluehost
 
 2.  Build Bluehost Core:
@@ -102,7 +102,7 @@ directory. We have to first create the RPC configuration file, though.
 Run `./bluehostd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=aitherrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/AitherCore/bluehost.conf"
+    echo -e "rpcuser=bluehostrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/AitherCore/bluehost.conf"
     chmod 600 "/Users/${USER}/Library/Application Support/AitherCore/bluehost.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't

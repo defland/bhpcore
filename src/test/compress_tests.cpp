@@ -4,7 +4,7 @@
 
 #include "compressor.h"
 #include "util.h"
-#include "test/test_aither.h"
+#include "test/test_bluehost.h"
 
 #include <stdint.h>
 

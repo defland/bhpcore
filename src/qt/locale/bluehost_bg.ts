@@ -188,7 +188,7 @@
         <translation>Въведете старата парола и нова парола за портфейла.</translation>
     </message>
     <message>
-        <source>Bluehost Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
+        <source>Bluehost Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bluehosts from being stolen by malware infecting your computer.</source>
         <translation>Bluehost Core ще се затвори за да завърши процеса на криптиране. Запомнете, това криптира вашият портфейл, но не може да защити вашите Bluehost от вируси заразили  компютъра Ви.</translation>
     </message>
     <message>
@@ -1519,9 +1519,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</source>
         <translation>Липсва език или превода е непълен? Можете да помогнете с превода тук:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>

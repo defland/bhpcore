@@ -1,7 +1,7 @@
 # /etc/conf.d/bluehostd: config file for /etc/init.d/bluehostd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/aithercore/bluehost.conf"
+#BITCOIND_CONFIGFILE="/etc/bluehostcore/bluehost.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
 #BITCOIND_PIDDIR="/var/run/bluehostd"
@@ -13,8 +13,8 @@
 #BITCOIND_DATADIR="/var/lib/bluehostd"
 
 # User and group to own bluehostd process
-#BITCOIND_USER="aithercore"
-#BITCOIND_GROUP="aithercore"
+#BITCOIND_USER="bluehostcore"
+#BITCOIND_GROUP="bluehostcore"
 
 # Path to bluehostd executable
 #BITCOIND_BIN="/usr/bin/bluehostd"

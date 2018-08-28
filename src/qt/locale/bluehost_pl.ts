@@ -188,7 +188,7 @@
         <translation>Portfel zaszyfrowany</translation>
     </message>
     <message>
-        <source>Bluehost will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
+        <source>Bluehost will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bluehosts from being stolen by malware infecting your computer.</source>
         <translation>Bluehost zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
     </message>
     <message>
@@ -1263,9 +1263,9 @@ Adres: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</source>
         <translation>Bluehost Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -3713,7 +3713,7 @@ https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
         <source>To use bluehostd, or the -server option to bluehost-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=aitherrpc
+rpcuser=bluehostrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3724,7 +3724,7 @@ for example: alertnotify=echo %%s | mail -s "Bluehost Alert" admin@foo.com
         <translation>Aby używać bluehostd, lub opcje -server w kliencie bluehost-qt, musisz ustawić hasło rpc w pliku konfiguracji:
 %s
 Zalecane jest abyś użył te o to losowo stworzone hasło
-rpcuser=aitherrpc
+rpcuser=bluehostrpc
 rpcpassword=%s
 (Nie musisz pamiętać tego hasła)
 Twoje hasło NIE MOŻE być takie samo jak twój login.

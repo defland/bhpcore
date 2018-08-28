@@ -5,7 +5,7 @@
 #include "wallet/wallet.h"
 #include "wallet/walletdb.h"
 
-#include "test/test_aither.h"
+#include "test/test_bluehost.h"
 
 #include <stdint.h>
 

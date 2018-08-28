@@ -520,7 +520,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\AitherCore
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\AitherCore
     // Mac: ~/Library/Application Support/AitherCore
-    // Unix: ~/.aithercore
+    // Unix: ~/.bluehostcore
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "AitherCore";
@@ -536,7 +536,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/AitherCore";
 #else
     // Unix
-    return pathRet / ".aithercore";
+    return pathRet / ".bluehostcore";
 #endif
 #endif
 }

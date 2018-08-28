@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Use the raw transactions API to spend aithers received on particular addresses,
+# Use the raw transactions API to spend bluehosts received on particular addresses,
 # and send any change back to that same address.
 #
 # Example usage:
@@ -38,7 +38,7 @@ def determine_db_dir():
         return os.path.expanduser("~/Library/Application Support/AitherCore/")
     elif platform.system() == "Windows":
         return os.path.join(os.environ['APPDATA'], "AitherCore")
-    return os.path.expanduser("~/.aithercore")
+    return os.path.expanduser("~/.bluehostcore")
 
 def read_bitcoin_config(dbdir):
     """Read the bluehost.conf file from dbdir, returns dictionary of settings"""
@@ -221,9 +221,9 @@ def main():
 
     parser = optparse.OptionParser(usage="%prog [options]")
     parser.add_option("--from", dest="fromaddresses", default=None,
-                      help="addresses to get aithers from")
+                      help="addresses to get bluehosts from")
     parser.add_option("--to", dest="to", default=None,
-                      help="address to get send aithers to")
+                      help="address to get send bluehosts to")
     parser.add_option("--amount", dest="amount", default=None,
                       help="amount to send")
     parser.add_option("--fee", dest="fee", default="0.0",

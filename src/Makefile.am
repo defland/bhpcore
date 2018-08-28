@@ -49,8 +49,8 @@ EXTRA_LIBRARIES += libbitcoin_zmq.a
 endif
 
 if BUILD_BITCOIN_LIBS
-lib_LTLIBRARIES = libaitherconsensus.la
-LIBBITCOIN_CONSENSUS=libaitherconsensus.la
+lib_LTLIBRARIES = libbluehostconsensus.la
+LIBBITCOIN_CONSENSUS=libbluehostconsensus.la
 else
 LIBBITCOIN_CONSENSUS=
 endif
@@ -416,16 +416,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-aitherd_SOURCES = bluehostd.cpp
-aitherd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-aitherd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-aitherd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+bluehostd_SOURCES = bluehostd.cpp
+bluehostd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+bluehostd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bluehostd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-aitherd_SOURCES += bluehostd-res.rc
+bluehostd_SOURCES += bluehostd-res.rc
 endif
 
-aitherd_LDADD = \
+bluehostd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -436,56 +436,56 @@ aitherd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-aitherd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+bluehostd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-aitherd_LDADD += libbitcoin_wallet.a
+bluehostd_LDADD += libbitcoin_wallet.a
 endif
 
-aitherd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+bluehostd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 
 # bluehost-cli binary #
-aither_cli_SOURCES = bluehost-cli.cpp
-aither_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-aither_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-aither_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+bluehost_cli_SOURCES = bluehost-cli.cpp
+bluehost_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+bluehost_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bluehost_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-aither_cli_SOURCES += bluehost-cli-res.rc
+bluehost_cli_SOURCES += bluehost-cli-res.rc
 endif
 
-aither_cli_LDADD = \
+bluehost_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL)
-aither_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+bluehost_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bluehost-tx binary #
-aither_tx_SOURCES = bluehost-tx.cpp
-aither_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-aither_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-aither_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+bluehost_tx_SOURCES = bluehost-tx.cpp
+bluehost_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+bluehost_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bluehost_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-aither_tx_SOURCES += bluehost-tx-res.rc
+bluehost_tx_SOURCES += bluehost-tx-res.rc
 endif
 
-aither_tx_LDADD = \
+bluehost_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-aither_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+bluehost_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
-# aitherconsensus library #
+# bluehostconsensus library #
 if BUILD_BITCOIN_LIBS
-include_HEADERS = script/aitherconsensus.h
-libaitherconsensus_la_SOURCES = \
+include_HEADERS = script/bluehostconsensus.h
+libbluehostconsensus_la_SOURCES = \
   crypto/hmac_sha512.cpp \
   crypto/ripemd160.cpp \
   crypto/sha1.cpp \
@@ -494,20 +494,20 @@ libaitherconsensus_la_SOURCES = \
   hash.cpp \
   primitives/transaction.cpp \
   pubkey.cpp \
-  script/aitherconsensus.cpp \
+  script/bluehostconsensus.cpp \
   script/interpreter.cpp \
   script/script.cpp \
   uint256.cpp \
   utilstrencodings.cpp
 
 if GLIBC_BACK_COMPAT
-  libaitherconsensus_la_SOURCES += compat/glibc_compat.cpp
+  libbluehostconsensus_la_SOURCES += compat/glibc_compat.cpp
 endif
 
-libaitherconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
-libaitherconsensus_la_LIBADD = $(LIBSECP256K1)
-libaitherconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -DBUILD_BITCOIN_INTERNAL
-libaitherconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libbluehostconsensus_la_LDFLAGS = $(AM_LDFLAGS) -no-undefined $(RELDFLAGS)
+libbluehostconsensus_la_LIBADD = $(LIBSECP256K1)
+libbluehostconsensus_la_CPPFLAGS = $(AM_CPPFLAGS) -I$(builddir)/obj -I$(srcdir)/secp256k1/include -DBUILD_BITCOIN_INTERNAL
+libbluehostconsensus_la_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 
 endif
 #

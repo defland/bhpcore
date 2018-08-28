@@ -31,8 +31,8 @@ Possible options:
 
 ```
   -h, --help            show this help message and exit
-  --nocleanup           Leave aitherds and test.* datadir on exit or error
-  --noshutdown          Don't stop aitherds after the test execution
+  --nocleanup           Leave bluehostds and test.* datadir on exit or error
+  --noshutdown          Don't stop bluehostds after the test execution
   --srcdir=SRCDIR       Source directory containing bluehostd/bluehost-cli
                         (default: ../../src)
   --tmpdir=TMPDIR       Root directory for datadirs

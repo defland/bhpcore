@@ -571,7 +571,7 @@ int main(int argc, char *argv[])
 #endif
 
     Q_INIT_RESOURCE(bluehost);
-    Q_INIT_RESOURCE(aither_locale);
+    Q_INIT_RESOURCE(bluehost_locale);
 
     BitcoinApplication app(argc, argv);
 #if QT_VERSION > 0x050100

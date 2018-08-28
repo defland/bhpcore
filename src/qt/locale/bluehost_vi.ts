@@ -188,7 +188,7 @@
         <translation>Hãy nhập vào mật khẩu cũ và mật khẩu mới cho ví của bạn.</translation>
     </message>
     <message>
-        <source>Bluehost Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
+        <source>Bluehost Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bluehosts from being stolen by malware infecting your computer.</source>
         <translation>Bluehost Core sẽ được đóng lại để hoàn thành quá trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ bluehost của bạn khỏi bị ăn cắp bởi việc máy tính của bạn nhiễm mã độc.</translation>
     </message>
     <message>
@@ -1519,9 +1519,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</source>
         <translation>Ngôn ngữ ị thiếu hoặc việc dịch chưa hoàn tất? Tham gia dịch giúp tại đây:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>

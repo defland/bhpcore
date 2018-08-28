@@ -1,9 +1,9 @@
 # Linearize
 Construct a linear, no-fork, best version of the blockchain.
 
-## Step 0: Install aither_hash
+## Step 0: Install bluehost_hash
 
-https://github.com/aithercore/aither_hash
+https://github.com/bluehostcore/bluehost_hash
 
 ## Step 1: Download hash list
 

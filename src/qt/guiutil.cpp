@@ -735,8 +735,8 @@ boost::filesystem::path static GetAutostartFilePath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-        return GetAutostartDir() / "aithercore.desktop";
-    return GetAutostartDir() / strprintf("aithercore-%s.lnk", chain);
+        return GetAutostartDir() / "bluehostcore.desktop";
+    return GetAutostartDir() / strprintf("bluehostcore-%s.lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
@@ -775,7 +775,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         if (!optionFile.good())
             return false;
         std::string chain = ChainNameFromCommandLine();
-        // Write a aithercore.desktop file to the autostart directory:
+        // Write a bluehostcore.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)

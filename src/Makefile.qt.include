@@ -3,22 +3,22 @@ EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
 # bluehost qt core #
 QT_TS = \
-  qt/locale/aither_bg.ts \
-  qt/locale/aither_de.ts \
-  qt/locale/aither_en.ts \
-  qt/locale/aither_es.ts \
-  qt/locale/aither_fi.ts \
-  qt/locale/aither_fr.ts \
-  qt/locale/aither_it.ts \
-  qt/locale/aither_ja.ts \
-  qt/locale/aither_pl.ts \
-  qt/locale/aither_pt.ts \
-  qt/locale/aither_ru.ts \
-  qt/locale/aither_sk.ts \
-  qt/locale/aither_sv.ts \
-  qt/locale/aither_vi.ts \
-  qt/locale/aither_zh_CN.ts \
-  qt/locale/aither_zh_TW.ts
+  qt/locale/bluehost_bg.ts \
+  qt/locale/bluehost_de.ts \
+  qt/locale/bluehost_en.ts \
+  qt/locale/bluehost_es.ts \
+  qt/locale/bluehost_fi.ts \
+  qt/locale/bluehost_fr.ts \
+  qt/locale/bluehost_it.ts \
+  qt/locale/bluehost_ja.ts \
+  qt/locale/bluehost_pl.ts \
+  qt/locale/bluehost_pt.ts \
+  qt/locale/bluehost_ru.ts \
+  qt/locale/bluehost_sk.ts \
+  qt/locale/bluehost_sv.ts \
+  qt/locale/bluehost_vi.ts \
+  qt/locale/bluehost_zh_CN.ts \
+  qt/locale/bluehost_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -101,10 +101,10 @@ QT_MOC = \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
 
-QT_QRC_CPP = qt/qrc_aither.cpp
+QT_QRC_CPP = qt/qrc_bluehost.cpp
 QT_QRC = qt/bluehost.qrc
-QT_QRC_LOCALE_CPP = qt/qrc_aither_locale.cpp
-QT_QRC_LOCALE = qt/aither_locale.qrc
+QT_QRC_LOCALE_CPP = qt/qrc_bluehost_locale.cpp
+QT_QRC_LOCALE = qt/bluehost_locale.qrc
 
 PROTOBUF_CC = qt/paymentrequest.pb.cc
 PROTOBUF_H = qt/paymentrequest.pb.h
@@ -454,7 +454,7 @@ RES_IMAGES = \
   qt/res/images/drkblue/about.png \
   qt/res/images/drkblue/splash.png \
   qt/res/images/drkblue/splash_testnet.png \
-  qt/res/images/drkblue/aither_logo_horizontal.png \
+  qt/res/images/drkblue/bluehost_logo_horizontal.png \
   qt/res/images/drkblue/unchecked.png \
   qt/res/images/drkblue/checked.png \
   qt/res/images/drkblue/drkblue_downArrow.png \
@@ -467,7 +467,7 @@ RES_IMAGES = \
   qt/res/images/crownium/about.png \
   qt/res/images/crownium/splash.png \
   qt/res/images/crownium/splash_testnet.png \
-  qt/res/images/crownium/aither_logo_horizontal.png \
+  qt/res/images/crownium/bluehost_logo_horizontal.png \
   qt/res/images/crownium/unchecked.png \
   qt/res/images/crownium/checked.png \
   qt/res/images/crownium/drkblue_downArrow.png \
@@ -480,7 +480,7 @@ RES_IMAGES = \
   qt/res/images/light/about.png \
   qt/res/images/light/splash.png \
   qt/res/images/light/splash_testnet.png \
-  qt/res/images/light/aither_logo_horizontal.png \
+  qt/res/images/light/bluehost_logo_horizontal.png \
   qt/res/images/light/unchecked.png \
   qt/res/images/light/checked.png \
   qt/res/images/light/drkblue_downArrow.png \
@@ -493,7 +493,7 @@ RES_IMAGES = \
   qt/res/images/trad/about.png \
   qt/res/images/trad/splash.png \
   qt/res/images/trad/splash_testnet.png \
-  qt/res/images/trad/aither_logo_horizontal.png \
+  qt/res/images/trad/bluehost_logo_horizontal.png \
   qt/res/images/trad/drkblue_downArrow.png \
   qt/res/images/trad/drkblue_downArrow_small.png \
   qt/res/images/trad/drkblue_upArrow_small.png \
@@ -532,7 +532,7 @@ QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:
 # Most files will depend on the forms and moc files as includes. Generate them
 # before anything else.
 $(QT_MOC): $(QT_FORMS_H)
-$(qt_libbitcoinqt_a_OBJECTS) $(qt_aither_qt_OBJECTS) : | $(QT_MOC)
+$(qt_libbitcoinqt_a_OBJECTS) $(qt_bluehost_qt_OBJECTS) : | $(QT_MOC)
 
 #Generating these with a half-written protobuf header leads to wacky results.
 #This makes sure it's done.
@@ -540,47 +540,47 @@ $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
 # bluehost-qt binary #
-qt_aither_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
+qt_bluehost_qt_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
   $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
-qt_aither_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
+qt_bluehost_qt_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
 
-qt_aither_qt_SOURCES = qt/bluehost.cpp
+qt_bluehost_qt_SOURCES = qt/bluehost.cpp
 if TARGET_DARWIN
-  qt_aither_qt_SOURCES += $(BITCOIN_MM)
+  qt_bluehost_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  qt_aither_qt_SOURCES += $(BITCOIN_RC)
+  qt_bluehost_qt_SOURCES += $(BITCOIN_RC)
 endif
-qt_aither_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
+qt_bluehost_qt_LDADD = qt/libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-qt_aither_qt_LDADD += $(LIBBITCOIN_WALLET)
+qt_bluehost_qt_LDADD += $(LIBBITCOIN_WALLET)
 endif
 if ENABLE_ZMQ
-qt_aither_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+qt_bluehost_qt_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_aither_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
+qt_bluehost_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-qt_aither_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
-qt_aither_qt_LIBTOOLFLAGS = --tag CXX
+qt_bluehost_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+qt_bluehost_qt_LIBTOOLFLAGS = --tag CXX
 
 #locale/foo.ts -> locale/foo.qm
 QT_QM=$(QT_TS:.ts=.qm)
 
 SECONDARY: $(QT_QM)
 
-qt/aitherstrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_consensus_a_SOURCES) $(libbitcoin_util_a_SOURCES)
+qt/bluehoststrings.cpp: $(libbitcoin_server_a_SOURCES) $(libbitcoin_wallet_a_SOURCES) $(libbitcoin_common_a_SOURCES) $(libbitcoin_zmq_a_SOURCES) $(libbitcoin_consensus_a_SOURCES) $(libbitcoin_util_a_SOURCES)
 	@test -n $(XGETTEXT) || echo "xgettext is required for updating translations"
 	$(AM_V_GEN) cd $(srcdir); XGETTEXT=$(XGETTEXT) ../share/qt/extract_strings_qt.py $^
 
-translate: qt/aitherstrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) qt/bluehost.cpp $(BITCOIN_QT_H) $(BITCOIN_MM)
+translate: qt/bluehoststrings.cpp $(QT_FORMS_UI) $(QT_FORMS_UI) $(BITCOIN_QT_CPP) qt/bluehost.cpp $(BITCOIN_QT_H) $(BITCOIN_MM)
 	@test -n $(LUPDATE) || echo "lupdate is required for updating translations"
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/aither_en.ts
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(LUPDATE) $^ -locations relative -no-obsolete -ts qt/locale/bluehost_en.ts
 
 $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 	@test -f $(RCC)
 	@test -f $(@D)/$(<F) || cp -f $< $(@D)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) $(RCCFLAGS) -name aither_locale $(@D)/$(<F) | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) $(RCCFLAGS) -name bluehost_locale $(@D)/$(<F) | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
@@ -592,10 +592,10 @@ CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda 
 
 CLEANFILES += $(CLEAN_QT)
 
-aither_qt_clean: FORCE
-	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_aither_qt_OBJECTS) qt/bluehost-qt$(EXEEXT) $(LIBBITCOINQT)
+bluehost_qt_clean: FORCE
+	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_bluehost_qt_OBJECTS) qt/bluehost-qt$(EXEEXT) $(LIBBITCOINQT)
 
-aither_qt : qt/bluehost-qt$(EXEEXT)
+bluehost_qt : qt/bluehost-qt$(EXEEXT)
 
 ui_%.h: %.ui
 	@test -f $(UIC)

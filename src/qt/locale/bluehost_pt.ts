@@ -188,8 +188,8 @@
         <translation>Carteira cifrada</translation>
     </message>
     <message>
-        <source>Bluehost will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
-        <translation>O cliente Bluehost irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas aithers contra roubos feitos por malware presente no seu computador.</translation>
+        <source>Bluehost will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bluehosts from being stolen by malware infecting your computer.</source>
+        <translation>O cliente Bluehost irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas bluehosts contra roubos feitos por malware presente no seu computador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -1259,9 +1259,9 @@ Endereço: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</source>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude a traduzir aqui:
-https://github.com/aithercore/bluehost/tree/master/src/qt/locale</translation>
+https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
