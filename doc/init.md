@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/bluehostd`  
-Configuration file:  `~/Library/Application Support/AitherCore/bluehost.conf`  
-Data directory:      `~/Library/Application Support/AitherCore`
-Lock file:           `~/Library/Application Support/AitherCore/.lock`
+Configuration file:  `~/Library/Application Support/BluehostCore/bluehost.conf`  
+Data directory:      `~/Library/Application Support/BluehostCore`
+Lock file:           `~/Library/Application Support/BluehostCore/.lock`
 
 4. Installing Service Configuration
 -----------------------------------

@@ -4,15 +4,15 @@
 
 	* means the category has an associated class
 	
-	CAitherNetwork: BLUEHOST NETWORK (ROOT)
+	CBluehostNetwork: BLUEHOST NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CAitherProject> vecProjects;
+		vector<CBluehostProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CAitherProject:
+	CBluehostProject:
 	has:
 		name
 		employees

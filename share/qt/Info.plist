@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.bluehost.AitherPayment</string>
+      <string>org.bluehost.BluehostPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>bluehost</string>

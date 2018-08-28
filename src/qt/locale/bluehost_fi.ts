@@ -189,7 +189,7 @@
     </message>
     <message>
         <source>Bluehost Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bluehosts from being stolen by malware infecting your computer.</source>
-        <translation>Bluehost Core sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää Aitheriesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
+        <translation>Bluehost Core sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää Bluehostiesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -1870,7 +1870,7 @@ https://github.com/bluehostcore/bluehost/tree/master/src/qt/locale</translation>
     </message>
     <message>
         <source>Cannot start bluehost: click-to-pay handler</source>
-        <translation>Ei voi käynnistää Aitheria: click-to-pay handler</translation>
+        <translation>Ei voi käynnistää Bluehostia: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -3634,7 +3634,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Aithereja</translation>
+        <translation>Lähetä Bluehosteja</translation>
     </message>
     <message>
         <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 BHP.</source>

@@ -16,9 +16,9 @@ enum GovernanceObjectType {
     ValueOverride = 1, 
 
     // -------------------------------
-    // AitherNetwork - is the root node
-    AitherNetwork = 1000,
-    AitherNetworkVariable = 1001,
+    // BluehostNetwork - is the root node
+    BluehostNetwork = 1000,
+    BluehostNetworkVariable = 1001,
     Category = 1002,
 
     // Actors

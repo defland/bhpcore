@@ -27,7 +27,7 @@ Drag Bluehost-Qt to your applications folder, and then run Bluehost-Qt.
 * See the [Bluehost documentation](https://bluehostcore.atlassian.net/wiki/display/DOC)
 for help and more information.
 * Ask for help on [#bluehostcoin](http://webchat.freenode.net?channels=bluehostcore) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=bluehostcoin).
-* Ask for help on the [AitherTalk](https://bluehosttalk.org/) forums.
+* Ask for help on the [BluehostTalk](https://bluehosttalk.org/) forums.
 
 Building
 ---------------------
@@ -57,7 +57,7 @@ The Bluehost Core repo's [root README](/README.md) contains relevant information
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [AitherTalk](https://bluehosttalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on the [BluehostTalk](https://bluehosttalk.org/) forums, in the Development & Technical Discussion board.
 * Discuss on [#bluehostcoin](http://webchat.freenode.net/?channels=bluehostcore) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bluehostcoin).
 
 ### Miscellaneous

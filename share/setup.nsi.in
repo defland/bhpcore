@@ -50,9 +50,9 @@ Var StartMenuGroup
 # Installer attributes
 OutFile @abs_top_srcdir@/bluehostcore-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
-InstallDir $PROGRAMFILES64\AitherCore
+InstallDir $PROGRAMFILES64\BluehostCore
 !else
-InstallDir $PROGRAMFILES\AitherCore
+InstallDir $PROGRAMFILES\BluehostCore
 !endif
 CRCCheck on
 XPStyle on

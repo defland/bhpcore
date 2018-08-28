@@ -46,7 +46,7 @@
  * =========================
  *
  *   // network
- *   CAitherNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CBluehostNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -131,7 +131,7 @@ public:
 };
 
 // // root node
-class CAitherNetwork : public CGovernanceObject
+class CBluehostNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -139,7 +139,7 @@ private:
 
 
 public:
-    CAitherNetwork(UniValue objIn)
+    CBluehostNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -175,9 +175,9 @@ public:
 
 };
 
-// // can be under: AitherNetwork
+// // can be under: BluehostNetwork
 // //   -- signature requirements : Key1(User)
-// class CAitherNetworkVariable : public CGovernanceObject
+// class CBluehostNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -280,7 +280,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == AitherNetwork);
+//     //     return (IsType() == BluehostNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

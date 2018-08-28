@@ -84,10 +84,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case BHP: return QString("TestAithers");
-            case mAIT: return QString("Milli-TestAither (1 / 1" THIN_SP_UTF8 "000)");
-            case uAIT: return QString("Micro-TestAither (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestAither (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case BHP: return QString("TestBluehosts");
+            case mAIT: return QString("Milli-TestBluehost (1 / 1" THIN_SP_UTF8 "000)");
+            case uAIT: return QString("Micro-TestBluehost (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestBluehost (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
