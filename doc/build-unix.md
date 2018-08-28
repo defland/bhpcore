@@ -142,7 +142,7 @@ Berkeley DB
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself:
 
 ```bash
-AIT_ROOT=$(pwd)
+BHP_ROOT=$(pwd)
 
 # Pick some path to install BDB to, here we create a directory within the bluehost directory
 BDB_PREFIX="${AIT_ROOT}/db4"

@@ -1,6 +1,6 @@
 #!/bin/sh
 cd ../..
-AIT_ROOT=$(pwd)
+BHP_ROOT=$(pwd)
 echo -ne '\n' | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf libevent qt
 ./autogen.sh

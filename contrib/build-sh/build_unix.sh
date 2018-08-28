@@ -14,7 +14,7 @@ cd ../..
 echo '#################################################'
 echo '# Building DB 4.8.30 NC                         #'
 echo '#################################################'
-AIT_ROOT=$(pwd)
+BHP_ROOT=$(pwd)
 BDB_PREFIX="${AIT_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'

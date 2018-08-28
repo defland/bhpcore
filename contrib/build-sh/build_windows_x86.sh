@@ -3,7 +3,7 @@ echo '#################################################'
 echo '# Building Bluehost Core                          #'
 echo '#################################################'
 cd ../..
-AIT_ROOT=$(pwd)
+BHP_ROOT=$(pwd)
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get -y install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils autoconf
