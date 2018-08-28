@@ -73,8 +73,8 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         strNetworkID = "main";
-        consensus.nSubsidyHalvingInterval = 210000; // halve when reached 210,000 block
-        consensus.nMasternodePaymentsStartBlock = 3600; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
+        consensus.nSubsidyHalvingInterval = 140000; // halve when reached 14 0000 block
+        consensus.nMasternodePaymentsStartBlock = 200; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
         consensus.nMasternodePaymentsIncreaseBlock = 158000; // not used
         consensus.nMasternodePaymentsIncreasePeriod = 576*30; // not used
         consensus.nInstantSendKeepLock = 24;
@@ -94,7 +94,7 @@ public:
         consensus.BIP34Hash = uint256S("0x000001c52d16f26c9dc9610946ef7a5fdb71613ae062162b8e68828ef6416e1f"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
         consensus.nPowTargetTimespan = 30 * 60; // Bluehost: 1/2 hour, 24 blocks
-        consensus.nPowTargetSpacing = 2.5 * 60; // Bluehost: 150 seconds
+        consensus.nPowTargetSpacing = 2 * 60; // Bluehost: 150 seconds
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nPowDGWHeight = 15200;
@@ -132,7 +132,7 @@ public:
         pchMessageStart[2] = 0x22;
         pchMessageStart[3] = 0x95;
         vAlertPubKey = ParseHex("04b6a3a2911d40d214be61d573bfb1a32ef98b931d9c721f7bbbbdf2692abfd5eb235692d3ad1a81f75157fd0a9d96866b62b717d091f2481b70e3b8d87cc68fd3");
-        nDefaultPort = 4444;
+        nDefaultPort = 55555;
         nMaxTipAge = 60 * 60 * 60; // ~1440 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
 
@@ -199,7 +199,7 @@ public:
     CTestNetParams() {
         strNetworkID = "test";
         consensus.nSubsidyHalvingInterval = 210000;
-        consensus.nMasternodePaymentsStartBlock = 1000; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
+        consensus.nMasternodePaymentsStartBlock = 500; // not true, but it's ok as long as it's less then nMasternodePaymentsIncreaseBlock
         consensus.nMasternodePaymentsIncreaseBlock = 158000;
         consensus.nMasternodePaymentsIncreasePeriod = 576*30;
         consensus.nInstantSendKeepLock = 6;
@@ -218,7 +218,7 @@ public:
         consensus.BIP34Height = 0; // FIX
         consensus.BIP34Hash = uint256S("0x00000281236a465bed97a6b593ee4d9e60cbfa76d85e4a3b106c7ef1df5c95c1"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 5 * 60; // Bluehost: 5 minutes, 5 blocks
+        consensus.nPowTargetTimespan = 3 * 60; // Bluehost: 5 minutes, 5 blocks
         consensus.nPowTargetSpacing = 1 * 60; // Bluehost: 60 seconds
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
@@ -333,8 +333,8 @@ public:
         consensus.BIP34Height = -1; // BIP34 has not necessarily activated on regtest
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 60 * 60; // Bluehost: 1 hour, 24 blocks
-        consensus.nPowTargetSpacing = 2.5 * 60; // Bluehost: 150 seconds
+        consensus.nPowTargetTimespan = 1 * 60; // Bluehost: 1 hour, 24 blocks
+        consensus.nPowTargetSpacing = 1 * 60; // Bluehost: 150 seconds
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nPowDGWHeight = 700; // same as mainnet
