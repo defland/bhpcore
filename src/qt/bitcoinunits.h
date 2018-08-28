@@ -59,8 +59,8 @@ public:
     enum Unit
     {
         BHP,
-        mAIT,
-        uAIT,
+        mBHP,
+        uBHP,
         duffs
     };
 

@@ -2761,10 +2761,10 @@ bool CWallet::SelectCoinsByDenominations(int nDenom, CAmount nValueMin, CAmount 
     std::random_shuffle(vCoins.rbegin(), vCoins.rend(), GetRandInt);
 
     // ( bit on if present )
-    // bit 0 - 100AIT+1
-    // bit 1 - 10AIT+1
-    // bit 2 - 1AIT+1
-    // bit 3 - .1AIT+1
+    // bit 0 - 100BHP+1
+    // bit 1 - 10BHP+1
+    // bit 2 - 1BHP+1
+    // bit 3 - .1BHP+1
 
     std::vector<int> vecBits;
     if (!CPrivateSend::GetDenominationsBits(nDenom, vecBits)) {

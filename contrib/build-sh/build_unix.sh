@@ -15,7 +15,7 @@ echo '#################################################'
 echo '# Building DB 4.8.30 NC                         #'
 echo '#################################################'
 BHP_ROOT=$(pwd)
-BDB_PREFIX="${AIT_ROOT}/db4"
+BDB_PREFIX="${BHP_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
 echo '12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz' | sha256sum -c
@@ -26,13 +26,13 @@ make install
 echo '#################################################'
 echo '# Building Bluehost Core                          #'
 echo '#################################################'
-cd $AIT_ROOT
+cd $BHP_ROOT
 chmod ugo+x autogen.sh
 ./autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
 make
 mkdir -p release
-cp src/bluehostd $AIT_ROOT/release
-cp src/bluehost-tx $AIT_ROOT/release
-cp src/bluehost-cli $AIT_ROOT/release
-cp src/qt/bluehost-qt $AIT_ROOT/release
+cp src/bluehostd $BHP_ROOT/release
+cp src/bluehost-tx $BHP_ROOT/release
+cp src/bluehost-cli $BHP_ROOT/release
+cp src/qt/bluehost-qt $BHP_ROOT/release

@@ -21,8 +21,8 @@ QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
     unitlist.append(BHP);
-    unitlist.append(mAIT);
-    unitlist.append(uAIT);
+    unitlist.append(mBHP);
+    unitlist.append(uBHP);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -32,8 +32,8 @@ bool BitcoinUnits::valid(int unit)
     switch(unit)
     {
     case BHP:
-    case mAIT:
-    case uAIT:
+    case mBHP:
+    case uBHP:
     case duffs:
         return true;
     default:
@@ -48,8 +48,8 @@ QString BitcoinUnits::name(int unit)
         switch(unit)
         {
             case BHP: return QString("BHP");
-            case mAIT: return QString("mAIT");
-            case uAIT: return QString::fromUtf8("μBHP");
+            case mBHP: return QString("mBHP");
+            case uBHP: return QString::fromUtf8("μBHP");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -58,9 +58,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case BHP: return QString("tAIT");
-            case mAIT: return QString("mtAIT");
-            case uAIT: return QString::fromUtf8("μtAIT");
+            case BHP: return QString("tBHP");
+            case mBHP: return QString("mtBHP");
+            case uBHP: return QString::fromUtf8("μtBHP");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -74,8 +74,8 @@ QString BitcoinUnits::description(int unit)
         switch(unit)
         {
             case BHP: return QString("Bluehost");
-            case mAIT: return QString("Milli-Bluehost (1 / 1" THIN_SP_UTF8 "000)");
-            case uAIT: return QString("Micro-Bluehost (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case mBHP: return QString("Milli-Bluehost (1 / 1" THIN_SP_UTF8 "000)");
+            case uBHP: return QString("Micro-Bluehost (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-Bluehost (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -85,8 +85,8 @@ QString BitcoinUnits::description(int unit)
         switch(unit)
         {
             case BHP: return QString("TestBluehosts");
-            case mAIT: return QString("Milli-TestBluehost (1 / 1" THIN_SP_UTF8 "000)");
-            case uAIT: return QString("Micro-TestBluehost (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case mBHP: return QString("Milli-TestBluehost (1 / 1" THIN_SP_UTF8 "000)");
+            case uBHP: return QString("Micro-TestBluehost (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-TestBluehost (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
@@ -98,8 +98,8 @@ qint64 BitcoinUnits::factor(int unit)
     switch(unit)
     {
     case BHP:  return 100000000;
-    case mAIT: return 100000;
-    case uAIT: return 100;
+    case mBHP: return 100000;
+    case uBHP: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -110,8 +110,8 @@ int BitcoinUnits::decimals(int unit)
     switch(unit)
     {
     case BHP: return 8;
-    case mAIT: return 5;
-    case uAIT: return 2;
+    case mBHP: return 5;
+    case uBHP: return 2;
     case duffs: return 0;
     default: return 0;
     }

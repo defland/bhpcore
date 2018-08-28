@@ -62,10 +62,10 @@ for arg in sys.argv[1:]:
 
 #Set env vars
 buildDir = BUILDDIR
-if "AITD" not in os.environ:
-    os.environ["AITD"] = buildDir + '/src/bluehostd' + EXEEXT
-if "AITCLI" not in os.environ:
-    os.environ["AITCLI"] = buildDir + '/src/bluehost-cli' + EXEEXT
+if "BHPD" not in os.environ:
+    os.environ["BHPD"] = buildDir + '/src/bluehostd' + EXEEXT
+if "BHPCLI" not in os.environ:
+    os.environ["BHPCLI"] = buildDir + '/src/bluehost-cli' + EXEEXT
 
 if EXEEXT == ".exe" and "-win" not in opts:
     # https://github.com/bitcoin/bitcoin/commit/d52802551752140cf41f0d9a225a43e84404d3e9

@@ -16,8 +16,8 @@ echo 1 | sudo update-alternatives --config x86_64-w64-mingw32-g++
 ./autogen.sh
 ./configure --prefix=`pwd`/depends/x86_64-w64-mingw32
 make
-mkdir -p $AIT_ROOT/release/
-cp $AIT_ROOT/src/bluehostd.exe $AIT_ROOT/release/
-cp $AIT_ROOT/src/bluehost-cli.exe $AIT_ROOT/release/
-cp $AIT_ROOT/src/bluehost-tx.exe $AIT_ROOT/release/
-cp $AIT_ROOT/src/qt/bluehost-qt.exe $AIT_ROOT/release/
+mkdir -p $BHP_ROOT/release/
+cp $BHP_ROOT/src/bluehostd.exe $BHP_ROOT/release/
+cp $BHP_ROOT/src/bluehost-cli.exe $BHP_ROOT/release/
+cp $BHP_ROOT/src/bluehost-tx.exe $BHP_ROOT/release/
+cp $BHP_ROOT/src/qt/bluehost-qt.exe $BHP_ROOT/release/

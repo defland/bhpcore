@@ -21,8 +21,8 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef AIT_BIP39_H
-#define AIT_BIP39_H
+#ifndef BHP_BIP39_H
+#define BHP_BIP39_H
 
 #include "support/allocators/secure.h"
 

@@ -104,7 +104,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy bluehostd.init to /etc/init.d/bluehostd. Test by running `service bluehostd start`.
 
 Using this script, you can adjust the path and flags to the bluehostd program by
-setting the AITD and FLAGS environment variables in the file
+setting the BHPD and FLAGS environment variables in the file
 /etc/sysconfig/bluehostd. You can also use the DAEMONOPTS environment variable here.
 
 4e) Mac OS X

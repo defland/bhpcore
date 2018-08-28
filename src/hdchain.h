@@ -1,8 +1,8 @@
 // Copyright (c) 2014-2017 The Dash Core developers
 // Copyright (c) 2018 The Bluehost Core developers
 // Distributed under the MIT software license, see the accompanying
-#ifndef AIT_HDCHAIN_H
-#define AIT_HDCHAIN_H
+#ifndef BHP_HDCHAIN_H
+#define BHP_HDCHAIN_H
 
 #include "key.h"
 #include "sync.h"
@@ -150,4 +150,4 @@ public:
     std::string GetKeyPath() const;
 };
 
-#endif // AIT_HDCHAIN_H
+#endif // BHP_HDCHAIN_H
