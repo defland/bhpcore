@@ -20,7 +20,7 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(AIT);
+    unitlist.append(BHP);
     unitlist.append(mAIT);
     unitlist.append(uAIT);
     unitlist.append(duffs);
@@ -31,7 +31,7 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case AIT:
+    case BHP:
     case mAIT:
     case uAIT:
     case duffs:
@@ -47,9 +47,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case AIT: return QString("AIT");
+            case BHP: return QString("BHP");
             case mAIT: return QString("mAIT");
-            case uAIT: return QString::fromUtf8("μAIT");
+            case uAIT: return QString::fromUtf8("μBHP");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -58,7 +58,7 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case AIT: return QString("tAIT");
+            case BHP: return QString("tAIT");
             case mAIT: return QString("mtAIT");
             case uAIT: return QString::fromUtf8("μtAIT");
             case duffs: return QString("tduffs");
@@ -73,7 +73,7 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case AIT: return QString("Aither");
+            case BHP: return QString("Aither");
             case mAIT: return QString("Milli-Aither (1 / 1" THIN_SP_UTF8 "000)");
             case uAIT: return QString("Micro-Aither (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-Aither (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
@@ -84,7 +84,7 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case AIT: return QString("TestAithers");
+            case BHP: return QString("TestAithers");
             case mAIT: return QString("Milli-TestAither (1 / 1" THIN_SP_UTF8 "000)");
             case uAIT: return QString("Micro-TestAither (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             case duffs: return QString("Ten Nano-TestAither (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
@@ -97,7 +97,7 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case AIT:  return 100000000;
+    case BHP:  return 100000000;
     case mAIT: return 100000;
     case uAIT: return 100;
     case duffs: return 1;
@@ -109,7 +109,7 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case AIT: return 8;
+    case BHP: return 8;
     case mAIT: return 5;
     case uAIT: return 2;
     case duffs: return 0;

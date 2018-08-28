@@ -1,4 +1,4 @@
-TOR SUPPORT IN AIT CORE
+TOR SUPPORT IN BHP CORE
 =======================
 
 It is possible to run Aither Core as a Tor hidden service, and connect to such services.

@@ -58,7 +58,7 @@ public:
      */
     enum Unit
     {
-        AIT,
+        BHP,
         mAIT,
         uAIT,
         duffs
