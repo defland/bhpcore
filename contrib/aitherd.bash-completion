@@ -1,11 +1,11 @@
-# bash programmable completion for aitherd(1) and aither-cli(1)
+# bash programmable completion for bluehostd(1) and aither-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have aitherd && {
+have bluehostd && {
 
-# call $aitherd for RPC
+# call $bluehostd for RPC
 _aither_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
@@ -16,7 +16,7 @@ _aither_rpc() {
                 ;;
         esac
     done
-    $aitherd "${rpcargs[@]}" "$@"
+    $bluehostd "${rpcargs[@]}" "$@"
 }
 
 # Add aither accounts to COMPREPLY
@@ -28,11 +28,11 @@ _aither_accounts() {
 
 _aitherd() {
     local cur prev words=() cword
-    local aitherd
+    local bluehostd
 
-    # save and use original argument to invoke aitherd
-    # aitherd might not be in $PATH
-    aitherd="$1"
+    # save and use original argument to invoke bluehostd
+    # bluehostd might not be in $PATH
+    bluehostd="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -114,7 +114,7 @@ _aitherd() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($aitherd --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($bluehostd --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
@@ -133,7 +133,7 @@ _aitherd() {
     esac
 }
 
-complete -F _aitherd aitherd aither-cli
+complete -F _aitherd bluehostd aither-cli
 }
 
 # Local variables:

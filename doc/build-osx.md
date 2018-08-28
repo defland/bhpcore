@@ -1,6 +1,6 @@
 Mac OS X Build Instructions and Notes
 ====================================
-This guide will show you how to build aitherd (headless client) for OSX.
+This guide will show you how to build bluehostd (headless client) for OSX.
 
 Notes
 -----
@@ -55,7 +55,7 @@ NOTE: Building with Qt4 is still supported, however, doing so could result in a 
 
         make check
 
-4.  (Optional) You can also install aitherd to your path:
+4.  (Optional) You can also install bluehostd to your path:
 
         make install
 
@@ -77,11 +77,11 @@ Download Qt Creator from https://www.qt.io/download/. Download the "community ed
 
 Creating a release build
 ------------------------
-You can ignore this section if you are building `aitherd` for your own use.
+You can ignore this section if you are building `bluehostd` for your own use.
 
-aitherd/aither-cli binaries are not included in the Bluehost-Qt.app bundle.
+bluehostd/aither-cli binaries are not included in the Bluehost-Qt.app bundle.
 
-If you are building `aitherd` or `Bluehost Core` for others, your build machine should be set up
+If you are building `bluehostd` or `Bluehost Core` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -96,10 +96,10 @@ bundle is packaged and signed to create the .dmg disk image that is distributed.
 Running
 -------
 
-It's now available at `./aitherd`, provided that you are still in the `src`
+It's now available at `./bluehostd`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./aitherd` to get the filename where it should be put, or just try these
+Run `./bluehostd` to get the filename where it should be put, or just try these
 commands:
 
     echo -e "rpcuser=aitherrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/AitherCore/aither.conf"
@@ -114,6 +114,6 @@ you can monitor its process by looking at the debug.log file, like this:
 Other commands:
 -------
 
-    ./aitherd -daemon # to start the aither daemon.
+    ./bluehostd -daemon # to start the aither daemon.
     ./aither-cli --help  # for a list of command-line options.
     ./aither-cli help    # When the daemon is running, to get a list of RPC commands

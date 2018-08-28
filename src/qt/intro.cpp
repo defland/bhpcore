@@ -206,7 +206,7 @@ void Intro::pickDataDirectory()
     }
     /* Only override -datadir if different from the default, to make it possible to
      * override -datadir in the aither.conf file in the default data directory
-     * (to be consistent with aitherd behavior)
+     * (to be consistent with bluehostd behavior)
      */
     if(dataDir != dataDirDefaultCurrent)
         SoftSetArg("-datadir", GUIUtil::qstringToBoostPath(dataDir).string()); // use OS locale for path setting

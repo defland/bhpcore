@@ -1,36 +1,36 @@
 #!/bin/bash
 #
-#  aitherd The Bluehost Core server.
+#  bluehostd The Bluehost Core server.
 #
 #
 # chkconfig: 345 80 20
-# description: aitherd
-# processname: aitherd
+# description: bluehostd
+# processname: bluehostd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/aitherd, see below
-if [ -f /etc/sysconfig/aitherd ]; then
-        . /etc/sysconfig/aitherd
+# you can override defaults in /etc/sysconfig/bluehostd, see below
+if [ -f /etc/sysconfig/bluehostd ]; then
+        . /etc/sysconfig/bluehostd
 fi
 
 RETVAL=0
 
-prog=aitherd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/aitherd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/aitherd}
+prog=bluehostd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/bluehostd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/bluehostd}
 
-# aitherd defaults to /usr/bin/aitherd, override with BITCOIND_BIN
-aitherd=${BITCOIND_BIN-/usr/bin/aitherd}
+# bluehostd defaults to /usr/bin/bluehostd, override with BITCOIND_BIN
+bluehostd=${BITCOIND_BIN-/usr/bin/bluehostd}
 
-# aitherd opts default to -disablewallet, override with BITCOIND_OPTS
+# bluehostd opts default to -disablewallet, override with BITCOIND_OPTS
 aitherd_opts=${BITCOIND_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $aitherd $aitherd_opts
+    daemon $DAEMONOPTS $bluehostd $aitherd_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile

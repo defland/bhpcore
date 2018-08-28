@@ -7,7 +7,7 @@ brew install autoconf automake berkeley-db4 libtool boost miniupnpc openssl pkg-
 ./configure
 make
 mkdir -p release
-cp src/aitherd $AIT_ROOT/release
+cp src/bluehostd $AIT_ROOT/release
 cp src/aither-tx $AIT_ROOT/release
 cp src/aither-cli $AIT_ROOT/release
 cp src/qt/aither-qt $AIT_ROOT/release

@@ -11,6 +11,6 @@ https://github.com/aithercore/aither-binaries
 
 Always verify the signatures and checksums.
 
-See doc/build-*.md for instructions on building aitherd,
+See doc/build-*.md for instructions on building bluehostd,
 the intended-for-services, no-graphical-interface, reference
 implementation of Bluehost.

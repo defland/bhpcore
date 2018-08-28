@@ -63,7 +63,7 @@ for arg in sys.argv[1:]:
 #Set env vars
 buildDir = BUILDDIR
 if "AITD" not in os.environ:
-    os.environ["AITD"] = buildDir + '/src/aitherd' + EXEEXT
+    os.environ["AITD"] = buildDir + '/src/bluehostd' + EXEEXT
 if "AITCLI" not in os.environ:
     os.environ["AITCLI"] = buildDir + '/src/aither-cli' + EXEEXT
 

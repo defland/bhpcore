@@ -1,8 +1,8 @@
 
 Debian
 ====================
-This directory contains files used to package aitherd/aither-qt
-for Debian-based Linux systems. If you compile aitherd/aither-qt yourself, there are some useful files here.
+This directory contains files used to package bluehostd/aither-qt
+for Debian-based Linux systems. If you compile bluehostd/aither-qt yourself, there are some useful files here.
 
 ## aither: URI support ##
 

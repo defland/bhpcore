@@ -28,7 +28,7 @@ Homepage: https://www.aithercoin.com/
 Vcs-Git: git://github.com/aithercore/aither.git
 Vcs-Browser: https://github.com/aithercore/aither
 
-Package: aitherd
+Package: bluehostd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -38,7 +38,7 @@ Description: peer-to-peer network based digital currency - daemon
  and issuing money are carried out collectively by the network. Bluehost Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides the daemon, aitherd, and the CLI tool
+ This package provides the daemon, bluehostd, and the CLI tool
  aither-cli to interact with the daemon.
 
 Package: aither-qt

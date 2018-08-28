@@ -60,7 +60,7 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += aitherd
+  bin_PROGRAMS += bluehostd
 endif
 
 if BUILD_BITCOIN_UTILS
@@ -207,7 +207,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between aitherd and aither-qt
+# server: shared between bluehostd and aither-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -280,7 +280,7 @@ libbitcoin_zmq_a_SOURCES = \
 endif
 
 
-# wallet: shared between aitherd and aither-qt, but only linked
+# wallet: shared between bluehostd and aither-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -345,7 +345,7 @@ crypto_libbitcoin_crypto_a_SOURCES += \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between aitherd, and aither-qt and non-server tools
+# common: shared between bluehostd, and aither-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -416,13 +416,13 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-aitherd_SOURCES = aitherd.cpp
+aitherd_SOURCES = bluehostd.cpp
 aitherd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 aitherd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 aitherd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-aitherd_SOURCES += aitherd-res.rc
+aitherd_SOURCES += bluehostd-res.rc
 endif
 
 aitherd_LDADD = \

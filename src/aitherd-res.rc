@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Bluehost"
-            VALUE "FileDescription",    "aitherd (Bluehost node with a JSON-RPC server)"
+            VALUE "FileDescription",    "bluehostd (Bluehost node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "aitherd"
+            VALUE "InternalName",       "bluehostd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "aitherd.exe"
-            VALUE "ProductName",        "aitherd"
+            VALUE "OriginalFilename",   "bluehostd.exe"
+            VALUE "ProductName",        "bluehostd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

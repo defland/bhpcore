@@ -17,7 +17,7 @@ echo 1 | sudo update-alternatives --config i686-w64-mingw32-g++
 ./configure --prefix=`pwd`/depends/i686-w64-mingw32
 make
 mkdir -p $AIT_ROOT/release/
-cp $AIT_ROOT/src/aitherd.exe $AIT_ROOT/release/
+cp $AIT_ROOT/src/bluehostd.exe $AIT_ROOT/release/
 cp $AIT_ROOT/src/aither-cli.exe $AIT_ROOT/release/
 cp $AIT_ROOT/src/aither-tx.exe $AIT_ROOT/release/
 cp $AIT_ROOT/src/qt/aither-qt.exe $AIT_ROOT/release/

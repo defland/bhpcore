@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between aither-cli and aitherd)
+ * CBaseChainParams defines the base parameters (shared between aither-cli and bluehostd)
  * of a given instance of the Bluehost system.
  */
 class CBaseChainParams

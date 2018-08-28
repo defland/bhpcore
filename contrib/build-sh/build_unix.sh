@@ -32,7 +32,7 @@ chmod ugo+x autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
 make
 mkdir -p release
-cp src/aitherd $AIT_ROOT/release
+cp src/bluehostd $AIT_ROOT/release
 cp src/aither-tx $AIT_ROOT/release
 cp src/aither-cli $AIT_ROOT/release
 cp src/qt/aither-qt $AIT_ROOT/release

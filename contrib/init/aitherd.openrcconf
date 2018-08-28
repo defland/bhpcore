@@ -1,25 +1,25 @@
-# /etc/conf.d/aitherd: config file for /etc/init.d/aitherd
+# /etc/conf.d/bluehostd: config file for /etc/init.d/bluehostd
 
 # Config file location
 #BITCOIND_CONFIGFILE="/etc/aithercore/aither.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/aitherd"
+#BITCOIND_PIDDIR="/var/run/bluehostd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/aitherd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/bluehostd.pid"
 
-# Where to write aitherd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/aitherd"
+# Where to write bluehostd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/bluehostd"
 
-# User and group to own aitherd process
+# User and group to own bluehostd process
 #BITCOIND_USER="aithercore"
 #BITCOIND_GROUP="aithercore"
 
-# Path to aitherd executable
-#BITCOIND_BIN="/usr/bin/aitherd"
+# Path to bluehostd executable
+#BITCOIND_BIN="/usr/bin/bluehostd"
 
-# Nice value to run aitherd under
+# Nice value to run bluehostd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

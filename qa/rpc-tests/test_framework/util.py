@@ -164,12 +164,12 @@ def rpc_url(i, rpchost=None):
 
 def wait_for_bitcoind_start(process, url, i):
     '''
-    Wait for aitherd to start. This means that RPC is accessible and fully initialized.
-    Raise an exception if aitherd exits during initialization.
+    Wait for bluehostd to start. This means that RPC is accessible and fully initialized.
+    Raise an exception if bluehostd exits during initialization.
     '''
     while True:
         if process.poll() is not None:
-            raise Exception('aitherd exited with status %i during initialization' % process.returncode)
+            raise Exception('bluehostd exited with status %i during initialization' % process.returncode)
         try:
             rpc = get_rpc_proxy(url, i)
             blocks = rpc.getblockcount()
@@ -201,12 +201,12 @@ def initialize_chain(test_dir):
         # Create cache directories, run aitherds:
         for i in range(4):
             datadir=initialize_datadir("cache", i)
-            args = [ os.getenv("AITD", "aitherd"), "-server", "-keypool=1", "-datadir="+datadir, "-discover=0" ]
+            args = [ os.getenv("AITD", "bluehostd"), "-server", "-keypool=1", "-datadir="+datadir, "-discover=0" ]
             if i > 0:
                 args.append("-connect=127.0.0.1:"+str(p2p_port(0)))
             bitcoind_processes[i] = subprocess.Popen(args)
             if os.getenv("PYTHON_DEBUG", ""):
-                print "initialize_chain: aitherd started, waiting for RPC to come up"
+                print "initialize_chain: bluehostd started, waiting for RPC to come up"
             wait_for_bitcoind_start(bitcoind_processes[i], rpc_url(i), i)
             if os.getenv("PYTHON_DEBUG", ""):
                 print "initialize_chain: RPC succesfully started"
@@ -281,17 +281,17 @@ def _rpchost_to_args(rpchost):
 
 def start_node(i, dirname, extra_args=None, rpchost=None, timewait=None, binary=None):
     """
-    Start a aitherd and return RPC connection to it
+    Start a bluehostd and return RPC connection to it
     """
     datadir = os.path.join(dirname, "node"+str(i))
     if binary is None:
-        binary = os.getenv("AITD", "aitherd")
+        binary = os.getenv("AITD", "bluehostd")
     # RPC tests still depend on free transactions
     args = [ binary, "-datadir="+datadir, "-server", "-keypool=1", "-discover=0", "-rest", "-blockprioritysize=50000", "-mocktime="+str(get_mocktime()) ]
     if extra_args is not None: args.extend(extra_args)
     bitcoind_processes[i] = subprocess.Popen(args)
     if os.getenv("PYTHON_DEBUG", ""):
-        print "start_node: aitherd started, waiting for RPC to come up"
+        print "start_node: bluehostd started, waiting for RPC to come up"
     url = rpc_url(i, rpchost)
     wait_for_bitcoind_start(bitcoind_processes[i], url, i)
     if os.getenv("PYTHON_DEBUG", ""):

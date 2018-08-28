@@ -85,7 +85,7 @@ bool AppInit(int argc, char* argv[])
         else
         {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  aitherd [options]                     " + _("Start Bluehost Core Daemon") + "\n";
+                        "  bluehostd [options]                     " + _("Start Bluehost Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -137,7 +137,7 @@ bool AppInit(int argc, char* argv[])
 
         if (fCommandLine)
         {
-            fprintf(stderr, "Error: There is no RPC client functionality in aitherd anymore. Use the aither-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in bluehostd anymore. Use the aither-cli utility instead.\n");
             exit(EXIT_FAILURE);
         }
 #ifndef WIN32
@@ -195,7 +195,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect aitherd signal handlers
+    // Connect bluehostd signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? EXIT_SUCCESS : EXIT_FAILURE);
