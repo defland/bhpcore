@@ -4,7 +4,7 @@
 
 	* means the category has an associated class
 	
-	CAitherNetwork: AITHER NETWORK (ROOT)
+	CAitherNetwork: BLUEHOST NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
 		vector<CAitherProject> vecProjects;
@@ -19,7 +19,7 @@
 
 */
 
-	// AITHER NETWORK (ROOT)
+	// BLUEHOST NETWORK (ROOT)
 	// 	-> NETWORK VARIABLE
 	// 		-> switch, setting
 	// 	-> CATEGORIES
