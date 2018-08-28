@@ -1,4 +1,4 @@
-Bluehost Core staging tree 0.12.2.3
+Bluehost Core Version 0.12.2.3
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/bluehostcore/bluehost.svg?branch=master)](https://travis-ci.org/bluehostcoin/bluehost) `develop:` [![Build Status](https://travis-ci.org/bluehostcore/bluehost.svg?branch=develop)](https://travis-ci.org/bluehostcoin/bluehost/branches)
@@ -53,4 +53,3 @@ Changes should be tested by somebody other than the developer who wrote the
 code. This is especially important for large or high-risk changes. It is useful
 to add a test plan to the pull request description if testing the changes is
 not straightforward.
-
