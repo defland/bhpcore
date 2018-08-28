@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Aither
-Comment=Aither P2P Cryptocurrency
+Name=Bluehost
+Comment=Bluehost P2P Cryptocurrency
 Exec=aither-qt %u
 Terminal=false
 Type=Application

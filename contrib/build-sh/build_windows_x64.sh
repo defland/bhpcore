@@ -1,6 +1,6 @@
 #!/bin/sh
 echo '#################################################'
-echo '# Building Aither Core                          #'
+echo '# Building Bluehost Core                          #'
 echo '#################################################'
 cd ../..
 AIT_ROOT=$(pwd)

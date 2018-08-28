@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2018 The Aither Core developers
+// Copyright (c) 2018 The Bluehost Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -73,10 +73,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case BHP: return QString("Aither");
-            case mAIT: return QString("Milli-Aither (1 / 1" THIN_SP_UTF8 "000)");
-            case uAIT: return QString("Micro-Aither (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Aither (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case BHP: return QString("Bluehost");
+            case mAIT: return QString("Milli-Bluehost (1 / 1" THIN_SP_UTF8 "000)");
+            case uAIT: return QString("Micro-Bluehost (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Bluehost (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }

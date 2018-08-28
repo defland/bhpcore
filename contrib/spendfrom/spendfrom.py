@@ -7,7 +7,7 @@
 #  spendfrom.py  # Lists available funds
 #  spendfrom.py --from=ADDRESS --to=ADDRESS --amount=11.00
 #
-# Assumes it will talk to a aitherd or Aither-Qt running
+# Assumes it will talk to a aitherd or Bluehost-Qt running
 # on localhost.
 #
 # Depends on jsonrpc
@@ -33,7 +33,7 @@ def check_json_precision():
         raise RuntimeError("JSON encode/decode loses precision")
 
 def determine_db_dir():
-    """Return the default location of the Aither Core data directory"""
+    """Return the default location of the Bluehost Core data directory"""
     if platform.system() == "Darwin":
         return os.path.expanduser("~/Library/Application Support/AitherCore/")
     elif platform.system() == "Windows":
@@ -63,7 +63,7 @@ def read_bitcoin_config(dbdir):
     return dict(config_parser.items("all"))
 
 def connect_JSON(config):
-    """Connect to a Aither Core JSON-RPC server"""
+    """Connect to a Bluehost Core JSON-RPC server"""
     testnet = config.get('testnet', '0')
     testnet = (int(testnet) > 0)  # 0/1 in config file, convert to True/False
     if not 'rpcport' in config:

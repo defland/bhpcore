@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Aither RPC command dispatcher.
+ * Bluehost RPC command dispatcher.
  */
 class CRPCTable
 {

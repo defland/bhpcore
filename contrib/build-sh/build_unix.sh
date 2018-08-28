@@ -24,7 +24,7 @@ cd db-4.8.30.NC/build_unix/
 ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
 make install
 echo '#################################################'
-echo '# Building Aither Core                          #'
+echo '# Building Bluehost Core                          #'
 echo '#################################################'
 cd $AIT_ROOT
 chmod ugo+x autogen.sh

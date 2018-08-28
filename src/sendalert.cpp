@@ -60,7 +60,7 @@ void ThreadSendAlert(CConnman& connman)
     alert.strStatusBar  = "URGENT: Upgrade required: see https://www.aithercoin.com";
 
     // Set specific client version/versions here. If setSubVer is empty, no filtering on subver is done:
-    // alert.setSubVer.insert(std::string("/Aither Core:0.12.0.58/"));
+    // alert.setSubVer.insert(std::string("/Bluehost Core:0.12.0.58/"));
 
     // Sign
     if(!alert.Sign())

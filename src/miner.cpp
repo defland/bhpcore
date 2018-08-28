@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2018 The Aither Core developers
+// Copyright (c) 2018 The Bluehost Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -344,7 +344,7 @@ void IncrementExtraNonce(CBlock* pblock, const CBlockIndex* pindexPrev, unsigned
 // Internal miner
 //
 
-// ***TODO*** ScanHash is not yet used in Aither
+// ***TODO*** ScanHash is not yet used in Bluehost
 //
 // ScanHash scans nonces looking for a hash with at least some zero bits.
 // The nonce is usually preserved between calls, but periodically or if the

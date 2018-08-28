@@ -1,11 +1,11 @@
-Aither Core 0.12.1
+Bluehost Core 0.12.1
 =====================
 
-This is the official reference wallet for Aither digital currency and comprises the backbone of the Aither peer-to-peer network. You can [download Aither Core](https://www.aithercoin.com/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Bluehost digital currency and comprises the backbone of the Bluehost peer-to-peer network. You can [download Bluehost Core](https://www.aithercoin.com/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Aither on your native platform.
+The following are some helpful notes on how to run Bluehost on your native platform.
 
 ### Unix
 
@@ -20,18 +20,18 @@ Unpack the files into a directory, and then run aither-qt.exe.
 
 ### OS X
 
-Drag Aither-Qt to your applications folder, and then run Aither-Qt.
+Drag Bluehost-Qt to your applications folder, and then run Bluehost-Qt.
 
 ### Need Help?
 
-* See the [Aither documentation](https://aithercore.atlassian.net/wiki/display/DOC)
+* See the [Bluehost documentation](https://aithercore.atlassian.net/wiki/display/DOC)
 for help and more information.
 * Ask for help on [#aithercoin](http://webchat.freenode.net?channels=aithercore) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=aithercoin).
 * Ask for help on the [AitherTalk](https://aithertalk.org/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Aither Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Bluehost Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Aither Core on your native pla
 
 Development
 ---------------------
-The Aither Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Bluehost Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

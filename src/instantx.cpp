@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2018 The Aither Core developers
+// Copyright (c) 2018 The Bluehost Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -57,7 +57,7 @@ int CInstantSend::ActiveProtocol()
 
 void CInstantSend::ProcessMessage(CNode* pfrom, std::string& strCommand, CDataStream& vRecv, CConnman& connman)
 {
-    if(fLiteMode) return; // disable all Aither specific functionality
+    if(fLiteMode) return; // disable all Bluehost specific functionality
     if(!sporkManager.IsSporkActive(SPORK_2_INSTANTSEND_ENABLED)) return;
 
     // NOTE: NetMsgType::TXLOCKREQUEST is handled via ProcessMessage() in validation.cpp

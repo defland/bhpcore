@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Aither"
-            VALUE "FileDescription",    "aitherd (Aither node with a JSON-RPC server)"
+            VALUE "CompanyName",        "Bluehost"
+            VALUE "FileDescription",    "aitherd (Bluehost node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "aitherd"
             VALUE "LegalCopyright",     COPYRIGHT_STR

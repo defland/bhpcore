@@ -71,7 +71,7 @@ unsigned int static DarkGravityWave(const CBlockIndex* pindexLast, const Consens
 }
 
 unsigned int static DarkGravityWaveOld(const CBlockIndex* pindexLast, const Consensus::Params& params) {
-    /* current difficulty formula, Aither - DarkGravity v3, written by Evan Duffield - evan@dash.org */
+    /* current difficulty formula, Bluehost - DarkGravity v3, written by Evan Duffield - evan@dash.org */
     const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
     int64_t nPastBlocks = 24;
 

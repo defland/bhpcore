@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Aither tests.
+Utilities to generate test vectors for the data-driven Bluehost tests.
 
 Usage: 
 

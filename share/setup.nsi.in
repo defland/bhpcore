@@ -6,7 +6,7 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION @CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@
-!define COMPANY "Aither Core project"
+!define COMPANY "Bluehost Core project"
 !define URL https://www.aithercoin.com/
 
 # MUI Symbol Definitions
@@ -59,7 +59,7 @@ XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.@CLIENT_VERSION_BUILD@
-VIAddVersionKey ProductName "Aither Core"
+VIAddVersionKey ProductName "Bluehost Core"
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -107,7 +107,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "aithercore" "URL Protocol" ""
-    WriteRegStr HKCR "aithercore" "" "URL:Aither"
+    WriteRegStr HKCR "aithercore" "" "URL:Bluehost"
     WriteRegStr HKCR "aithercore\DefaultIcon" "" $INSTDIR\aither-qt.exe
     WriteRegStr HKCR "aithercore\shell\open\command" "" '"$INSTDIR\aither-qt.exe" "%1"'
 SectionEnd
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Aither.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Bluehost.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log

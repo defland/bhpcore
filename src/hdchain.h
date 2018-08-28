@@ -1,5 +1,5 @@
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2018 The Aither Core developers
+// Copyright (c) 2018 The Bluehost Core developers
 // Distributed under the MIT software license, see the accompanying
 #ifndef AIT_HDCHAIN_H
 #define AIT_HDCHAIN_H

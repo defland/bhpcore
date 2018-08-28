@@ -30,7 +30,7 @@ class QUrl;
 class QWidget;
 QT_END_NAMESPACE
 
-/** Utility functions used by the Aither Qt UI.
+/** Utility functions used by the Bluehost Qt UI.
  */
 namespace GUIUtil
 {

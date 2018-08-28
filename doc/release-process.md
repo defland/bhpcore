@@ -15,7 +15,7 @@ Check out the source code in the following directory hierarchy.
 	git clone https://github.com/devrandom/gitian-builder.git
 	git clone https://github.com/aithercore/aither.git
 
-###Aither Core maintainers/release engineers, update (commit) version in sources
+###Bluehost Core maintainers/release engineers, update (commit) version in sources
 
 	pushd ./aither
 	contrib/verifysfbinaries/verify.sh
@@ -86,7 +86,7 @@ NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from 
 ```
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-###Build and sign Aither Core for Linux, Windows, and OS X:
+###Build and sign Bluehost Core for Linux, Windows, and OS X:
 
 	./bin/gbuild --commit aither=v${VERSION} ../aither/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../aither/contrib/gitian-descriptors/gitian-linux.yml
@@ -188,9 +188,9 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
 - Announce the release:
 
-  - Release on Aither website: https://www.aithercoin.com/forum/topic/official-announcements.54/
+  - Release on Bluehost website: https://www.aithercoin.com/forum/topic/official-announcements.54/
 
-  - Aither-development mailing list
+  - Bluehost-development mailing list
 
   - Update title of #aithercoin on Freenode IRC
 

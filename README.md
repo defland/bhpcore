@@ -1,4 +1,4 @@
-Aither Core staging tree 0.12.2.3
+Bluehost Core staging tree 0.12.2.3
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/aithercore/aither.svg?branch=master)](https://travis-ci.org/aithercoin/aither) `develop:` [![Build Status](https://travis-ci.org/aithercore/aither.svg?branch=develop)](https://travis-ci.org/aithercoin/aither/branches)
@@ -6,15 +6,15 @@ Aither Core staging tree 0.12.2.3
 https://www.aithercoin.com
 
 
-What is Aither?
+What is Bluehost?
 ----------------
 
-Aither (BHP) is an innovative cryptocurrency. A form of digital currency secured by cryptography and issued through a decentralized and advanced mining market. Based on Dash, it's an enhanced and further developed version, featuring the masternode technology with 50% Reward, near-instant and secure payments as well as anonymous transactions. Aither has great potential for rapid growth and expansion. Based on a total Proof of Work and Masternode system, it is accesible to everyone, it ensures a fair and stable return of investment for the Graphics Processing Units (GPUs) miners and the Masternode holders.
+Bluehost (BHP) is an innovative cryptocurrency. A form of digital currency secured by cryptography and issued through a decentralized and advanced mining market. Based on Dash, it's an enhanced and further developed version, featuring the masternode technology with 50% Reward, near-instant and secure payments as well as anonymous transactions. Bluehost has great potential for rapid growth and expansion. Based on a total Proof of Work and Masternode system, it is accesible to everyone, it ensures a fair and stable return of investment for the Graphics Processing Units (GPUs) miners and the Masternode holders.
 
 License
 -------
 
-Aither Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Bluehost Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
@@ -22,7 +22,7 @@ Development Process
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
 [Tags](https://github.com/aithercore/aither/tags) are created to indicate new official,
-stable release versions of Aither Core.
+stable release versions of Bluehost Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 

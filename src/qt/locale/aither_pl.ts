@@ -62,12 +62,12 @@
         <translation>Adres odbiorczy</translation>
     </message>
     <message>
-        <source>These are your Aither addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To są twoje adresy Aither na które wysyłasz płatności. Zawsze upewnij się, że kwota i adres są prawidłowe zanim wyślesz monety.</translation>
+        <source>These are your Bluehost addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To są twoje adresy Bluehost na które wysyłasz płatności. Zawsze upewnij się, że kwota i adres są prawidłowe zanim wyślesz monety.</translation>
     </message>
     <message>
-        <source>These are your Aither addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy do otrzymywania Aitherów. Zaleca się aby stworzyć nowy adres dla każdej transakcji</translation>
+        <source>These are your Bluehost addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To są twoje adresy do otrzymywania Bluehostów. Zaleca się aby stworzyć nowy adres dla każdej transakcji</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Portfel zaszyfrowany</translation>
     </message>
     <message>
-        <source>Aither will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
-        <translation>Aither zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
+        <source>Bluehost will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
+        <translation>Bluehost zostanie teraz zamknięty aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie gwarantuje pełnej ochrony przed kradzieżą twoich monet przez złośliwe oprogramowanie.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Aither Core</source>
-        <translation>Aither Core</translation>
+        <source>Bluehost Core</source>
+        <translation>Bluehost Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,8 +255,8 @@
         <translation>Wyślij</translation>
     </message>
     <message>
-        <source>Send coins to a Aither address</source>
-        <translation>Wyślij monety na adres Aither</translation>
+        <source>Send coins to a Bluehost address</source>
+        <translation>Wyślij monety na adres Bluehost</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -283,12 +283,12 @@
         <translation>Zamknij program</translation>
     </message>
     <message>
-        <source>&amp;About Aither Core</source>
-        <translation>&amp;O Aither Core</translation>
+        <source>&amp;About Bluehost Core</source>
+        <translation>&amp;O Bluehost Core</translation>
     </message>
     <message>
-        <source>Show information about Aither Core</source>
-        <translation>Pokaż informacje o Aither Core</translation>
+        <source>Show information about Bluehost Core</source>
+        <translation>Pokaż informacje o Bluehost Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opcje...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Aither</source>
-        <translation>Zmień opcje konfiguracji dla Aither</translation>
+        <source>Modify configuration options for Bluehost</source>
+        <translation>Zmień opcje konfiguracji dla Bluehost</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Podpisz wiado&amp;mość...</translation>
     </message>
     <message>
-        <source>Sign messages with your Aither addresses to prove you own them</source>
-        <translation>Podpisz wiadomości swoim adresem Aither aby udowodnić, że jesteś ich właścicielem. </translation>
+        <source>Sign messages with your Bluehost addresses to prove you own them</source>
+        <translation>Podpisz wiadomości swoim adresem Bluehost aby udowodnić, że jesteś ich właścicielem. </translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Zweryfikuj wiadomość...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aither addresses</source>
-        <translation>Zweryfikuj wiadomości aby upewnić się, że zostały one podpisane wybranym adresem Aither</translation>
+        <source>Verify messages to ensure they were signed with specified Bluehost addresses</source>
+        <translation>Zweryfikuj wiadomości aby upewnić się, że zostały one podpisane wybranym adresem Bluehost</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Opcje konsoli</translation>
     </message>
     <message>
-        <source>Aither Core client</source>
-        <translation>Klient Aither Core</translation>
+        <source>Bluehost Core client</source>
+        <translation>Klient Bluehost Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizuję dodatkowe dane: %p%</translation>
     </message>
     <message>
-        <source>Show the Aither Core help message to get a list with possible Aither command-line options</source>
-        <translation>Pokaż wiadomość pomocy Aither Core aby otrzymać listę z dostępnymi opcjami linii komend.</translation>
+        <source>Show the Bluehost Core help message to get a list with possible Bluehost command-line options</source>
+        <translation>Pokaż wiadomość pomocy Bluehost Core aby otrzymać listę z dostępnymi opcjami linii komend.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Pasek zakładek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Aither network</source>
-        <translation><numerusform>%n aktywne połączenie do sieci Aither</numerusform><numerusform>%n aktywne połączenia do sieci Aither</numerusform><numerusform>%n aktywne połączenia do sieci Aither</numerusform></translation>
+        <source>%n active connection(s) to Bluehost network</source>
+        <translation><numerusform>%n aktywne połączenie do sieci Bluehost</numerusform><numerusform>%n aktywne połączenia do sieci Bluehost</numerusform><numerusform>%n aktywne połączenia do sieci Bluehost</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -896,16 +896,16 @@ Adres: %4
         <translation>Konfiguracja Darksend</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Aither's configuration screen.</source>
-        <translation>Darksend został pomyślnie ustawiony na poziom podstawowy (%1 oraz 2 rundy). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Aither.</translation>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Bluehost's configuration screen.</source>
+        <translation>Darksend został pomyślnie ustawiony na poziom podstawowy (%1 oraz 2 rundy). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Bluehost.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Aither's configuration screen.</source>
-        <translation>Darksend został pomyślnie ustawiony na poziom wysoki (%1 oraz 8 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Aither.</translation>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Bluehost's configuration screen.</source>
+        <translation>Darksend został pomyślnie ustawiony na poziom wysoki (%1 oraz 8 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Bluehost.</translation>
     </message>
     <message>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Aither's configuration screen.</source>
-        <translation>Darksend został pomyślnie ustawiony na poziom maksymalny (%1 oraz 16 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Aither.</translation>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Bluehost's configuration screen.</source>
+        <translation>Darksend został pomyślnie ustawiony na poziom maksymalny (%1 oraz 16 rund). Możesz to zmienić kiedy chcesz, otwierając ekran z konfiguracją Bluehost.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Adres: %4
         <translation>Zmień adres wysyłania</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Aither address.</source>
-        <translation>Wprowadzony adres "%1" nie jest właściwym adresem Aither.</translation>
+        <source>The entered address "%1" is not a valid Bluehost address.</source>
+        <translation>Wprowadzony adres "%1" nie jest właściwym adresem Bluehost.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Adres: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Aither Core</source>
-        <translation>Aither Core</translation>
+        <source>Bluehost Core</source>
+        <translation>Bluehost Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Adres: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Aither Core</source>
-        <translation>Informacje o Aither Core</translation>
+        <source>About Bluehost Core</source>
+        <translation>Informacje o Bluehost Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Adres: %4
         <translation>Witaj</translation>
     </message>
     <message>
-        <source>Welcome to Aither Core.</source>
-        <translation>Witaj w Aither Core</translation>
+        <source>Welcome to Bluehost Core.</source>
+        <translation>Witaj w Bluehost Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Aither Core will store its data.</source>
-        <translation>Ponieważ uruchomiłeś ten program po raz pierwszy, możesz wybrać gdzie Aither Core będzie przechowywał dane.</translation>
+        <source>As this is the first time the program is launched, you can choose where Bluehost Core will store its data.</source>
+        <translation>Ponieważ uruchomiłeś ten program po raz pierwszy, możesz wybrać gdzie Bluehost Core będzie przechowywał dane.</translation>
     </message>
     <message>
-        <source>Aither Core will download and store a copy of the Aither block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Aither Core ściągnie i przechowa  kopię blockchain na twoim dysku. Co najmniej %1GB danych zostanie zapisanych w tym katalogu, a wraz z upływem czasu blockchain będzie stopniowo wymagał coraz więcej miejsca. Twój portfel również zostanie zapisany w tym katalogu.</translation>
+        <source>Bluehost Core will download and store a copy of the Bluehost block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bluehost Core ściągnie i przechowa  kopię blockchain na twoim dysku. Co najmniej %1GB danych zostanie zapisanych w tym katalogu, a wraz z upływem czasu blockchain będzie stopniowo wymagał coraz więcej miejsca. Twój portfel również zostanie zapisany w tym katalogu.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Adres: %4
         <translation>Użyj wybranego folderu dla danych</translation>
     </message>
     <message>
-        <source>Aither Core</source>
-        <translation>Aither Core</translation>
+        <source>Bluehost Core</source>
+        <translation>Bluehost Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Adres: %4
         <translation>Główne</translation>
     </message>
     <message>
-        <source>Automatically start Aither after logging in to the system.</source>
-        <translation>Automatycznie uruchom Aither po zalogowaniu się do systemu.</translation>
+        <source>Automatically start Bluehost after logging in to the system.</source>
+        <translation>Automatycznie uruchom Bluehost po zalogowaniu się do systemu.</translation>
     </message>
     <message>
-        <source>&amp;Start Aither on system login</source>
-        <translation>&amp;Uruchom Aither po zalogowaniu się do systemu</translation>
+        <source>&amp;Start Bluehost on system login</source>
+        <translation>&amp;Uruchom Bluehost po zalogowaniu się do systemu</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1154,8 +1154,8 @@ Adres: %4
         <translation>Ta kwota działa jako próg po którego przekroczeniu Darksend zostaje wyłączony.</translation>
     </message>
     <message>
-        <source>Amount of Aither to keep anonymized</source>
-        <translation>Ilość Aitherów, które mają pozostać anonimowe.</translation>
+        <source>Amount of Bluehost to keep anonymized</source>
+        <translation>Ilość Bluehostów, które mają pozostać anonimowe.</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Adres: %4
         <translation>Zezwól na przychdzące połączenia</translation>
     </message>
     <message>
-        <source>Connect to the Aither network through a SOCKS5 proxy.</source>
-        <translation>Połącz się z siecią Aither przez proxy SOCKS5.</translation>
+        <source>Connect to the Bluehost network through a SOCKS5 proxy.</source>
+        <translation>Połącz się z siecią Bluehost przez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,7 +1206,7 @@ Adres: %4
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>Automatically open the Aither client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Bluehost client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automatycznie uruchamiaj port klienta Darkcoina na ruterze. To działa tylko jeśli twój ruter wspiera  i ma włączone UPnP.</translation>
     </message>
     <message>
@@ -1258,13 +1258,13 @@ Adres: %4
         <translation>Język &amp;Użytkownika:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Aither.</source>
-        <translation>Tutaj można ustawić język interfejsu użytkownika. To ustawienie zostanie zapisane po ponownym uruchomieniu Aither.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bluehost.</source>
+        <translation>Tutaj można ustawić język interfejsu użytkownika. To ustawienie zostanie zapisane po ponownym uruchomieniu Bluehost.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://github.com/aithercore/aither/tree/master/src/qt/locale</source>
-        <translation>Aither Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
+        <translation>Bluehost Core nie został przetłumaczony na twój język? Tłumaczenie jest niepełne lub niepoprawne? Możesz pomóc nam tłumaczyć tutaj:
 https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
     </message>
     <message>
@@ -1347,8 +1347,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Formularz</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aither network after a connection is established, but this process has not completed yet.</source>
-        <translation>Wyświetlona informacja może być przedawniona. Twój portfel automatycznie zsynchronizuje sie z siecią Aither jak tylko zostanie ustanowione połączenie, jednakże proces ten jeszcze się nie zakończył.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bluehost network after a connection is established, but this process has not completed yet.</source>
+        <translation>Wyświetlona informacja może być przedawniona. Twój portfel automatycznie zsynchronizuje sie z siecią Bluehost jak tylko zostanie ustanowione połączenie, jednakże proces ten jeszcze się nie zakończył.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1588,8 +1588,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Nieprawidłowy adres płatności %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Aither address or malformed URI parameters.</source>
-        <translation>URI nie może zostać przeanalizowany! Mogło to być spowodowane przez niewłaściwy adres Aither lub niewłaściwe parametry URI</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Bluehost address or malformed URI parameters.</source>
+        <translation>URI nie może zostać przeanalizowany! Mogło to być spowodowane przez niewłaściwy adres Bluehost lub niewłaściwe parametry URI</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Ilość</translation>
     </message>
     <message>
-        <source>Enter a Aither address (e.g. %1)</source>
-        <translation>Wpisz adres Aither (np. %1)</translation>
+        <source>Enter a Bluehost address (e.g. %1)</source>
+        <translation>Wpisz adres Bluehost (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,7 +1764,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Liczba połączeń</translation>
     </message>
     <message>
-        <source>Open the Aither debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Bluehost debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Otwiera plik z zapisami debugowania Darkcoina z obecnego katalogu. Może to potrfać kilka sekund w zależności od rozmiaru pliku.</translation>
     </message>
     <message>
@@ -1972,7 +1972,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Wyjście:</translation>
     </message>
     <message>
-        <source>Welcome to the Aither RPC console.</source>
+        <source>Welcome to the Bluehost RPC console.</source>
         <translation>Witaj w konsoli RPC Darkcoina</translation>
     </message>
     <message>
@@ -2035,8 +2035,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Użyj istniejący adres odbiorczy (nie zalecane)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aither network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania. Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Aither.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bluehost network.</source>
+        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania. Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Bluehost.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Opcjonalna etykieta do skojarzenia z nowym adresem odbiorczym.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Aither network.</source>
-        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania.&lt;br&gt; Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Aither.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Bluehost network.</source>
+        <translation>Opcjonalna wiadomość do żądania płatności. Wiadomość wyświetli się po otwarciu żądania.&lt;br&gt; Pamiętaj: Wiadomość nie zostanie wysłana razem z płatnością poprzez sieć Bluehost.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2496,8 +2496,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Uiść minimalną opłatę %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Aither address</source>
-        <translation>Ostrzeżenie: adres Aither jest nieprawidlowy </translation>
+        <source>Warning: Invalid Bluehost address</source>
+        <translation>Ostrzeżenie: adres Bluehost jest nieprawidlowy </translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Zapłać &amp;dla:</translation>
     </message>
     <message>
-        <source>The Aither address to send the payment to</source>
-        <translation>Adres Aither na który wysłać fundusze</translation>
+        <source>The Bluehost address to send the payment to</source>
+        <translation>Adres Bluehost na który wysłać fundusze</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,7 +2559,7 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Wiadomość:</translation>
     </message>
     <message>
-        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aither network.</source>
+        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
         <translation>Wiadomość, która została dołączona do aither: Link, który zostanie zapisany wraz z transakcją do wglądu w przyszłości. Zauważ. że sama wiadomość nie zostanie wysłana przez sieć Darkcoina.</translation>
     </message>
     <message>
@@ -2586,8 +2586,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Aither Core is shutting down...</source>
-        <translation>Trwa zamykanie Aither Core</translation>
+        <source>Bluehost Core is shutting down...</source>
+        <translation>Trwa zamykanie Bluehost Core</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Możesz podpisywać wiadomości swoimi adresami aby udowodnić, że jesteś ich właścicielem. Uważaj, aby nie podpisywać niczego co wzbudza Twoje podejrzenia, ponieważ ktoś może stosować phishing próbując nakłonić Cię do ich podpisania. Akceptuj i podpisuj tylko w pełni zrozumiałe komunikaty i wiadomości.</translation>
     </message>
     <message>
-        <source>The Aither address to sign the message with</source>
-        <translation>Adres Aither do podpisu wiadomości</translation>
+        <source>The Bluehost address to sign the message with</source>
+        <translation>Adres Bluehost do podpisu wiadomości</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Kopiuje aktualny podpis do schowka systemowego</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aither address</source>
-        <translation>Podpisz wiadomość aby udowodnić, że jesteś właścicielem adresu Aither.</translation>
+        <source>Sign the message to prove you own this Bluehost address</source>
+        <translation>Podpisz wiadomość aby udowodnić, że jesteś właścicielem adresu Bluehost.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Wpisz adres podpisujący, podaj wiadomość (upewnij się, że dokładnie skopiujesz wszystkie zakończenia linii, spacje, tabulacje itp.) oraz podpis poniżej by sprawdzić wiadomość. Uważaj by nie dodać więcej do podpisu niż do samej podpisywanej wiadomości by uniknąć ataku man-in-the-middle (człowiek pośrodku)</translation>
     </message>
     <message>
-        <source>The Aither address the message was signed with</source>
-        <translation>Adres Aither którym wiadomość została podpisana</translation>
+        <source>The Bluehost address the message was signed with</source>
+        <translation>Adres Bluehost którym wiadomość została podpisana</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aither address</source>
-        <translation>Zweryfikuj wiadomość aby upewnić się, że została zapisana przez konkretny adres Aither</translation>
+        <source>Verify the message to ensure it was signed with the specified Bluehost address</source>
+        <translation>Zweryfikuj wiadomość aby upewnić się, że została zapisana przez konkretny adres Bluehost</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Aither Core</source>
-        <translation>Aither Core</translation>
+        <source>Bluehost Core</source>
+        <translation>Bluehost Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Deweloperzy Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Aither Core developers</source>
-        <translation>Deweloperzy Aither Core</translation>
+        <source>The Bluehost Core developers</source>
+        <translation>Deweloperzy Bluehost Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3326,8 +3326,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Związany z danym adresem oraz zawsze prowadzący na nim nasłuch.  Użyj [host]:oznaczenie dla IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Aither Core is probably already running.</source>
-        <translation>Nie można zablokować katalogu danych %s. Prawdopodobnie Aither jest już uruchomiony. </translation>
+        <source>Cannot obtain a lock on data directory %s. Bluehost Core is probably already running.</source>
+        <translation>Nie można zablokować katalogu danych %s. Prawdopodobnie Bluehost jest już uruchomiony. </translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Ta wersja nie jest jeszcze gotowa na oficjalne wydanie - używaj jej na własne ryzyko - nie używaj tej wersji do kopania monet lub do świadczenia usług komercyjnych.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Aither Core is probably already running.</source>
-        <translation>Niezdolny do związania z %s na tym komputerze. Prawdopodobnie Aither jest już uruchomiony. </translation>
+        <source>Unable to bind to %s on this computer. Bluehost Core is probably already running.</source>
+        <translation>Niezdolny do związania z %s na tym komputerze. Prawdopodobnie Bluehost jest już uruchomiony. </translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3614,8 +3614,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Usuń wszystkie transakcje portfela i odzyskaj tylko te części blockchainu - zeskanuj powonie na starcie.</translation>
     </message>
     <message>
-        <source>Disable all Aither specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Wyłącz wszystkie dodatkowe funckje Aither (Masternody, Darksend, InstanX, Budżetowanie) (0-1, domyślnie: %u)</translation>
+        <source>Disable all Bluehost specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Wyłącz wszystkie dodatkowe funckje Bluehost (Masternody, Darksend, InstanX, Budżetowanie) (0-1, domyślnie: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3719,7 +3719,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Aither Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Bluehost Alert" admin@foo.com
 </source>
         <translation>Aby używać aitherd, lub opcje -server w kliencie aither-qt, musisz ustawić hasło rpc w pliku konfiguracji:
 %s
@@ -3729,7 +3729,7 @@ rpcpassword=%s
 (Nie musisz pamiętać tego hasła)
 Twoje hasło NIE MOŻE być takie samo jak twój login.
 Jeśli plik ten nie istnieje, stwórz go z uprawnieniami do odczytu tylko przez właściciela.
-Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać ci znać w razie wystąpienia jekiegoś problemu, na przykład: alertnotify=echo %%s I -s "Aither Alert" admin@foo.com
+Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać ci znać w razie wystąpienia jekiegoś problemu, na przykład: alertnotify=echo %%s I -s "Bluehost Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3745,8 +3745,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Uwaga: -maxtxfee jest bardzo wysoka! Tak duże opłaty mogą być uiszczone przy wysłaniu jednej transakcji.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Aither Core will not work properly.</source>
-        <translation>Uwaga: Proszę sprawdzić czy data i czas na twoim komputerze są poprawne! Jeśli twój zegar nie pokazuje prawidłowej godziny to Aither może nie działać poprawidłowo.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bluehost Core will not work properly.</source>
+        <translation>Uwaga: Proszę sprawdzić czy data i czas na twoim komputerze są poprawne! Jeśli twój zegar nie pokazuje prawidłowej godziny to Bluehost może nie działać poprawidłowo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3799,8 +3799,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Prawo autorskie (c) 2009-%i deweloperzy Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Aither Core Developers</source>
-        <translation>Prawa autorskie (C) 2014-%i deweloperzy Aither</translation>
+        <source>Copyright (C) 2014-%i The Bluehost Core Developers</source>
+        <translation>Prawa autorskie (C) 2014-%i deweloperzy Bluehost</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Błąd w połączeniu z Masternodem.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Aither Core</source>
-        <translation>Błą wczytywania wallet.dat: Portfel wymaga nowszej wersji Aither</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bluehost Core</source>
+        <translation>Błą wczytywania wallet.dat: Portfel wymaga nowszej wersji Bluehost</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Informacja</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Aither Core is shutting down.</source>
-        <translation>Inicjalizacja kontroli poprawności nie powiodła się. Trwa zamykanie Aither Core</translation>
+        <source>Initialization sanity check failed. Bluehost Core is shutting down.</source>
+        <translation>Inicjalizacja kontroli poprawności nie powiodła się. Trwa zamykanie Bluehost Core</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ Zaleca się również aby ustawić alarm powiadomień tzw. alertnotify, aby dać
         <translation>Użyj UPnP aby zmapować port nasłuchu (domyślnie: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Aither Core to complete</source>
-        <translation>Portfel potrzebuje być przepisany: uruchom ponownie Aither Core aby zakończyć.</translation>
+        <source>Wallet needed to be rewritten: restart Bluehost Core to complete</source>
+        <translation>Portfel potrzebuje być przepisany: uruchom ponownie Bluehost Core aby zakończyć.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

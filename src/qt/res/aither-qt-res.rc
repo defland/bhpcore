@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Aither"
-            VALUE "FileDescription",    "Aither Core (GUI node for Aither)"
+            VALUE "CompanyName",        "Bluehost"
+            VALUE "FileDescription",    "Bluehost Core (GUI node for Bluehost)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "aither-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "aither-qt.exe"
-            VALUE "ProductName",        "Aither Core"
+            VALUE "ProductName",        "Bluehost Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

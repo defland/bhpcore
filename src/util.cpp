@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2018 The Aither Core developers
+// Copyright (c) 2018 The Bluehost Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -105,7 +105,7 @@ namespace boost {
 
 using namespace std;
 
-//Aither only features
+//Bluehost only features
 bool fMasterNode = false;
 bool fLiteMode = false;
 /**
@@ -272,7 +272,7 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "aither" is a composite category enabling all Aither-related debug output
+            // "aither" is a composite category enabling all Bluehost-related debug output
             if(ptrCategory->count(string("aither"))) {
                 ptrCategory->insert(string("privatesend"));
                 ptrCategory->insert(string("instantsend"));

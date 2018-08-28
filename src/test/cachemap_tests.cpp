@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The Aither Core developers
+// Copyright (c) 2014-2017 The Bluehost Core developers
 
 #include "cachemap.h"
 

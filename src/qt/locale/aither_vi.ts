@@ -62,12 +62,12 @@
         <translation>Địa chỉ nhận</translation>
     </message>
     <message>
-        <source>These are your Aither addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Đây là các địa chỉ Aither của bạn để gửi thanh toán. Luôn luôn kiểm tra số tiền và địa chỉ nhận trước khi bạn gửi tiền.</translation>
+        <source>These are your Bluehost addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Đây là các địa chỉ Bluehost của bạn để gửi thanh toán. Luôn luôn kiểm tra số tiền và địa chỉ nhận trước khi bạn gửi tiền.</translation>
     </message>
     <message>
-        <source>These are your Aither addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Đây là các địa chỉ Aither của bạn để nhận thanh toán. Gợi ý là sử dụng một địa chỉ nhận mới cho mỗi giao dịch.</translation>
+        <source>These are your Bluehost addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Đây là các địa chỉ Bluehost của bạn để nhận thanh toán. Gợi ý là sử dụng một địa chỉ nhận mới cho mỗi giao dịch.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Hãy nhập vào mật khẩu cũ và mật khẩu mới cho ví của bạn.</translation>
     </message>
     <message>
-        <source>Aither Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
-        <translation>Aither Core sẽ được đóng lại để hoàn thành quá trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ aither của bạn khỏi bị ăn cắp bởi việc máy tính của bạn nhiễm mã độc.</translation>
+        <source>Bluehost Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aithers from being stolen by malware infecting your computer.</source>
+        <translation>Bluehost Core sẽ được đóng lại để hoàn thành quá trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ aither của bạn khỏi bị ăn cắp bởi việc máy tính của bạn nhiễm mã độc.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,8 +242,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Aither Core</source>
-        <translation>Aither Core</translation>
+        <source>Bluehost Core</source>
+        <translation>Bluehost Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -266,8 +266,8 @@
         <translation>&amp;Gửi</translation>
     </message>
     <message>
-        <source>Send coins to a Aither address</source>
-        <translation>Gửi tiền vào địa chỉ Aither</translation>
+        <source>Send coins to a Bluehost address</source>
+        <translation>Gửi tiền vào địa chỉ Bluehost</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -302,12 +302,12 @@
         <translation>Thoát ứng dụng</translation>
     </message>
     <message>
-        <source>&amp;About Aither Core</source>
-        <translation>&amp;Về Aither Core</translation>
+        <source>&amp;About Bluehost Core</source>
+        <translation>&amp;Về Bluehost Core</translation>
     </message>
     <message>
-        <source>Show information about Aither Core</source>
-        <translation>Hiển thị thông tin về Aither Core</translation>
+        <source>Show information about Bluehost Core</source>
+        <translation>Hiển thị thông tin về Bluehost Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -370,16 +370,16 @@
         <translation>Ký vào &amp;thông điệp...</translation>
     </message>
     <message>
-        <source>Sign messages with your Aither addresses to prove you own them</source>
-        <translation>Ký vào thông điệp với địa chỉ Aither để chứng minh bạn là chủ của chúng</translation>
+        <source>Sign messages with your Bluehost addresses to prove you own them</source>
+        <translation>Ký vào thông điệp với địa chỉ Bluehost để chứng minh bạn là chủ của chúng</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Kiểm tra thông điệp...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aither addresses</source>
-        <translation>Kiểm tra thông điệp để đảm bảo rằng nó đã được ký bằng địa chỉ Aither nhất định</translation>
+        <source>Verify messages to ensure they were signed with specified Bluehost addresses</source>
+        <translation>Kiểm tra thông điệp để đảm bảo rằng nó đã được ký bằng địa chỉ Bluehost nhất định</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -462,8 +462,8 @@
         <translation>&amp;Các Tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
-        <source>Aither Core client</source>
-        <translation>Phần mềm Aither Core</translation>
+        <source>Bluehost Core client</source>
+        <translation>Phần mềm Bluehost Core</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -490,8 +490,8 @@
         <translation>Bảng Thanh công cụ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Aither network</source>
-        <translation><numerusform>%n kết nối hiện thời tới mạng lưới của Aither</numerusform></translation>
+        <source>%n active connection(s) to Bluehost network</source>
+        <translation><numerusform>%n kết nối hiện thời tới mạng lưới của Bluehost</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -518,8 +518,8 @@
         <translation><numerusform>%n giờ</numerusform></translation>
     </message>
     <message>
-        <source>Modify configuration options for Aither Core</source>
-        <translation>Thay đổi các tuỳ chọn cấu hình cho Aither Core</translation>
+        <source>Modify configuration options for Bluehost Core</source>
+        <translation>Thay đổi các tuỳ chọn cấu hình cho Bluehost Core</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
@@ -534,8 +534,8 @@
         <translation>Mở file cấu hình Masternode</translation>
     </message>
     <message>
-        <source>Show the Aither Core help message to get a list with possible Aither Core command-line options</source>
-        <translation>Hiển thị thông tin hướng dẫn Aither Core để lấy một danh sách các tuỳ chọn dòng lệnh có thể dùng với Aither Core</translation>
+        <source>Show the Bluehost Core help message to get a list with possible Bluehost Core command-line options</source>
+        <translation>Hiển thị thông tin hướng dẫn Bluehost Core để lấy một danh sách các tuỳ chọn dòng lệnh có thể dùng với Bluehost Core</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
@@ -957,16 +957,16 @@
         <translation>Cấu hình của PrivateSend</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Aither's configuration screen.</source>
-        <translation>PrivateSend đã được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở chức năng cấu hình của Aither.</translation>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Bluehost's configuration screen.</source>
+        <translation>PrivateSend đã được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở chức năng cấu hình của Bluehost.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Aither's configuration screen.</source>
-        <translation>PrivateSend đã được thiết lập thành công ở mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ lúc nào bằng cách mở chức năng cấu hình Aither.</translation>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Bluehost's configuration screen.</source>
+        <translation>PrivateSend đã được thiết lập thành công ở mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ lúc nào bằng cách mở chức năng cấu hình Bluehost.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Aither's configuration screen.</source>
-        <translation>PrivateSend đã được thiết lập thành công ở mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở chức năng cấu hình của Aither.</translation>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Bluehost's configuration screen.</source>
+        <translation>PrivateSend đã được thiết lập thành công ở mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở chức năng cấu hình của Bluehost.</translation>
     </message>
 </context>
 <context>
@@ -1008,8 +1008,8 @@
         <translation>Sửa địa chỉ gửi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Aither address.</source>
-        <translation>Địa chỉ vừa nhập "%1" không phải địa chỉ Aither hợp lệ.</translation>
+        <source>The entered address "%1" is not a valid Bluehost address.</source>
+        <translation>Địa chỉ vừa nhập "%1" không phải địa chỉ Bluehost hợp lệ.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1050,8 +1050,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Aither Core</source>
-        <translation>Aither Core</translation>
+        <source>Bluehost Core</source>
+        <translation>Bluehost Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1062,8 +1062,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Aither Core</source>
-        <translation>Về Aither Core</translation>
+        <source>About Bluehost Core</source>
+        <translation>Về Bluehost Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1098,8 +1098,8 @@
         <translation>Thông tin PrivateSend</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Aither in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 BHP, 0.1 BHP, 1 BHP and 10 BHP -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://dashpay.atlassian.net/wiki/spaces/DOC/pages/1146924/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/spaces/DOC/pages/1146924/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;Cơ bản về PrivateSend&lt;/h3&gt; PrivateSend cho bạn sự thực sự riêng tư về tài chính bằng việc che dấu những nguồn cung. Tất cả Aither trong ví của bạn bao gồm những "nguồn" khác nhau mà bạn nghĩ đó là các coin riêng biệt và rời rạc.&lt;br&gt; PrivateSend sử dụng một tiến trình độc đáo để trộn các đầu vào của bạn với đầu vào của những người khác, mà không làm cho các coin rời khỏi ví của bạn. Bạn vẫn giữ quyền kiểm soát tiền của bạn bất cứ lúc nào..&lt;hr&gt; &lt;b&gt;Quá trình PrivateSend làm việc như sau: &lt;/b&gt; &lt;ol type="1"&gt; &lt;li&gt;PrivateSend bắt đầu bằng việc chia các giao dịch đầu vào của bạn thành những mệnh giá chuẩn. Những mệnh giá đó là 0.01 BHP, 0.1 BHP, 1 BHP, và 10 BHP -- cũng giống như các mệnh giá trên tiền giấy mà bạn sử dụng hàng ngày.&lt;li&gt; &lt;li&gt;Ví của bạn sau đó gửi yêu cầu đến những nút phần mềm được cấu hình đặc biệt trên mạng gọi là các "masternode". Những masternode được báo rằng bạn quan tâm đến việc xáo trộn một mệnh giá nào đó. Không có thông tin định danh nào được gửi đến cho các masternode, và như vậy họ không bao giờ biết bạn "là ai".&lt;/li&gt; &lt;li&gt;Khi hai người khác nhau gửi những thông điệp tương tự, có nghĩa là họ muốn xáo trộn cùng loại mệnh giá, một phiên xáo trộn bắt đầu.Masternode xáo trộn các đầu vào và hướng dẫn tất cả ví của tất cả ba người dùng để trả đầu vào đã được chuyển đổi trở lại cho chính họ. Ví của bạn sẽ trả mệnh giá đó trực tiếp cho nó, nhưng với một địa chỉ khác (được gọi là địa chỉ trả tiền lẻ).&lt;/li&gt; &lt;/li&gt;Để thực sự che khuất nguồn tiền của bạn, ví của bạn phải lặp lại quy trình đó một số lần với mỗi mệnh giá nhất định. Mỗi lần tiến trình hoàn tất, nó được gọi là một "vòng". Mỗi vòng của PrivateSend làm nên độ khó bậc số mũ để xác định nguồn tiền của bạn đến từ đâu.&lt;/li&gt; &lt;li&gt;Quá trình xáo trộn này xảy ra trong chế độ nền mà không xen vào những việc khác của bạn. Khi bạn muốn làm một giao dịch, nguồn tiền của bạn đã được ẩn danh hoá rồi. Do đó bạn không cần phải đợi thêm gì nữa.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt; &lt;b&gt;QUAN TRỌNG:&lt;/b&gt; Ví của bạn chỉ có chứa 1000 "địa chỉ tiền trả lại". Mỗi lần một sự kiện xáo trộn xảy ra, có đến 9 địa chỉ sẽ được sử dụng. Điều đó có nghĩa với ví mới với 1000 địa chỉ thì dùng cho 100 lần trộn. Khi 900 địa chỉ đã được sử dụng, ví của bạn phải tạo thêm các địa chỉ mới. Nó chỉ có thể làm việc đó, tuy nhiên, nếu bạn có chế độ tự động backup được bật&lt;br&gt; Kết quả là, những người dùng mà chế độ backup bị tắt sẽ có chế độ PrivateSend cũng bị tắt.&lt;hr&gt; Để biết thêm thông tin hãy xem &lt;a href="https://dashpay.atlassian.net/wiki/spaces/DOC/pages/1146924/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/spaces/DOC/pages/1146924/PrivateSend&lt;/a&gt;</translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the Bluehost in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 BHP, 0.1 BHP, 1 BHP and 10 BHP -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://dashpay.atlassian.net/wiki/spaces/DOC/pages/1146924/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/spaces/DOC/pages/1146924/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;Cơ bản về PrivateSend&lt;/h3&gt; PrivateSend cho bạn sự thực sự riêng tư về tài chính bằng việc che dấu những nguồn cung. Tất cả Bluehost trong ví của bạn bao gồm những "nguồn" khác nhau mà bạn nghĩ đó là các coin riêng biệt và rời rạc.&lt;br&gt; PrivateSend sử dụng một tiến trình độc đáo để trộn các đầu vào của bạn với đầu vào của những người khác, mà không làm cho các coin rời khỏi ví của bạn. Bạn vẫn giữ quyền kiểm soát tiền của bạn bất cứ lúc nào..&lt;hr&gt; &lt;b&gt;Quá trình PrivateSend làm việc như sau: &lt;/b&gt; &lt;ol type="1"&gt; &lt;li&gt;PrivateSend bắt đầu bằng việc chia các giao dịch đầu vào của bạn thành những mệnh giá chuẩn. Những mệnh giá đó là 0.01 BHP, 0.1 BHP, 1 BHP, và 10 BHP -- cũng giống như các mệnh giá trên tiền giấy mà bạn sử dụng hàng ngày.&lt;li&gt; &lt;li&gt;Ví của bạn sau đó gửi yêu cầu đến những nút phần mềm được cấu hình đặc biệt trên mạng gọi là các "masternode". Những masternode được báo rằng bạn quan tâm đến việc xáo trộn một mệnh giá nào đó. Không có thông tin định danh nào được gửi đến cho các masternode, và như vậy họ không bao giờ biết bạn "là ai".&lt;/li&gt; &lt;li&gt;Khi hai người khác nhau gửi những thông điệp tương tự, có nghĩa là họ muốn xáo trộn cùng loại mệnh giá, một phiên xáo trộn bắt đầu.Masternode xáo trộn các đầu vào và hướng dẫn tất cả ví của tất cả ba người dùng để trả đầu vào đã được chuyển đổi trở lại cho chính họ. Ví của bạn sẽ trả mệnh giá đó trực tiếp cho nó, nhưng với một địa chỉ khác (được gọi là địa chỉ trả tiền lẻ).&lt;/li&gt; &lt;/li&gt;Để thực sự che khuất nguồn tiền của bạn, ví của bạn phải lặp lại quy trình đó một số lần với mỗi mệnh giá nhất định. Mỗi lần tiến trình hoàn tất, nó được gọi là một "vòng". Mỗi vòng của PrivateSend làm nên độ khó bậc số mũ để xác định nguồn tiền của bạn đến từ đâu.&lt;/li&gt; &lt;li&gt;Quá trình xáo trộn này xảy ra trong chế độ nền mà không xen vào những việc khác của bạn. Khi bạn muốn làm một giao dịch, nguồn tiền của bạn đã được ẩn danh hoá rồi. Do đó bạn không cần phải đợi thêm gì nữa.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt; &lt;b&gt;QUAN TRỌNG:&lt;/b&gt; Ví của bạn chỉ có chứa 1000 "địa chỉ tiền trả lại". Mỗi lần một sự kiện xáo trộn xảy ra, có đến 9 địa chỉ sẽ được sử dụng. Điều đó có nghĩa với ví mới với 1000 địa chỉ thì dùng cho 100 lần trộn. Khi 900 địa chỉ đã được sử dụng, ví của bạn phải tạo thêm các địa chỉ mới. Nó chỉ có thể làm việc đó, tuy nhiên, nếu bạn có chế độ tự động backup được bật&lt;br&gt; Kết quả là, những người dùng mà chế độ backup bị tắt sẽ có chế độ PrivateSend cũng bị tắt.&lt;hr&gt; Để biết thêm thông tin hãy xem &lt;a href="https://dashpay.atlassian.net/wiki/spaces/DOC/pages/1146924/PrivateSend"&gt;https://dashpay.atlassian.net/wiki/spaces/DOC/pages/1146924/PrivateSend&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -1121,16 +1121,16 @@
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Welcome to Aither Core.</source>
-        <translation>Chào mừng đến với Aither Core.</translation>
+        <source>Welcome to Bluehost Core.</source>
+        <translation>Chào mừng đến với Bluehost Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Aither Core will store its data.</source>
-        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Aither Core sẽ lưu dữ liệu.</translation>
+        <source>As this is the first time the program is launched, you can choose where Bluehost Core will store its data.</source>
+        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Bluehost Core sẽ lưu dữ liệu.</translation>
     </message>
     <message>
-        <source>Aither Core will download and store a copy of the Aither block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Aither Core sẽ tải và lưu một bản của sổ cái Aither. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
+        <source>Bluehost Core will download and store a copy of the Bluehost block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bluehost Core sẽ tải và lưu một bản của sổ cái Bluehost. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1141,8 +1141,8 @@
         <translation>Sử dụng thư mục dữ liệu tuỳ chọn:</translation>
     </message>
     <message>
-        <source>Aither Core</source>
-        <translation>Aither Core</translation>
+        <source>Bluehost Core</source>
+        <translation>Bluehost Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1330,20 +1330,20 @@
         <translation>(0 = tự động, &lt;0 = để đó rất nhiều lõi miễn phí)</translation>
     </message>
     <message>
-        <source>Amount of Aither to keep anonymized</source>
-        <translation>Lượng Aither muốn giữ vô danh</translation>
+        <source>Amount of Bluehost to keep anonymized</source>
+        <translation>Lượng Bluehost muốn giữ vô danh</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>&amp;Ví</translation>
     </message>
     <message>
-        <source>Automatically start Aither Core after logging in to the system.</source>
-        <translation>Tự động khởi động Aither Core sau khi đăng nhập vào hệ thống.</translation>
+        <source>Automatically start Bluehost Core after logging in to the system.</source>
+        <translation>Tự động khởi động Bluehost Core sau khi đăng nhập vào hệ thống.</translation>
     </message>
     <message>
-        <source>&amp;Start Aither Core on system login</source>
-        <translation>Khởi động Aither Core khi đăng nhập hệ thống</translation>
+        <source>&amp;Start Bluehost Core on system login</source>
+        <translation>Khởi động Bluehost Core khi đăng nhập hệ thống</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1390,8 +1390,8 @@
         <translation>Số lượng này hoạt động như là một ngưỡng để tắt PrivateSend khi nó được chạm tới.</translation>
     </message>
     <message>
-        <source>Automatically open the Aither Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Tự động mở cổng cho phần mềm Aither Core trên rounter. Điều này chỉ hoạt động được khi rounter của bạn hỗ trợ UpnP và tính năng đó được bật lên.</translation>
+        <source>Automatically open the Bluehost Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Tự động mở cổng cho phần mềm Bluehost Core trên rounter. Điều này chỉ hoạt động được khi rounter của bạn hỗ trợ UpnP và tính năng đó được bật lên.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1402,8 +1402,8 @@
         <translation>Cho phép các kết nối tới</translation>
     </message>
     <message>
-        <source>Connect to the Aither network through a SOCKS5 proxy.</source>
-        <translation>Kết nối với mạng lưới Aither thông qua một SOCK5 proxy.</translation>
+        <source>Connect to the Bluehost network through a SOCKS5 proxy.</source>
+        <translation>Kết nối với mạng lưới Bluehost thông qua một SOCK5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1414,8 +1414,8 @@
         <translation>Thu nhỏ thay vì thoát khỏi ứng dụng khi cửa sổ được đóng lại. Khi tuỳ chọn này được bật, ứng dụng sẽ được đóng chỉ sau khi chọn chức năng Thoát trên menu.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Aither Core.</source>
-        <translation>Ngôn ngữa giao diện có thể được chọn ở đây. Tuỳ chọn này có tác dụng ngay sau khi bạn khởi động lại phần mềm Aither Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bluehost Core.</source>
+        <translation>Ngôn ngữa giao diện có thể được chọn ở đây. Tuỳ chọn này có tác dụng ngay sau khi bạn khởi động lại phần mềm Bluehost Core.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1486,8 +1486,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Aither network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Kết nối với mạng lưới Aither thông qua các proxy SOCKS5 riêng biệt cho các dịch vụ ẩn danh Tor.</translation>
+        <source>Connect to the Bluehost network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Kết nối với mạng lưới Bluehost thông qua các proxy SOCKS5 riêng biệt cho các dịch vụ ẩn danh Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1599,8 +1599,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Biểu mẫu</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aither network after a connection is established, but this process has not completed yet.</source>
-        <translation>Thông tin được hiển thị có thể đã lỗi thời. Ví của bạn sẽ tự động đồng bộ với mạng lưới Aither sau khi kết nối được thiết lập, tuy nhiên quá trình này chưa hoàn thành.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bluehost network after a connection is established, but this process has not completed yet.</source>
+        <translation>Thông tin được hiển thị có thể đã lỗi thời. Ví của bạn sẽ tự động đồng bộ với mạng lưới Bluehost sau khi kết nối được thiết lập, tuy nhiên quá trình này chưa hoàn thành.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1892,8 +1892,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Địa chỉ thanh toán không hợp lệ %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Aither address or malformed URI parameters.</source>
-        <translation>URI không thể phân tích. Nó có thể bởi địa chỉ Aither không hợp lệ hoặc thông số URI dị hình.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Bluehost address or malformed URI parameters.</source>
+        <translation>URI không thể phân tích. Nó có thể bởi địa chỉ Bluehost không hợp lệ hoặc thông số URI dị hình.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1974,8 +1974,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Số lượng</translation>
     </message>
     <message>
-        <source>Enter a Aither address (e.g. %1)</source>
-        <translation>Hãy nhập một địa chỉ Aither (VD: %1)</translation>
+        <source>Enter a Bluehost address (e.g. %1)</source>
+        <translation>Hãy nhập một địa chỉ Bluehost (VD: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2112,8 +2112,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Bộ nhớ sử dụng</translation>
     </message>
     <message>
-        <source>Open the Aither Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Mở file theo dõi lỗi Aither Core từ trong thư mục dữ liệu hiện tại. Nó có thể mất vài giây cho những file log lớn.</translation>
+        <source>Open the Bluehost Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Mở file theo dõi lỗi Bluehost Core từ trong thư mục dữ liệu hiện tại. Nó có thể mất vài giây cho những file log lớn.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2320,8 +2320,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>&amp;Bỏ cấm Nút</translation>
     </message>
     <message>
-        <source>Welcome to the Aither Core RPC console.</source>
-        <translation>Chào mừng đến với bảng điều khiển Aither Core RPC</translation>
+        <source>Welcome to the Bluehost Core RPC console.</source>
+        <translation>Chào mừng đến với bảng điều khiển Bluehost Core RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2391,8 +2391,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Tái &amp;sử dụng lại địa chỉ nhận đã có (không khuyến khích)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aither network.</source>
-        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở. Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Aither.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bluehost network.</source>
+        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở. Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Bluehost.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2403,8 +2403,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Một nhãn tuỳ chọn để liên kết với địa chỉ nhận mới.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Aither network.</source>
-        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở.&lt;br&gt;Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Aither.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Bluehost network.</source>
+        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở.&lt;br&gt;Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới Bluehost.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2860,8 +2860,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Giao dịch đã bị từ chối! Điều này có thể xảy ra khi một số tiền trong ví của bạn đã được tiêu, ví dụ như là nếu bạn sử dụng một bản sao của wallet.dat và tiền đã được tiêu nhưng bản khác của ví nhưng lại chưa được đánh dấu đã tiêu trong bản này.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Aither address</source>
-        <translation>Cảnh báo: Địa chỉ Aither không hợp lệ</translation>
+        <source>Warning: Invalid Bluehost address</source>
+        <translation>Cảnh báo: Địa chỉ Bluehost không hợp lệ</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2883,8 +2883,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Trả &amp;Cho</translation>
     </message>
     <message>
-        <source>The Aither address to send the payment to</source>
-        <translation>Địa chỉ Aither để gửi thanh toán</translation>
+        <source>The Bluehost address to send the payment to</source>
+        <translation>Địa chỉ Bluehost để gửi thanh toán</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2919,8 +2919,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>&amp;Số tiền:</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Aither than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Phí sẽ được trừ trong khoản tiền mà bạn gửi. Bên nhận sẽ nhận được một khoản nhỏ hơn số Aither mà bạn nhập vào ở trong trường số lượng. Nếu có nhiều người nhận được chọn, phí được chia đều cho mọi người.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of Bluehost than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Phí sẽ được trừ trong khoản tiền mà bạn gửi. Bên nhận sẽ nhận được một khoản nhỏ hơn số Bluehost mà bạn nhập vào ở trong trường số lượng. Nếu có nhiều người nhận được chọn, phí được chia đều cho mọi người.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2931,8 +2931,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Thông điệp:</translation>
     </message>
     <message>
-        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aither network.</source>
-        <translation>Một thông điệp được đính với aither: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng Aither. </translation>
+        <source>A message that was attached to the aither: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bluehost network.</source>
+        <translation>Một thông điệp được đính với aither: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng Bluehost. </translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -2958,8 +2958,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Aither Core is shutting down...</source>
-        <translation>Aither Core đang được tắt...</translation>
+        <source>Bluehost Core is shutting down...</source>
+        <translation>Bluehost Core đang được tắt...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2977,12 +2977,12 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>&amp;Ký thông điệp</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive Aither sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Bạn có thể ký vào thông điệp/thoả thuận với địa chỉ của bạn để chứng minh bạn có thể nhận Aither đã gửi cho họ. Hãy cẩn thận không ký vào những gì mơ hồ hay ngẫu nhiên, như là thứ lừa đảo để lừa bạn ký xác nhận của bạn vào đó cho họ. Chỉ ký vào những gì mà bạn hoàn thoàn đồng ý.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive Bluehost sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Bạn có thể ký vào thông điệp/thoả thuận với địa chỉ của bạn để chứng minh bạn có thể nhận Bluehost đã gửi cho họ. Hãy cẩn thận không ký vào những gì mơ hồ hay ngẫu nhiên, như là thứ lừa đảo để lừa bạn ký xác nhận của bạn vào đó cho họ. Chỉ ký vào những gì mà bạn hoàn thoàn đồng ý.</translation>
     </message>
     <message>
-        <source>The Aither address to sign the message with</source>
-        <translation>Địa chỉ Aither để ký cho thông điệp</translation>
+        <source>The Bluehost address to sign the message with</source>
+        <translation>Địa chỉ Bluehost để ký cho thông điệp</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3013,8 +3013,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Copy chữ ký hiện tại vào bộ đệm của hệ thống</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aither address</source>
-        <translation>Ký vào thông điệp để chứng tỏ bạn sở hữu địa chỉ Aither</translation>
+        <source>Sign the message to prove you own this Bluehost address</source>
+        <translation>Ký vào thông điệp để chứng tỏ bạn sở hữu địa chỉ Bluehost</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3037,12 +3037,12 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Hãy nhập vào địa chỉ của người nhận, thông điệp (hãy đảm bảo rằng bạn copy cả dấu xuống dòng, dấu cách, dấu tab,... một cách chính xác) và chữ ký bên dưới để kiểm tra thông điệp. Hãy cẩn thận để không đọc thêm vào phần chữ ký mà nó dùng để ký, để tránh bị đánh lừa bởi kiểu tấn công người trung gian. Chú ý đây chỉ để chứng minh chữ ký của bên nhận với địa chỉ đó, nó không thể chứng minh người gửi hoặc bất kỳ giao dich nào!</translation>
     </message>
     <message>
-        <source>The Aither address the message was signed with</source>
-        <translation>Địa chỉ Aither mà thông điệp được ký bởi</translation>
+        <source>The Bluehost address the message was signed with</source>
+        <translation>Địa chỉ Bluehost mà thông điệp được ký bởi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aither address</source>
-        <translation>Kiểm tra lại thông điệp để đảm bảo rằng nó được ký với địa chỉ Aither cụ thể</translation>
+        <source>Verify the message to ensure it was signed with the specified Bluehost address</source>
+        <translation>Kiểm tra lại thông điệp để đảm bảo rằng nó được ký với địa chỉ Bluehost cụ thể</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3108,8 +3108,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Aither Core</source>
-        <translation>Aither Core</translation>
+        <source>Bluehost Core</source>
+        <translation>Bluehost Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3120,8 +3120,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Aither Core developers</source>
-        <translation>Nhóm phát triển Aither Core</translation>
+        <source>The Bluehost Core developers</source>
+        <translation>Nhóm phát triển Bluehost Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3686,8 +3686,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Liên kết với địa chỉ nhất định và luôn luôn lắng nghe trên đó. Sử dụng ký hiệu [host]:port cho IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Aither Core is probably already running.</source>
-        <translation>Không nhận được một khoá trong thư mục %s. Aither Core có thể đã đang chạy.</translation>
+        <source>Cannot obtain a lock on data directory %s. Bluehost Core is probably already running.</source>
+        <translation>Không nhận được một khoá trong thư mục %s. Bluehost Core có thể đã đang chạy.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3726,8 +3726,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Đây là phiên bản chưa chính thức - hãy dùng và tự chấp nhận mạo hiểm - đừng dùng để đào coin hoặc các ứng dụng thương mại.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Aither Core is probably already running.</source>
-        <translation>Không thể để ràng buộc vào %s trên máy tính này. Aither Core có thể đã chạy.</translation>
+        <source>Unable to bind to %s on this computer. Bluehost Core is probably already running.</source>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này. Bluehost Core có thể đã chạy.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4006,8 +4006,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Bản quyền (C) 2009-%i bởi Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Aither Core Developers</source>
-        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Aither Core</translation>
+        <source>Copyright (C) 2014-%i The Bluehost Core Developers</source>
+        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Bluehost Core</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4018,8 +4018,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Lỗi kết nối tới Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Aither Core</source>
-        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Aither Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bluehost Core</source>
+        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Bluehost Core</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
@@ -4062,8 +4062,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Thông tin</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Aither Core is shutting down.</source>
-        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Aither Core đang được tắt.</translation>
+        <source>Initialization sanity check failed. Bluehost Core is shutting down.</source>
+        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Bluehost Core đang được tắt.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4294,8 +4294,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Giá trị lớn hơn giá trị tối đa mà PrivateSend pool cho phép.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Aither Core to complete</source>
-        <translation>Ví cần được ghi lại: khởi động lại Aither Core để hoàn tất</translation>
+        <source>Wallet needed to be rewritten: restart Bluehost Core to complete</source>
+        <translation>Ví cần được ghi lại: khởi động lại Bluehost Core để hoàn tất</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4346,8 +4346,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Giữ nhiều nhất &lt;n&gt; các giao dịch không kết nối được trong bộ nhớ (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Disable all Aither specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Tắt tất cả các chức năng đắc trưng của Aither (Masternode, PrivateSend, InstantSend, Governance) (0-1, ngầm định: %u)</translation>
+        <source>Disable all Bluehost specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Tắt tất cả các chức năng đắc trưng của Bluehost (Masternode, PrivateSend, InstantSend, Governance) (0-1, ngầm định: %u)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
@@ -4426,8 +4426,8 @@ https://github.com/aithercore/aither/tree/master/src/qt/locale</translation>
         <translation>Tổng phí tối đa (trong %s) để sử dụng trong một giao dịch đơn; thiết lập tham số này quá thấp có thể khiến bỏ qua những giao dịch lớn (ngầm định: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Aither Core will not work properly.</source>
-        <translation>Hãy kiểm tra ngày giờ trên máy tính của bạn để đảm bảo chúng được chính xác. Nếu đồng hồ của bạn không đúng Aither Core sẽ hoạt động không chính xác.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Bluehost Core will not work properly.</source>
+        <translation>Hãy kiểm tra ngày giờ trên máy tính của bạn để đảm bảo chúng được chính xác. Nếu đồng hồ của bạn không đúng Bluehost Core sẽ hoạt động không chính xác.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>

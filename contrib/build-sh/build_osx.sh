@@ -12,4 +12,4 @@ cp src/aither-tx $AIT_ROOT/release
 cp src/aither-cli $AIT_ROOT/release
 cp src/qt/aither-qt $AIT_ROOT/release
 make deploy
-echo "Done. your 'Aither-qt.dmg' is ready"
+echo "Done. your 'Bluehost-qt.dmg' is ready"

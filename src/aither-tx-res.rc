@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Aither"
-            VALUE "FileDescription",    "aither-tx (CLI Aither transaction editor utility)"
+            VALUE "CompanyName",        "Bluehost"
+            VALUE "FileDescription",    "aither-tx (CLI Bluehost transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "aither-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

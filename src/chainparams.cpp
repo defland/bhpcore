@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin Core developers
 // Copyright (c) 2014-2017 The Dash Core developers
-// Copyright (c) 2018 The Aither Core developers
+// Copyright (c) 2018 The Bluehost Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -93,8 +93,8 @@ public:
         consensus.BIP34Height = 0; // FIX
         consensus.BIP34Hash = uint256S("0x000001c52d16f26c9dc9610946ef7a5fdb71613ae062162b8e68828ef6416e1f"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 30 * 60; // Aither: 1/2 hour, 24 blocks
-        consensus.nPowTargetSpacing = 2.5 * 60; // Aither: 150 seconds
+        consensus.nPowTargetTimespan = 30 * 60; // Bluehost: 1/2 hour, 24 blocks
+        consensus.nPowTargetSpacing = 2.5 * 60; // Bluehost: 150 seconds
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nPowDGWHeight = 15200;
@@ -145,18 +145,18 @@ public:
         // vSeeds.push_back(CDNSSeedData("aither.blue", "seed-2.aither.blue"));
         // vSeeds.push_back(CDNSSeedData("aither.blue", "seed-3.aither.blue"));
 
-        // Aither addresses start with 'A'
+        // Bluehost addresses start with 'A'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,23);
-        // Aither script addresses start with 'a'
+        // Bluehost script addresses start with 'a'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,83);
-        // Aither private keys start with '5' or 'G' (?)
+        // Bluehost private keys start with '5' or 'G' (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,198);
-        // Aither BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
+        // Bluehost BIP32 pubkeys start with 'xpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        // Aither BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
+        // Bluehost BIP32 prvkeys start with 'xprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-        // Aither BIP44 coin type is '5'
+        // Bluehost BIP44 coin type is '5'
         nExtCoinType = 5;
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
@@ -218,8 +218,8 @@ public:
         consensus.BIP34Height = 0; // FIX
         consensus.BIP34Hash = uint256S("0x00000281236a465bed97a6b593ee4d9e60cbfa76d85e4a3b106c7ef1df5c95c1"); // FIX
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 5 * 60; // Aither: 5 minutes, 5 blocks
-        consensus.nPowTargetSpacing = 1 * 60; // Aither: 60 seconds
+        consensus.nPowTargetTimespan = 5 * 60; // Bluehost: 5 minutes, 5 blocks
+        consensus.nPowTargetSpacing = 1 * 60; // Bluehost: 60 seconds
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = false;
         consensus.nPowDGWHeight = 3000;
@@ -267,17 +267,17 @@ public:
         // vSeeds.push_back(CDNSSeedData("aither.blue", "seedtest-1.aither.blue"));
         // vSeeds.push_back(CDNSSeedData("aither.blue", "seedtest-2.aither.blue"));
 
-        // Testnet Aither addresses start with 'B'
+        // Testnet Bluehost addresses start with 'B'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25);
-        // Testnet Aither script addresses start with 'b'
+        // Testnet Bluehost script addresses start with 'b'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,85);
         // Testnet private keys start with '9' or 'c' (Bitcoin defaults) (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,240);
-        // Testnet Aither BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Testnet Bluehost BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Aither BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Testnet Bluehost BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Testnet Aither BIP44 coin type is '1' (All coin's testnet default)
+        // Testnet Bluehost BIP44 coin type is '1' (All coin's testnet default)
         nExtCoinType = 1;
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
@@ -333,8 +333,8 @@ public:
         consensus.BIP34Height = -1; // BIP34 has not necessarily activated on regtest
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
-        consensus.nPowTargetTimespan = 60 * 60; // Aither: 1 hour, 24 blocks
-        consensus.nPowTargetSpacing = 2.5 * 60; // Aither: 150 seconds
+        consensus.nPowTargetTimespan = 60 * 60; // Bluehost: 1 hour, 24 blocks
+        consensus.nPowTargetSpacing = 2.5 * 60; // Bluehost: 150 seconds
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nPowDGWHeight = 700; // same as mainnet
@@ -388,17 +388,17 @@ public:
                 0,
                 0
         };
-        // Regtest Aither addresses start with 'B'
+        // Regtest Bluehost addresses start with 'B'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,25);
-        // Regtest Aither script addresses start with 'b'
+        // Regtest Bluehost script addresses start with 'b'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,85);
         // Regtest private keys start with '9' or 'c' (Bitcoin defaults) (?)
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,240);
-        // Regtest Aither BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
+        // Regtest Bluehost BIP32 pubkeys start with 'tpub' (Bitcoin defaults)
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Aither BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
+        // Regtest Bluehost BIP32 prvkeys start with 'tprv' (Bitcoin defaults)
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-        // Regtest Aither BIP44 coin type is '1' (All coin's testnet default)
+        // Regtest Bluehost BIP44 coin type is '1' (All coin's testnet default)
         nExtCoinType = 1;
    }
 };

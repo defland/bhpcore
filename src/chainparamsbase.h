@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between aither-cli and aitherd)
- * of a given instance of the Aither system.
+ * of a given instance of the Bluehost system.
  */
 class CBaseChainParams
 {

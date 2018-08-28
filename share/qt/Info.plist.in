@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2018 The Aither Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2018 The Bluehost Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Aither-Qt</string>
+  <string>Bluehost-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Aither-Qt</string>
+  <string>Bluehost-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.aither.Aither-Qt</string>
+  <string>org.aither.Bluehost-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>org.aither.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Aither payment request</string>
+      <string>Bluehost payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

@@ -1,5 +1,5 @@
 [Unit]
-Description=Aither's distributed currency daemon
+Description=Bluehost's distributed currency daemon
 After=network.target
 
 [Service]

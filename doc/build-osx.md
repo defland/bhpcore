@@ -36,14 +36,14 @@ Instructions: Homebrew
 
 NOTE: Building with Qt4 is still supported, however, doing so could result in a broken UI. Therefore, building with Qt5 is recommended. Be aware that Qt5 5.7+ requires C++11 compiler support.
 
-### Building Aither Core
+### Building Bluehost Core
 
 1. Clone the GitHub tree to get the source code and go into the directory.
 
         git clone https://github.com/aithercore/aither.git
         cd aither
 
-2.  Build Aither Core:
+2.  Build Bluehost Core:
     This will configure and build the headless aither binaries as well as the gui (if Qt is found).
     You can disable the gui build by passing `--without-gui` to configure.
 
@@ -79,9 +79,9 @@ Creating a release build
 ------------------------
 You can ignore this section if you are building `aitherd` for your own use.
 
-aitherd/aither-cli binaries are not included in the Aither-Qt.app bundle.
+aitherd/aither-cli binaries are not included in the Bluehost-Qt.app bundle.
 
-If you are building `aitherd` or `Aither Core` for others, your build machine should be set up
+If you are building `aitherd` or `Bluehost Core` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -90,7 +90,7 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the Aither Core
+Once dependencies are compiled, see [doc/release-process.md](release-process.md) for how the Bluehost Core
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running

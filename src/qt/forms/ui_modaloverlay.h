@@ -267,8 +267,8 @@ public:
     {
         ModalOverlay->setWindowTitle(QApplication::translate("ModalOverlay", "Form", 0));
         warningIcon->setText(QString());
-        infoText->setText(QApplication::translate("ModalOverlay", "Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Aither network, as detailed below.", 0));
-        infoTextStrong->setText(QApplication::translate("ModalOverlay", "Attempting to spend Aither that are affected by not-yet-displayed transactions will not be accepted by the network.", 0));
+        infoText->setText(QApplication::translate("ModalOverlay", "Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Bluehost network, as detailed below.", 0));
+        infoTextStrong->setText(QApplication::translate("ModalOverlay", "Attempting to spend Bluehost that are affected by not-yet-displayed transactions will not be accepted by the network.", 0));
         labelNumberOfBlocksLeft->setText(QApplication::translate("ModalOverlay", "Number of blocks left", 0));
         numberOfBlocksLeft->setText(QApplication::translate("ModalOverlay", "Unknown...", 0));
         labelLastBlockTime->setText(QApplication::translate("ModalOverlay", "Last block time", 0));

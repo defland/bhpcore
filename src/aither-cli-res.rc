@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Aither"
-            VALUE "FileDescription",    "aither-cli (JSON-RPC client for Aither Core)"
+            VALUE "CompanyName",        "Bluehost"
+            VALUE "FileDescription",    "aither-cli (JSON-RPC client for Bluehost Core)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "aither-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR

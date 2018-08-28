@@ -1,7 +1,7 @@
 Description
 ------------
 
-This directory contains data-driven tests for various aspects of Aither.
+This directory contains data-driven tests for various aspects of Bluehost.
 
 License
 --------

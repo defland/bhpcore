@@ -42,7 +42,7 @@ QT_TRANSLATE_NOOP("aither-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("aither-core", ""
-"Cannot obtain a lock on data directory %s. Aither Core is probably already "
+"Cannot obtain a lock on data directory %s. Bluehost Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("aither-core", ""
 "Create new files with system default permissions, instead of umask 077 (only "
@@ -51,7 +51,7 @@ QT_TRANSLATE_NOOP("aither-core", ""
 "Delete all wallet transactions and only recover those parts of the "
 "blockchain through -rescan on startup"),
 QT_TRANSLATE_NOOP("aither-core", ""
-"Disable all Aither specific functionality (Masternodes, PrivateSend, "
+"Disable all Bluehost specific functionality (Masternodes, PrivateSend, "
 "InstantSend, Governance) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("aither-core", ""
 "Discover own IP addresses (default: 1 when listening and no -externalip or -"
@@ -149,7 +149,7 @@ QT_TRANSLATE_NOOP("aither-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
 QT_TRANSLATE_NOOP("aither-core", ""
 "Please check that your computer's date and time are correct! If your clock "
-"is wrong Aither Core will not work properly."),
+"is wrong Bluehost Core will not work properly."),
 QT_TRANSLATE_NOOP("aither-core", ""
 "PrivateSend uses exact denominated amounts to send funds, you might simply "
 "need to anonymize some more coins."),
@@ -212,7 +212,7 @@ QT_TRANSLATE_NOOP("aither-core", ""
 "Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = "
 "no limit (default: %d)"),
 QT_TRANSLATE_NOOP("aither-core", ""
-"Unable to bind to %s on this computer. Aither Core is probably already running."),
+"Unable to bind to %s on this computer. Bluehost Core is probably already running."),
 QT_TRANSLATE_NOOP("aither-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("aither-core", ""
@@ -314,8 +314,8 @@ QT_TRANSLATE_NOOP("aither-core", "Connect to a node to retrieve peer addresses, 
 QT_TRANSLATE_NOOP("aither-core", "Connection options:"),
 QT_TRANSLATE_NOOP("aither-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
 QT_TRANSLATE_NOOP("aither-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("aither-core", "Copyright (C) 2017-%i The Aither Core Developers"),
-QT_TRANSLATE_NOOP("aither-core", "Copyright (C) 2018-%i The Aither Core Developers"),
+QT_TRANSLATE_NOOP("aither-core", "Copyright (C) 2017-%i The Bluehost Core Developers"),
+QT_TRANSLATE_NOOP("aither-core", "Copyright (C) 2018-%i The Bluehost Core Developers"),
 QT_TRANSLATE_NOOP("aither-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("aither-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("aither-core", "Debugging/Testing options:"),
@@ -338,7 +338,7 @@ QT_TRANSLATE_NOOP("aither-core", "Error initializing wallet database environment
 QT_TRANSLATE_NOOP("aither-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("aither-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("aither-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("aither-core", "Error loading wallet.dat: Wallet requires newer version of Aither Core"),
+QT_TRANSLATE_NOOP("aither-core", "Error loading wallet.dat: Wallet requires newer version of Bluehost Core"),
 QT_TRANSLATE_NOOP("aither-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("aither-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("aither-core", "Error"),
@@ -361,7 +361,7 @@ QT_TRANSLATE_NOOP("aither-core", "Incompatible mode."),
 QT_TRANSLATE_NOOP("aither-core", "Incompatible version."),
 QT_TRANSLATE_NOOP("aither-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("aither-core", "Information"),
-QT_TRANSLATE_NOOP("aither-core", "Initialization sanity check failed. Aither Core is shutting down."),
+QT_TRANSLATE_NOOP("aither-core", "Initialization sanity check failed. Bluehost Core is shutting down."),
 QT_TRANSLATE_NOOP("aither-core", "Input is not valid."),
 QT_TRANSLATE_NOOP("aither-core", "InstantSend options:"),
 QT_TRANSLATE_NOOP("aither-core", "Insufficient funds."),
@@ -510,7 +510,7 @@ QT_TRANSLATE_NOOP("aither-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("aither-core", "Very low number of keys left: %d"),
 QT_TRANSLATE_NOOP("aither-core", "Wallet %s resides outside data directory %s"),
 QT_TRANSLATE_NOOP("aither-core", "Wallet is locked."),
-QT_TRANSLATE_NOOP("aither-core", "Wallet needed to be rewritten: restart Aither Core to complete"),
+QT_TRANSLATE_NOOP("aither-core", "Wallet needed to be rewritten: restart Bluehost Core to complete"),
 QT_TRANSLATE_NOOP("aither-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("aither-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("aither-core", "Warning"),

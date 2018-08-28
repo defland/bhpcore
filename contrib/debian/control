@@ -32,10 +32,10 @@ Package: aitherd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Aither is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Aither uses peer-to-peer
+ Bluehost is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Bluehost uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Aither Core
+ and issuing money are carried out collectively by the network. Bluehost Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, aitherd, and the CLI tool
@@ -45,22 +45,22 @@ Package: aither-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Aither is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Aither uses peer-to-peer
+ Bluehost is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Bluehost uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Aither Core
+ and issuing money are carried out collectively by the network. Bluehost Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides Aither-Qt, a GUI for Aither based on Qt.
+ This package provides Bluehost-Qt, a GUI for Bluehost based on Qt.
 
 Package: aither-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- Aither is an experimental new digital currency that enables anonymous, instant
- payments to anyone, anywhere in the world. Aither uses peer-to-peer
+ Bluehost is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Bluehost uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Aither Core
+ and issuing money are carried out collectively by the network. Bluehost Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides aither-tx, a command-line transaction creation

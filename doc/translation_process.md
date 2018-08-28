@@ -1,16 +1,16 @@
 Translations
 ============
 
-The Aither Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, Aither Core makes use of the Transifex online translation management tool.
+The Bluehost Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, Bluehost Core makes use of the Transifex online translation management tool.
 
 ### Helping to translate
 
-Multiple language support is critical in assisting Aither’s global adoption, and growth. One of Aither’s greatest strengths is cross-boarder money transfers, any help making that easier is greatly appreciated.
+Multiple language support is critical in assisting Bluehost’s global adoption, and growth. One of Bluehost’s greatest strengths is cross-boarder money transfers, any help making that easier is greatly appreciated.
 
 Please help us translate by edit the language files from here: https://github.com/aithercore/aither/tree/master/src/qt/locale
 Click to a .ts file, edit file and translate all phrases, enter desscription and click "Propose file change".
-In your project list, go to Aither project and click "Pull & request", we will aprrove your request for translation.
-We would like to thank all of our translation contributions for helping Aither reach out more relevant users.
+In your project list, go to Bluehost project and click "Pull & request", we will aprrove your request for translation.
+We would like to thank all of our translation contributions for helping Bluehost reach out more relevant users.
 
 ### Writing code with translations
 We use automated scripts to help extract translations in both Qt, and non-Qt source files. It is rarely necessary to manually edit the files in `src/qt/locale/`. The translation source files must adhere to the following format:
