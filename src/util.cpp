@@ -634,17 +634,17 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL) {
             std::string strHeader = "# Default nodes config, the other config please put above this line\n"
-                                    "addnode=node-01.bluehost.blue:40888\n"
-                                    "addnode=node-02.bluehost.blue:40888\n"
-                                    "addnode=node-03.bluehost.blue:40888\n"
-                                    "addnode=node-04.bluehost.blue:40888\n"
-                                    "addnode=node-05.bluehost.blue:40888\n"
-                                    "addnode=node-06.bluehost.blue:40888\n"
-                                    "addnode=node-07.bluehost.blue:40888\n"
-                                    "addnode=node-08.bluehost.blue:40888\n"
-                                    "addnode=node-09.bluehost.blue:40888\n"
-                                    "addnode=node-10.bluehost.blue:40888\n"
-                                    "addnode=node-11.bluehost.blue:40888\n";
+                                    "addnode=node-01.nodes.blue:55555\n"
+                                    "addnode=node-02.nodes.blue:55555\n"
+                                    "addnode=node-03.nodes.blue:55555\n"
+                                    "addnode=node-04.nodes.blue:55555\n"
+                                    "addnode=node-05.nodes.blue:55555\n"
+                                    "addnode=node-06.nodes.blue:55555\n"
+                                    "addnode=node-07.nodes.blue:55555\n"
+                                    "addnode=node-08.nodes.blue:55555\n"
+                                    "addnode=node-09.nodes.blue:55555\n"
+                                    "addnode=node-10.nodes.blue:55555\n"
+                                    "addnode=node-11.nodes.blue:55555\n";
             fwrite(strHeader.c_str(), std::strlen(strHeader.c_str()), 1, configFile);
             fclose(configFile);
         }
